@@ -2,3 +2,15 @@
     width: 100px;
     height: 40px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12rem;
+    color: #fff;
+    
+}
+.links li{
+    list-style: none;
+    text-decoration: none;
+}
