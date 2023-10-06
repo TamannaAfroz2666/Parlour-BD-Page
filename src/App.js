@@ -1,15 +1,16 @@
 
-// import Animation from '.components/Animation/Animation';
 import Animation from './components/Animation/Animation';
 import './App.css';
-import Skills from './components/Skills/Skills';
+// import Skills from './components/Skills/Skills';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div >
-      {/* <Animation></Animation> */}
+      
+      
+      <Home></Home>
       <Animation></Animation>
-      <Skills></Skills>
     </div>
   );
 }
