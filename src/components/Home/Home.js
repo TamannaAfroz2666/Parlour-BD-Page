@@ -2,11 +2,13 @@ import React from 'react';
 import './Home.css';
 // import Navbar from './components/NavBar/Navbar';
 import NavBar from 'components/NavBar/NavBar';
-import playButton from '../../assets/image/PlayButton.jpg'
+// import playButton from '../../assets/image/arrowPlayButton.PNG'
+import {  PiNavigationArrowBold } from "react-icons/pi";
 
 const Home = () => {
     return (
         <div className='homeHead'>
+           
             <div className="homeSection">
                 <NavBar></NavBar>
                 <div className="home">
@@ -19,7 +21,8 @@ const Home = () => {
                                 At the beauty parlour, we believe in a beauty of consious.We have created a salon that offers the highest quality hair services.
                             </p>
                         </div>
-                        <img src={playButton} alt="" />
+                        {/* <img src={playButton} alt="" /> */}
+                        <PiNavigationArrowBold color='black' size={50} />
                     </div>
                 </div>
 
