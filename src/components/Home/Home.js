@@ -22,7 +22,7 @@ const Home = () => {
                             </p>
                         </div>
                         {/* <img src={playButton} alt="" /> */}
-                        <PiNavigationArrowBold color='black' size={50} />
+                        <PiNavigationArrowBold color='white' size={50} />
                     </div>
                 </div>
 
