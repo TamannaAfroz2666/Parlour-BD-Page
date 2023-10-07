@@ -25,12 +25,19 @@
 }
 .sub_title p{
     width: 70%;
-    margin-bottom: 5.3rem;
+    margin-bottom: 2rem;
 }
 .info{
     position: absolute;
-    bottom: -6rem;
+    bottom: -10rem;
     right: 0;
     background-color: var(--secondary-color);
+    padding: 2rem;
 
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    color: #fff;
 }
