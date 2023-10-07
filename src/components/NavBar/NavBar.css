@@ -25,7 +25,19 @@
     display: flex;
     gap: 3rem;
 }
+.active a{
+    border-bottom: 0.2rem solid var(--secondary-color);
+
+}
 .links li{
     list-style: none;
+   
+}
+.links li a{
     text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+
 }
