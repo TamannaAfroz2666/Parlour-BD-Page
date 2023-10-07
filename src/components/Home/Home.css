@@ -18,7 +18,10 @@
     margin-top: 8rem;
     padding-left: 18rem;
 
-
+}
+.title h1{
+    font-size: 5rem;
+    line-height: 5.3rem;
 }
 .content img{
 
