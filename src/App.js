@@ -7,13 +7,11 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div >
-      
-      
+    <div >   
       <Home></Home>
       <Animation></Animation>
       {/* <Navbar></Navbar> */}
-    </div>
+    </div>    
   );
 }
 

@@ -1,14 +1,29 @@
 .brand img{
     width: 100px;
     height: 40px;
+    /* margin-top: 2rem; */
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 0 12rem;
+    margin: 0 2rem;
     color: #fff;
+    padding-top: 2rem;
+   
     
+}
+.brand_container{
+    margin: 0 2rem;
+   
+}
+.toggle{
+    display: none;
+}
+
+.links ul{
+    display: flex;
+    gap: 3rem;
 }
 .links li{
     list-style: none;
