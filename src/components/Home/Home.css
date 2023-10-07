@@ -5,3 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.content img{
+
+    width: 80px;
+    height: 80px;
+}
