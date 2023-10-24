@@ -5,7 +5,7 @@ import service2 from '../../assets/image/PlayButton.jpg';
 import service3 from '../../assets/image/arrowPlayButton.PNG';
 // import Title from './components/Title/Title';
 import Title from 'components/Title/Title';
-// import play from '../../assets/image/Background/bg.jpg'
+// import play from '../../assets/image/Background/bg.jpg';
 import {  PiNavigationArrowBold } from "react-icons/pi";
 
 const Service = () => {

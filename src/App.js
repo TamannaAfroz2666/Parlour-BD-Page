@@ -10,7 +10,7 @@ function App() {
   return (
     <div >   
       <Home></Home>
-      <Service></Service>
+      
       
      
     </div>    

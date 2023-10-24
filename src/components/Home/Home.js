@@ -21,43 +21,12 @@ const Home = () => {
                                 At the beauty parlour, we believe in a beauty of consious.We have created a salon that offers the highest quality hair services.
                             </p>
                         </div>
-                        {/* <img src={playButton} alt="" /> */}
                         <PiNavigationArrowBold color='white' size={50} />
                     </div>
                 </div>
 
             </div>
-            <div className="info">
-                <div className="grid">
-                    <div className="col">
-                        <strong>Parlour</strong>
-                        <p>Blossoms Academy</p>
-                    </div>
-                    <div className="col">
-                        <strong>Email</strong>
-                        <p>Blossoms@gmail.com</p>
-                    </div>
-                    <div className="col">
-                        <strong>Mobile</strong>
-                        <p>013123465</p>
-                    </div>
-                    <div className="col">
-                        <strong>Address</strong>
-                        <p>Blossoms Academy, Dhanmondi 27, Dhaka</p>
-                    </div>
-                    <div className="col">
-                        <strong>Services</strong>
-                        <p>Sparking</p>
-                        <p>SPA cream</p>
-                    </div>
-                    <div className="col">
-                        <strong>Working Hours</strong>
-                        <p>Monday to Friday</p>
-                        <p>08:00 - 09:00</p>
-                    </div>
-                </div>
-            </div>
-
+         
         </div>
     );
 };
