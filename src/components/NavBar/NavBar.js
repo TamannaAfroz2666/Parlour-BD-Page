@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../../assets/image/Logo.jpg'
 import close from '../../assets/image/Background/22.jpg'
+import { motion } from 'framer-motion';
 const NavBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
     return (
@@ -55,7 +56,26 @@ const NavBar = () => {
                                 <p className='descripBody'>Beauty salons may offer skin care services performed by estheticians, including facials, exfoliating scrubs and anti-aging techniques.</p>
                                 <div className="subscriber">
                                     <input type="email" name="email" id="email" className="EmailField" placeholder='Your email address' autoComplete='off' />
-                                    <button className='btnSubs'>Subscriber</button>
+                                    <motion.button className='btnSubs'
+                                    initial={{
+                                        opacity: 0,
+                                        scale: 0,
+                                        y: -100
+                                    }}
+                                    whileInView={{
+                                        opacity: 1,
+                                        scale:1,
+                                        y: 0
+
+                                    }}
+                                    transition={{
+                                        duration: 2
+                                    }}
+
+
+                                    >
+                                        Subscriber
+                                    </motion.button>
 
                                 </div>
 
