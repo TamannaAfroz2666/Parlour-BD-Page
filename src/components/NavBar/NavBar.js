@@ -48,7 +48,15 @@ const NavBar = () => {
             <div className="body">
                 <div className="bodyContent">
                     <div className="bodyInfo">
-                        
+                        <span className='sortTitle'>Beauty and Spa Center</span>
+                        <h1>Get Your Best Face <br />Glow With Us</h1>
+                        <p>Beauty salons may offer skin care services performed by estheticians, including facials, exfoliating scrubs and anti-aging techniques.</p>
+                        <div className="subscriber">
+                            <input type="email" name="email" id="email" className="EmailField" placeholder='Your email address' autoComplete='off'/>
+                            <button className='btnSubs'>Subscriber</button>
+
+                        </div>
+
 
                     </div>
                     <div className="bodyImage">
