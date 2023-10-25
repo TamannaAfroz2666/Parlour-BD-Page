@@ -2,6 +2,7 @@ import React from 'react';
 import './Milestone.css';
 import image from '../../assets/image/add/PART.jpg'
 import { motion } from 'framer-motion';
+import { BsFlower1 } from "react-icons/bs";
 
 const Milestone = () => {
     return (
@@ -34,6 +35,18 @@ const Milestone = () => {
 
                         </motion.div>
                         <div className="information">
+                            <h1>The Essence Of Helth And <br /> Vitality In One Place</h1>
+                            <div className='IconSort'>
+                                <div className="iconOfFlower">
+                                    <BsFlower1  size={20} color='tomato'/>
+
+                                </div>
+                                <div className="line">
+                                    <hr color='tomato' className='lineHr'/>
+                                </div>
+
+                            </div>
+                            <span>   </span>
 
                         </div>
 

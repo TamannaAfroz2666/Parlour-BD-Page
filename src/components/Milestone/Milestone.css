@@ -25,3 +25,13 @@
     width: 400px;
     height: 300px;
 }
+.IconSort{
+    
+    display: flex;
+    gap: 5px;
+}
+.lineHr{
+    margin-top: .5rem;
+    width: 30px;
+    /* color: tomato; */
+}
