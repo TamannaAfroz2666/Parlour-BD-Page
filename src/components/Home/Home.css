@@ -1,30 +1,5 @@
-.homeHead{
-    height: 100vh;
-    background-image: url('../../assets/image/Background/bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.home{
-    height: 100%;
-}
-.content{
-    width: 60%;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.2rem;
-    margin-top: 8rem;
-    padding-left: 18rem;
-
-}
-.title h1{
-    font-size: 5rem;
-    line-height: 5.3rem;
-}
-.sub_title p{
-    width: 70%;
-    margin-bottom: 2rem;
-}
-

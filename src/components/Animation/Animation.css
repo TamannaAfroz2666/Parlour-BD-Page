@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animationHeader{
+
+    color: red;
+    padding: 30px 20rem; 
+    
+ } 
+ .tapAndHover{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: gray;
+
+ }
+ .interPage{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red;
+    padding: 3rem 2rem;
+ }
+ .sortP{
+    width: 600px;
+ }

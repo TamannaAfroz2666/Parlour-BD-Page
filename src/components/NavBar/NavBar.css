@@ -1,22 +1,27 @@
+.navSection{
+    background-color: antiquewhite;
+    top: 0;
+    position: relative;
+
+}
+.navHead{
+    width: 90%;
+    margin: auto;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    color: #111;
+    padding-top: 2rem;   
+}
 .brand img{
     width: 100px;
     height: 40px;
     /* margin-top: 2rem; */
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 2rem;
-    color: #fff;
-    padding-top: 2rem;
-   
-    
-}
-.brand_container{
-    margin: 0 2rem;
-   
-}
 .toggle{
     display: none;
 }
@@ -27,6 +32,7 @@
 }
 .active a{
     border-bottom: 0.2rem solid var(--secondary-color);
+   
 
 }
 .links li{
@@ -35,8 +41,8 @@
 }
 .links li a{
     text-decoration: none;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 600;
+    color: #111;
     font-size: 0.9rem;
     text-transform: uppercase;
 
