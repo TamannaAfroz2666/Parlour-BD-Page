@@ -6,4 +6,22 @@
 .milestone{
     width: 100%;
     height: 100%;
+    margin-top: 6rem;
+}
+.milestoneBody{
+    width: 90%;
+    margin: auto;
+}
+.milestoneContent{
+    display: flex;
+    gap: 40px;
+}
+.imageOn{
+    margin-left: 2rem;
+
+}
+.imageOn img{
+
+    width: 400px;
+    height: 300px;
 }

@@ -69,7 +69,7 @@ const NavBar = () => {
 
                                     }}
                                     transition={{
-                                        duration: 1
+                                        duration: 2
                                     }}
 
 
