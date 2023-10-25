@@ -24,8 +24,9 @@
     padding-top: 2rem;   
 }
 .brand img{
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 60px;
+    border-radius: 100%;
     /* margin-top: 2rem; */
 }
 
@@ -74,6 +75,7 @@
     font-weight: 500;
     text-transform: capitalize;
     list-style: none;
+    color: Tomato;
     
  }
  .bodyInfo .titleOfWel{

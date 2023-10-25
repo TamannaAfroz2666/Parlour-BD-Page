@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
-import logo from '../../assets/image/Logo.jpg'
+import logo from '../../assets/image/Logo/logoIn.jpg'
 import close from '../../assets/image/Background/22.jpg'
 import { motion } from 'framer-motion';
 const NavBar = () => {
@@ -69,7 +69,7 @@ const NavBar = () => {
 
                                     }}
                                     transition={{
-                                        duration: 2
+                                        duration: 1
                                     }}
 
 
