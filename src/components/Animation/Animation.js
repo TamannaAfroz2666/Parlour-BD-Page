@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Animation.css';
 import { motion, spring, useScroll } from 'framer-motion';
+import PortFolio from 'components/Portfolio/PortFolio';
 
 const Animation = () => {
     const { scrollYProgress } = useScroll()
@@ -65,34 +66,10 @@ const Animation = () => {
             <div className="severalInfo">
                 useScroll
             <h1>the txe</h1>
+            <h1>the txe</h1>           
             <h1>the txe</h1>
             <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
-            <h1>the txe</h1>
+            <h1>the txe</h1>          
             <h1>the txe</h1>
             <h1>the txe</h1>
             <h1>the txe</h1>
@@ -105,6 +82,15 @@ const Animation = () => {
             <h1>the txe</h1>
 
             </div>
+            <div className="motionTrigger">
+                <h1>React scroll trigger on framer motion</h1>
+               <br />
+
+               <PortFolio></PortFolio>
+               <PortFolio></PortFolio>
+               <PortFolio></PortFolio>
+               <PortFolio></PortFolio>
+            </div>
            
 
 
@@ -112,5 +98,29 @@ const Animation = () => {
         </>
     );
 };
+// function box() {
+//     return(
+//         <motion.div className='ShowTheDiv'
+//         initial={{
+//             opacity:0,
+//             scale: 0
+
+//         }}
+//         whileInView={{
+//             opacity: 1,
+//             scale: 1
+
+//         }}
+//         transition={{
+//             duration: 0.6
+//         }}
+//         viewport={{once: true}}
+        
+//         >
+
+//         </motion.div>
+//     )
+
+// }
 
 export default Animation;
