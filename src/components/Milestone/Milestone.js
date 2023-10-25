@@ -46,7 +46,9 @@ const Milestone = () => {
                                 </div>
 
                             </div>
-                            <span>   </span>
+                            <p>We Have <span className='miniCut'>25 years</span>  Of Experience</p>
+                        
+                            
 
                         </div>
 

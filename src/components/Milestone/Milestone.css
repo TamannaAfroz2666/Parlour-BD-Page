@@ -35,3 +35,10 @@
     width: 30px;
     /* color: tomato; */
 }
+.miniCut{
+    color: #fff;
+    background-color: tomato;
+    padding: 2px 8px;
+    border-radius: 5px;
+
+}
