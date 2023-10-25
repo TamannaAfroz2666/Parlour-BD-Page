@@ -1,3 +1,7 @@
+.navBar{
+    height: 100%;
+    width: 100%;
+}
 .navSection{
     /* background-color: antiquewhite; */
     top: 0;
@@ -67,6 +71,21 @@
  .bodyInfo{
     width: 600px;
  }
+ .bodyInfo .sortTitle{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    list-style: none;
+
+    /* line-height: 40px; */
+ }
+ .bodyInfo .titleOfWel{
+    font-size: 45px;
+    font-weight: 600;
+    /* font-family: 'Nosifer', sans-serif; */
+    font-family: 'Inter', sans-serif;
+
+ }
  
  .subscriber .EmailField{
     height: 48px;
@@ -77,12 +96,13 @@
     padding: 5px 12px;
     font-size: 16px;
     font-weight: 400;
-    background-color: Coral;
+    background-color: Tomato;
     border: 0;
     border-radius: 10px;
     translate: -120px -0px 0;
     color: #fff;
  }
+
 
  /* image field  */
  .bodyImage img{
