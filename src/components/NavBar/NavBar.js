@@ -6,8 +6,6 @@ const NavBar = () => {
     return (
         <div className="navSection">
             <div className="navHead">
-
-
                 <div className="navbar">
                     <div className='brand_container'>
                         <a href="#" className='brand'>
@@ -45,7 +43,21 @@ const NavBar = () => {
                     </div>
 
                 </div>
+              {/* body section start    */}
+
+            <div className="body">
+                <div className="bodyContent">
+                    <div className="bodyInfo">
+                        
+
+                    </div>
+                    <div className="bodyImage">
+
+                    </div>
+                </div>
             </div>
+            </div>
+
 
         </div>
 

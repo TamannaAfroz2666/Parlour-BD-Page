@@ -18,7 +18,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 0 2rem;
+    
     color: #111;
     padding-top: 2rem;   
 }
@@ -53,3 +53,13 @@
     text-transform: uppercase;
 
 }
+
+/* work on body part  */
+
+ .body{
+    margin-top: 5rem;
+ }
+ .bodyContent{
+    display: flex;
+    gap: 30px;
+ }
