@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../../assets/image/Logo.jpg'
+import close from '../../assets/image/Background/22.jpg'
 const NavBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
     return (
@@ -60,7 +61,8 @@ const NavBar = () => {
 
                     </div>
                     <div className="bodyImage">
-                        
+                        <img src={close} alt="" />
+
 
                     </div>
                 </div>

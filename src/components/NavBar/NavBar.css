@@ -59,10 +59,15 @@
  .body{
     margin-top: 5rem;
  }
+
  .bodyContent{
     display: flex;
-    gap: 30px;
+    gap: 1rem;
  }
+ .bodyInfo{
+    width: 600px;
+ }
+ 
  .subscriber .EmailField{
     height: 48px;
     width: 320px;
@@ -77,4 +82,11 @@
     border-radius: 10px;
     translate: -120px -0px 0;
     color: #fff;
+ }
+
+ /* image field  */
+ .bodyImage img{
+    width: 400px;
+    height: 450px;
+    border-radius: 100%;
  }
