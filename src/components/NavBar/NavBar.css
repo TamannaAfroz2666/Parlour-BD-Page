@@ -64,15 +64,17 @@
     gap: 30px;
  }
  .subscriber .EmailField{
-    height: 42px;
+    height: 48px;
     width: 320px;
     border: 0;
  }
  .btnSubs{
     padding: 5px 12px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     background-color: Coral;
     border: 0;
     border-radius: 10px;
+    translate: -120px -0px 0;
+    color: #fff;
  }

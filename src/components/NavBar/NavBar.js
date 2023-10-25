@@ -60,6 +60,7 @@ const NavBar = () => {
 
                     </div>
                     <div className="bodyImage">
+                        
 
                     </div>
                 </div>
