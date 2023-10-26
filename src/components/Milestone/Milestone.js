@@ -55,25 +55,26 @@ const Milestone = () => {
 
                             <div className="itemsContent">
                                 <div className="cleaning">
-                                    <p>
+                                    <p className='cleaningContent'>
                                         <PiRectangleFill  size={20} color='tomato'/>
-                                        <span>Energy Cleaning Services</span>
+                                        <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
-                                    <p>
+                                    <p className='cleaningContent'>
                                         <PiRectangleFill  size={20} color='tomato'/>
-                                        <span>Energy Cleaning Services</span>
+                                        <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
-                                    <p>
+                                    <p className='cleaningContent'>
                                         <PiRectangleFill  size={20} color='tomato'/>
-                                        <span>Energy Cleaning Services</span>
+                                        <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
-                                    <p>
+                                    <p className='cleaningContent'>
                                         <PiRectangleFill  size={20} color='tomato'/>
-                                        <span>Energy Cleaning Services</span>
+                                        <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
 
                                 </div>
                             </div>
+
                             <div className="btnSubscription">
                                 <div className="btnIcon1">
                                 <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30}/>
