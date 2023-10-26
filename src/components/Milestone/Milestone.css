@@ -14,7 +14,7 @@
 }
 .milestoneContent{
     display: flex;
-    gap: 40px;
+    gap: 6rem;
 }
 .imageOn{
     margin-left: 2rem;
@@ -24,6 +24,19 @@
 
     width: 400px;
     height: 300px;
+}
+
+/* information part  */
+
+.information .informationTitle{
+    font-size: 45px;
+    font-family: 'Lucida Sans';
+    padding: 20px 0px;
+    transition: transform all ease;
+}
+.informationTitle:hover{
+    color: rgb(192, 127, 116);
+    transform: scale(1.1);
 }
 .IconSort{
     

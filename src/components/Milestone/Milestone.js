@@ -35,7 +35,7 @@ const Milestone = () => {
 
                         </motion.div>
                         <div className="information">
-                            <h1>The Essence Of Helth And <br /> Vitality In One Place</h1>
+                            <h1 className='informationTitle'>The Essence Of Health And <br /> Vitality In One Place</h1>
                             <div className='IconSort'>
                                 <div className="iconOfFlower">
                                     <BsFlower1  size={20} color='tomato'/>
