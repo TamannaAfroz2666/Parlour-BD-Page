@@ -46,10 +46,10 @@ const Milestone = () => {
                                 </div>
 
                             </div>
-                            <p>We Have <span className='miniCut'>25 years</span>  Of Experience</p>
+                            <p className='sortInfo'>We Have <span className='miniCut'>25 years</span>  Of Experience</p>
 
-                            <p>Our service-oriented establishment in which women receive treatment to increase their beauty. Skincare, facial makeup, hair nourishment, and model hair cutting are the most important nourishing activities of a beauty parlour</p>
-                            <p>We offer skin care services performed by estheticians, including facials, exfoliating scrubs and anti-aging techniques</p>
+                            <p className='description'>Our service-oriented establishment in which women receive treatment to increase their beauty. Skincare, facial makeup, hair nourishment, and model hair cutting are the most important nourishing activities of a beauty parlour</p>
+                            <p className='description'>We offer skin care services performed by estheticians, including facials, exfoliating scrubs and anti-aging techniques</p>
                         
                             
 

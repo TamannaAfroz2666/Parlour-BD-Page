@@ -17,19 +17,19 @@
     gap: 6rem;
 }
 .imageOn{
-    margin-left: 2rem;
+    margin-left: 1rem;
 
 }
 .imageOn img{
 
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 600px;
 }
 
 /* information part  */
 
 .information .informationTitle{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Lucida Sans';
     padding: 20px 0px;
     transition: transform all ease;
@@ -48,10 +48,22 @@
     width: 30px;
     /* color: tomato; */
 }
+ .information .sortInfo{
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    padding:  10px 0 20px 0;
+ }
 .miniCut{
     color: #fff;
     background-color: tomato;
     padding: 2px 8px;
     border-radius: 5px;
 
+}
+.information .description{
+    font-size: 16px;
+    font-weight: 500;
+    padding:  0 0 10px 0;
+    color: #111111a8;
 }
