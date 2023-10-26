@@ -3,6 +3,8 @@ import './Milestone.css';
 import image from '../../assets/image/add/PART.jpg'
 import { motion } from 'framer-motion';
 import { BsFlower1 } from "react-icons/bs";
+import { PiRectangleFill } from "react-icons/pi";
+import { HiOutlineChevronRight } from "react-icons/hi";
 
 const Milestone = () => {
     return (
@@ -50,6 +52,39 @@ const Milestone = () => {
 
                             <p className='description'>Our service-oriented establishment in which women receive treatment to increase their beauty. Skincare, facial makeup, hair nourishment, and model hair cutting are the most important nourishing activities of a beauty parlour</p>
                             <p className='description'>We offer skin care services performed by estheticians, including facials, exfoliating scrubs and anti-aging techniques</p>
+
+                            <div className="itemsContent">
+                                <div className="cleaning">
+                                    <p>
+                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <span>Energy Cleaning Services</span>
+                                    </p>
+                                    <p>
+                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <span>Energy Cleaning Services</span>
+                                    </p>
+                                    <p>
+                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <span>Energy Cleaning Services</span>
+                                    </p>
+                                    <p>
+                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <span>Energy Cleaning Services</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div className="btnSubscription">
+                                <div className="btnIcon1">
+                                <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30}/>
+                            </span>
+                                    
+                                </div>
+                          {/* <div className=""> */}
+                          <button type='button'>Subscription</button>
+                          {/* </div> */}
+                              
+                            </div>
                         
                             
 
