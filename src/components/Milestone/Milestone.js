@@ -82,7 +82,7 @@ const Milestone = () => {
                                     
                                 </div>
                           {/* <div className=""> */}
-                          <button type='button'>Subscription</button>
+                          <button className='btnSubInfo' type='button'>Subscription</button>
                           {/* </div> */}
                               
                             </div>
