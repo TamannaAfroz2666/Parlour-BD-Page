@@ -6,9 +6,15 @@
 .milestone{
     width: 100%;
     height: 100%;
-    /* position: static; */
-    
-    
+     
+}
+.milestoneHead{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #ffb6c1cc), url('../../assets/image/add/preview.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 20px;
+
 }
 .milestoneBody{
     width: 90%;
@@ -24,6 +30,7 @@
 
 }
 .imageOn img{
+    margin-top: 6rem;
 
     width: 500px;
     height: 550px;
@@ -31,6 +38,9 @@
 
 /* information part  */
 
+.information{
+    margin: 5rem 0 8rem 0 ;
+}
 .information .informationTitle{
     font-size: 40px;
     font-family: 'Lucida Sans';
