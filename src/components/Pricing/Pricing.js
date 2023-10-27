@@ -1,5 +1,6 @@
 import React from 'react';
 import './Pricing.css';
+import { BsFlower1 } from "react-icons/bs";
 
 const Pricing = () => {
     return (
@@ -7,6 +8,18 @@ const Pricing = () => {
             <div className="pricingHead">
                 <div className="pricingBody">
                     <p className='pricingTitle'>Our Pricing Packages</p>
+                    <div className="pricingLine">
+                        <div className="lineContentHead">
+                            <hr color='tomato' className='pricingLineTitle' />
+                        </div>
+
+                        <div className="iconOfFlower">
+                            <BsFlower1 size={20} color='tomato' />
+                        </div>
+                        <div className="lineContentHead">
+                            <hr color='tomato' className='pricingLineTitle' />
+                        </div>
+                    </div>
                 </div>
             </div>
             

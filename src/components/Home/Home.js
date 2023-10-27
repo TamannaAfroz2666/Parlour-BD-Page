@@ -5,6 +5,7 @@ import NavBar from 'components/NavBar/NavBar';
 import Animation from 'components/Animation/Animation';
 import Milestone from 'components/Milestone/Milestone';
 import ProvideList from 'components/ProvideList/ProvideList';
+import Pricing from 'components/Pricing/Pricing';
 // import playButton from '../../assets/image/arrowPlayButton.PNG'
 // import {  PiNavigationArrowBold } from "react-icons/pi";
 
@@ -14,7 +15,8 @@ const Home = () => {
                 <NavBar></NavBar>
                 <Milestone></Milestone>
                 <ProvideList></ProvideList>
-                
+                <Pricing></Pricing>
+
                 {/* <Animation></Animation> */}
 
                 
