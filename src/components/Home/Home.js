@@ -14,6 +14,7 @@ const Home = () => {
                 <NavBar></NavBar>
                 <Milestone></Milestone>
                 <ProvideList></ProvideList>
+                
                 {/* <Animation></Animation> */}
 
                 

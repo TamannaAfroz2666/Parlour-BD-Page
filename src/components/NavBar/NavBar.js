@@ -38,9 +38,6 @@ const NavBar = () => {
                                 <li>
                                     <a href="/contact"> Contact</a>
                                 </li>
-                                <li>
-                                    <a href="/home"> Home</a>
-                                </li>
                             </ul>
 
                         </div>
