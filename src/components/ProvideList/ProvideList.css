@@ -29,3 +29,12 @@
     padding: 6rem 0 1rem 0;
     text-align: center;
 }
+.lineContents{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.LineTitle{
+    width: 40px;
+    margin-top: .5rem;
+}
