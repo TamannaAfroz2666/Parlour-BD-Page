@@ -41,36 +41,39 @@
 .provideContents{
     margin-top: 4rem;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 3rem;
 }
-/* .sportImg{
+.sportImg{
+    margin-left: 6rem;
 
-    background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
+    /* background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px;
-} */
-/* .stoneImg{
+    border-radius: 100px; */
+}
+.stoneImg{
+    margin-left: 6rem;
  
-    background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
+    /* background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px;
+    border-radius: 100px; */
 }
 .facilImg{
+    margin-left: 6rem;
   
-    background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
+    /* background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px;
-} */
+    border-radius: 100px; */
+}
 .sportImg img{
     width: 80px;
     height: 80px;
@@ -86,6 +89,18 @@
     height: 80px;
     border-radius: 100px;
 }
+.provideInfo{
+    margin-top: 20px;
+}
+.provideInfo .stoneInfoTitle{
+    font-size: 30px;
+    font-weight: 600;
+    color: #111;
+    padding-left: 2rem;
+}
 .stoneHr{
-    width: 40px;
+    width: 50px;
+    margin-left: 7rem;
+    padding: 1px;
+    background-image: linear-gradient(to right, rgba(207, 117, 101, 0.315) , rgba(226, 217, 215, 0.788));
 }
