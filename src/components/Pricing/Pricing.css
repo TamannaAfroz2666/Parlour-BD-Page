@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.pricingTitle{
+    margin-top: 6rem;
+}
+.pricingHead{
+    height: 100%;
+    width: 100%;
+}
+.pricingBody{
+    width: 90%;
+    margin: auto;
+}
 
 
 /* horizontal line styled  */
