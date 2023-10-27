@@ -13,36 +13,41 @@ const ProvideList = () => {
                     <p className='titleProvide'>What we provide</p>
                     <div className="lineContents">
                         <div className="lineContentHead">
-                        <hr color='tomato' className='LineTitle'/>
+                            <hr color='tomato' className='LineTitle' />
                         </div>
-                     
+
                         <div className="iconOfFlower">
                             <BsFlower1 size={20} color='tomato' />
                         </div>
                         <div className="lineContentHead">
-                        <hr color='tomato' className='LineTitle'/>
+                            <hr color='tomato' className='LineTitle' />
                         </div>
                     </div>
                     <div className="provideContents">
                         <div className="sports">
-                            <img src={stone} alt="" />
-
-
+                            <div className="sportImg">
+                                <img src={stone} alt="" />
+                            </div>
+                            <p>Sports Massage</p>
+                            <hr color='tomato' className='stoneHr' />
+                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
                         </div>
+
                         <div className="hotSone">
-                       
-                            <img src={massage} alt="" />
-
-
-
+                            <div className="stoneImg">
+                                <img src={massage} alt="" />
+                            </div>
+                            <p>Sports Massage</p>
+                            <hr color='tomato' className='stoneHr' />
+                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
                         </div>
                         <div className="facil">
-                       
-                            <img src={facil} alt="" />
-
-
-                    
-
+                            <div className="facilImg">
+                                <img src={facil} alt="" />
+                            </div>
+                            <p>Sports Massage</p>
+                            <hr color='tomato' className='stoneHr' />
+                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
                         </div>
 
                     </div>

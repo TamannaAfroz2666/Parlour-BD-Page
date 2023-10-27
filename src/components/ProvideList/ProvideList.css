@@ -44,7 +44,7 @@
     justify-content: center;
     gap: 30px;
 }
-.sports{
+.sportImg{
     /* background-color: rgba(245, 245, 245, 0.644); */
     background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
@@ -53,7 +53,7 @@
     padding: 20px;
     border-radius: 100px;
 }
-.hotSone{
+.stoneImg{
     /* background-color: rgba(245, 245, 245, 0.644); */
     background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
     background-position: center;
@@ -62,7 +62,7 @@
     padding: 20px;
     border-radius: 100px;
 }
-.facil{
+.facilImg{
     /* background-color: rgba(245, 245, 245, 0.644); */
     background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
     background-position: center;
@@ -71,18 +71,21 @@
     padding: 20px;
     border-radius: 100px;
 }
-.sports img{
+.sportImg img{
     width: 80px;
     height: 80px;
     border-radius: 100px;
 }
-.hotSone img{
+.stoneImg img{
     width: 80px;
     height: 80px;
     border-radius: 100px;
 }
-.facil img{
+.facilImg img{
     width: 80px;
     height: 80px;
     border-radius: 100px;
+}
+.stoneHr{
+    width: 40px;
 }
