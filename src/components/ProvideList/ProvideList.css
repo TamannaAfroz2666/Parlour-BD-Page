@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .provideList{
-    background-image: url('../../assets/image/add/80277.jpg');
+    background-image: url('../../assets/image/Pictures/Provide/bg4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
 .provideBody{
     width: 90%;
     margin: auto;
-    height: 80%;
+    /* height: 80%; */
 }
 .titleProvide{
     font-size: 30px;
@@ -37,4 +37,24 @@
 .LineTitle{
     width: 40px;
     margin-top: .5rem;
+}
+.provideContents{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sports{
+    background-color: rgba(245, 245, 245, 0.644);
+    /* background-image: url('../../assets/image/Pictures/Provide/bg1.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 100px;
+}
+.sports img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
 }

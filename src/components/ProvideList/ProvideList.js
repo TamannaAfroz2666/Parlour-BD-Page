@@ -1,6 +1,9 @@
 import React from 'react';
 import './ProvideList.css';
 import { BsFlower1 } from "react-icons/bs";
+import stone from '../../assets/image/Pictures/Provide/stone.jpg'
+import massage from '../../assets/image/Pictures/Provide/massage.jpg';
+import facil from '../../assets/image/Pictures/Provide/flower.jpg'
 
 const ProvideList = () => {
     return (
@@ -19,6 +22,30 @@ const ProvideList = () => {
                         <div className="lineContentHead">
                         <hr color='tomato' className='LineTitle'/>
                         </div>
+                    </div>
+                    <div className="provideContents">
+                        <div className="sports">
+                            <img src={stone} alt="" />
+
+
+                        </div>
+                        <div className="hotSone">
+                        <div className="sports">
+                            <img src={massage} alt="" />
+
+
+                        </div>
+
+                        </div>
+                        <div className="facil">
+                        <div className="sports">
+                            <img src={facil} alt="" />
+
+
+                        </div>
+
+                        </div>
+
                     </div>
 
                 </div>
