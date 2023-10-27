@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .provideList{
-    background-image: url('../../assets/image/Pictures/Provide/bg4.jpg');
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #c5bebfcc), url('../../assets/image/Pictures/Provide/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,8 +45,26 @@
     gap: 30px;
 }
 .sports{
-    background-color: rgba(245, 245, 245, 0.644);
-    /* background-image: url('../../assets/image/Pictures/Provide/bg1.jpg'); */
+    /* background-color: rgba(245, 245, 245, 0.644); */
+    background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 100px;
+}
+.hotSone{
+    /* background-color: rgba(245, 245, 245, 0.644); */
+    background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 100px;
+}
+.facil{
+    /* background-color: rgba(245, 245, 245, 0.644); */
+    background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +72,16 @@
     border-radius: 100px;
 }
 .sports img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.hotSone img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.facil img{
     width: 80px;
     height: 80px;
     border-radius: 100px;

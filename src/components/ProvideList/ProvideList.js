@@ -30,19 +30,18 @@ const ProvideList = () => {
 
                         </div>
                         <div className="hotSone">
-                        <div className="sports">
+                       
                             <img src={massage} alt="" />
 
 
-                        </div>
 
                         </div>
                         <div className="facil">
-                        <div className="sports">
+                       
                             <img src={facil} alt="" />
 
 
-                        </div>
+                    
 
                         </div>
 
