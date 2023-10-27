@@ -41,20 +41,20 @@
 .provideContents{
     margin-top: 4rem;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    /* justify-content: center; */
+    gap: 3rem;
 }
-.sportImg{
-    /* background-color: rgba(245, 245, 245, 0.644); */
+/* .sportImg{
+
     background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     border-radius: 100px;
-}
-.stoneImg{
-    /* background-color: rgba(245, 245, 245, 0.644); */
+} */
+/* .stoneImg{
+ 
     background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -63,14 +63,14 @@
     border-radius: 100px;
 }
 .facilImg{
-    /* background-color: rgba(245, 245, 245, 0.644); */
+  
     background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     border-radius: 100px;
-}
+} */
 .sportImg img{
     width: 80px;
     height: 80px;

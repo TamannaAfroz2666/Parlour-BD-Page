@@ -28,26 +28,36 @@ const ProvideList = () => {
                             <div className="sportImg">
                                 <img src={stone} alt="" />
                             </div>
-                            <p>Sports Massage</p>
-                            <hr color='tomato' className='stoneHr' />
-                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+                            <div className="provideInfo">
+                                <p>Sports Massage</p>
+                                <hr color='tomato' className='stoneHr' />
+                                <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+
+                            </div>
                         </div>
 
                         <div className="hotSone">
                             <div className="stoneImg">
                                 <img src={massage} alt="" />
                             </div>
-                            <p>Sports Massage</p>
-                            <hr color='tomato' className='stoneHr' />
-                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+                            <div className="provideInfo">
+                                <p>Sports Massage</p>
+                                <hr color='tomato' className='stoneHr' />
+                                <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+
+                            </div>
+
                         </div>
                         <div className="facil">
                             <div className="facilImg">
                                 <img src={facil} alt="" />
                             </div>
-                            <p>Sports Massage</p>
-                            <hr color='tomato' className='stoneHr' />
-                            <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+                            <div className="provideInfo">
+                                <p>Sports Massage</p>
+                                <hr color='tomato' className='stoneHr' />
+                                <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
+
+                            </div>
                         </div>
 
                     </div>
