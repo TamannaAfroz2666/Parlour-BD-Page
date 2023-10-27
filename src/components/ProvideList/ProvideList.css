@@ -23,11 +23,16 @@
 }
 .titleProvide{
     font-size: 30px;
-    color: #111;
+    /* color: #111; */
+    color: rgb(243, 5, 243);
+
     font-weight: 600;
     text-transform: capitalize;
     padding: 6rem 0 1rem 0;
     text-align: center;
+}
+.titleProvide:hover{
+    color: #111;
 }
 .lineContents{
     display: flex;
@@ -56,7 +61,6 @@
 }
 .stoneImg{
     margin: 0 10rem 0 6rem ;
- 
     background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +70,6 @@
 }
 .facilImg{
     margin: 0 10rem 0 6rem ;
-  
     background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +109,7 @@
     font-weight: 400;
     color: #111111dc;
     /* padding-left: 2rem; */
-    padding: 20px 0;
+    padding: 20px 0 6rem 0;
 }
 
 .stoneHr{

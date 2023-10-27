@@ -29,7 +29,7 @@ const ProvideList = () => {
                                 <img src={stone} alt="" />
                             </div>
                             <div className="provideInfo">
-                                <p className='stoneInfoTitle'>Sports Massage</p>
+                                <p className='stoneInfoTitle'>Hot Stone Massage</p>
                                 <hr color='tomato' className='stoneHr' />
                                 <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
 
@@ -53,7 +53,7 @@ const ProvideList = () => {
                                 <img src={facil} alt="" />
                             </div>
                             <div className="provideInfo">
-                                <p className='stoneInfoTitle'>Sports Massage</p>
+                                <p className='stoneInfoTitle'>Facil & Therophy</p>
                                 <hr color='tomato' className='stoneHr' />
                                 <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
 
