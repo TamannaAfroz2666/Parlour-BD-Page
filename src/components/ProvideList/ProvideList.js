@@ -44,9 +44,7 @@ const ProvideList = () => {
                                 <p className='stoneInfoTitle'>Sports Massage</p>
                                 <hr color='tomato' className='stoneHr' />
                                 <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
-
                             </div>
-
                         </div>
                         <div className="facil">
                             <div className="facilImg">
@@ -56,7 +54,6 @@ const ProvideList = () => {
                                 <p className='stoneInfoTitle'>Facil & Therophy</p>
                                 <hr color='tomato' className='stoneHr' />
                                 <p className='StoneDescription'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, fuga dignissimos aut architecto totam repellendus excepturi nostrum est veniam doloribus.</p>
-
                             </div>
                         </div>
 
