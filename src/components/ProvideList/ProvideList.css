@@ -45,34 +45,34 @@
     gap: 3rem;
 }
 .sportImg{
-    margin-left: 6rem;
+    margin: 0 10rem 0 6rem ;
 
-    /* background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
+    background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px; */
+    border-radius: 100px;
 }
 .stoneImg{
-    margin-left: 6rem;
+    margin: 0 10rem 0 6rem ;
  
-    /* background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
+    background-image: url('../../assets/image/Pictures/Provide/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px; */
+    border-radius: 100px;
 }
 .facilImg{
-    margin-left: 6rem;
+    margin: 0 10rem 0 6rem ;
   
-    /* background-image: url('../../assets/image/Pictures/Provide/bg3.jpg');
+    background-image: url('../../assets/image/Pictures/Provide/bg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 100px; */
+    border-radius: 100px;
 }
 .sportImg img{
     width: 80px;
@@ -93,11 +93,22 @@
     margin-top: 20px;
 }
 .provideInfo .stoneInfoTitle{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
-    color: #111;
+    color: #111111dc;
     padding-left: 2rem;
 }
+.stoneInfoTitle:hover {
+    color: tomato;
+}
+.provideInfo .StoneDescription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111dc;
+    /* padding-left: 2rem; */
+    padding: 20px 0;
+}
+
 .stoneHr{
     width: 50px;
     margin-left: 7rem;
