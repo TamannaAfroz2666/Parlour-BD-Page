@@ -7,12 +7,11 @@ const ProvideList = () => {
         <div className='provideList'>
             <div className="provideListHead">
                 <div className="provideBody">
-                    <p>What we provide</p>
+                    <p className='titleProvide'>What we provide</p>
                     <div className="lineContents">
                         <hr color='tomato' className='LineTitle'/>
                         <div className="iconOfFlower">
                             <BsFlower1 size={20} color='tomato' />
-
                         </div>
                         <hr color='tomato' className='LineTitle'/>
                     </div>

@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+.provideList{
+    background-image: url('../../assets/image/add/80277.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.provideListHead{
+    height: 100%;
+    width: 100%;
+    margin-top: 4rem;
+    /* background-color: pink; */
+}
+.provideBody{
+    width: 90%;
+    margin: auto;
+    height: 80%;
+}
+.titleProvide{
+    font-size: 30px;
+    color: #111;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 6rem 0 1rem 0;
+    text-align: center;
+}
