@@ -10,6 +10,7 @@ const MakeBooking = () => {
                     <div className="bookingContents">
                         <div className="appointment">
                             <p className='appointmentTitle'>Make Appointment</p>
+                            {/* icon Flower start */}
                             <div className='IconSortBooking'>
                                 <div className="iconOfFlower">
                                     <BsFlower1 size={20} color='tomato' />
@@ -20,6 +21,28 @@ const MakeBooking = () => {
                                 </div>
 
                             </div>
+                            {/* icon Flower start */}
+                            <div className="userContents">
+                                <div className="namePart">
+                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                    
+                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                </div>
+                                <div className="namePart">
+                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+
+                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                </div>
+                                <div className="dateTime">
+                                    <input type="date" />
+                                </div>
+                                <div className="message">
+                                    <input type="text" name='message' value='' className='messageField'  placeholder='Message' autoComplete='off'  />
+                                </div>
+
+                            </div>
+
+
 
                         </div>
                         <div className="appointmentInfo">
@@ -29,7 +52,7 @@ const MakeBooking = () => {
 
                 </div>
             </div>
-            
+
         </div>
     );
 };

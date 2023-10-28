@@ -31,7 +31,7 @@
 .appointmentTitle{
     font-size: 30px;
     font-weight: 600;
-    padding: 50px 0 5px 50px;
+    padding: 50px 0 5px 30px;
     color: #111111ef;
 }
 /* icon part  */
@@ -39,10 +39,19 @@
 .IconSortBooking{
     display: flex;
     gap: 5px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .lineHrBook{
     margin: .5rem 0 0 0 ;
     width: 50px;  
 }
 /* icon part end  */
+
+/* --------user input design ----------- */
+.userContents{
+    margin: 20px 30px;
+}
+.namePart{
+    display: inline-flex;
+    gap: 40px;
+}
