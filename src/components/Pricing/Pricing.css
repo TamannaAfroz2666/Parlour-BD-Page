@@ -39,3 +39,8 @@
     width: 50px;
     margin-top: .5rem;
 }
+/* contents  */
+.packageContents{
+    display: flex;
+    gap: 40px;
+}

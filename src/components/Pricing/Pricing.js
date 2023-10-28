@@ -20,6 +20,17 @@ const Pricing = () => {
                             <hr color='tomato' className='pricingLineTitle' />
                         </div>
                     </div>
+                    <div className="packageContents">
+                        <div className="regularMember">
+
+                        </div>
+                        <div className="vipMember">
+
+                        </div>
+                        <div className="premiumMember">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
             
