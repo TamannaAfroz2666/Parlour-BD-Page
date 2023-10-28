@@ -14,7 +14,7 @@ const RegularMember = () => {
                     <li className='titleRegular'>spend quality time your skin massaged </li>
                     <li className='sortRegular'>hair styled </li>
                     <li className='titleRegular'> best care for your skin and body </li>
-                    <li className='sortRegular'>You get custom information </li>
+                    <li className='sortRegular2'>You get custom information </li>
                     <li className='titleRegular'> salons have professional beauticians </li>
                 </ul>
                 <h1 className='pricingRegular'> <small className='smallPrice'>$</small>49 <small className='smallPrice'>/month</small></h1>

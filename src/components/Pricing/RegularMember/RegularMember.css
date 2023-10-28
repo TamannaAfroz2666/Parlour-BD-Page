@@ -18,8 +18,28 @@
     text-align: center;
 }
 .regularHr{
-    width: 200px;
+    width: 320px;
+    background-image: linear-gradient(to right, rgba(245, 245, 245, 0.226) , rgba(245, 245, 245, 0.055));
+   
+}
+.listRegular{
+    margin: 20px  0;
+    
 }
 .listRegular li{
     list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111d3;
+
+}
+.titleRegular{
+    padding: 5px 10px;
+    
+}
+.sortRegular{
+    padding: 0 6rem;
+}
+.sortRegular2{
+    padding: 0 2rem;
 }
