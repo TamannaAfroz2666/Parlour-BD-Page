@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.achieveList{
+    height: 100%;
+    width: 100%;
+    margin-top: 6rem;
+}
+.achieveHead{
+    width: 90%;
+    margin: auto;
+}
+.contentAcInfo{
+    display: flex;
+    gap: 20px;
+}
