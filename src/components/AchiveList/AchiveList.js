@@ -24,6 +24,9 @@ const AchiveList = () => {
                             </div>
                             {/* icon Flower start */}
 
+                            <p className='desAchive'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis nostrum dolores est sunt porro consequuntur necessitatibus rem? Molestiae, aliquid consectetur.</p>
+                            <p className='desAchive'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, aliquid.</p>
+
 
                         </div>
                         <div className="imageAc">
