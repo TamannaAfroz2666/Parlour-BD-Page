@@ -2,6 +2,7 @@ import React from 'react';
 import './MakeBooking.css';
 import { BsFlower1 } from "react-icons/bs";
 import { HiOutlineChevronRight } from "react-icons/hi";
+import BookingInfo from './BookingInfo/BookingInfo';
 
 const MakeBooking = () => {
     return (
@@ -66,6 +67,7 @@ const MakeBooking = () => {
 
                         </div>
                         <div className="appointmentInfo">
+                            <BookingInfo></BookingInfo>
 
                         </div>
                     </div>

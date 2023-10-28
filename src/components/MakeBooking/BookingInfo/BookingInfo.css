@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bookingINfo{
+    margin-top: 4rem;
+
+}
+.infoTitleBook{
+    font-size: 45px;
+    font-weight: 700;
+    color: #111111e1;
+    text-transform: capitalize;
+    line-height: 50px;
+    padding: 20px 0;
+}
+.bookingInfoDes{
+    font-size: 16px;
+    color: #11111177;
+    font-weight: 600;
+    padding: 10px 0;
+}
