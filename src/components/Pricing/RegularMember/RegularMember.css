@@ -54,3 +54,36 @@
     color: tomato;
     font-size: 20px;
 }
+/* ---------------   button work-----------  */
+.btnSubRegular{
+    margin: 0 0 3rem 4rem;
+
+}
+.regularIcon1{
+    translate: -.6px  40px -60px;
+    margin-left: 5px;
+
+}
+.btnIconReg{
+    padding: 10px 5px 5px 5px;
+    background-color:rgba(211, 165, 79, 0.342);
+    border-radius: 10px;
+}
+
+.outlineIcon{
+    padding-top: 10px;
+}
+.btnSubRegular button{
+    width: 200px;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: tomato;
+    border: 0;
+    border-radius: 10px;
+    /* margin-left: 4rem; */
+}
+/* .btnSubInfoReg:hover {
+    background-color: rgb(150, 92, 17);
+} */

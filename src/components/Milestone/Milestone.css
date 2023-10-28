@@ -95,16 +95,17 @@
     font-weight: 600;
     
 }
-.btnIcon{
-    padding: 10px 5px 5px 5px;
-    background-color:rgba(245, 222, 179, 0.342);
-    border-radius: 10px;
-}
 .btnIcon1{
     translate: -.6px  40px -60px;
     margin-left: 5px;
 
 }
+.btnIcon{
+    padding: 10px 5px 5px 5px;
+    background-color:rgba(245, 222, 179, 0.342);
+    border-radius: 10px;
+}
+
 .outlineIcon{
     padding-top: 10px;
 }

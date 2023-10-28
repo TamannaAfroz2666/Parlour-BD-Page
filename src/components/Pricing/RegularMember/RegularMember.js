@@ -24,14 +24,14 @@ const RegularMember = () => {
                     </div>
                     <button>Singup Now</button>
                 </div> */}
-                <div className="btnSubscription">
-                    <div className="btnIcon1">
-                        <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
+                <div className="btnSubRegular">
+                    <div className="regularIcon1">
+                        <span className='btnIconReg'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
                         </span>
 
                     </div>
                     {/* <div className=""> */}
-                    <button className='btnSubInfo' type='button'>Subscription</button>
+                    <button className='btnSubInfoReg' type='button'>Subscription</button>
                     {/* </div> */}
 
                 </div>
