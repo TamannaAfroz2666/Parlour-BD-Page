@@ -57,9 +57,9 @@
 /* clients part start */
 .reviewContent{
     display: flex;
-    gap: 60px;
+    gap: 30px;
 }
-/* clients  */
+/* clients style start  */
 .happyClients{
    background-color: aquamarine;
    width: 200px;
@@ -103,8 +103,60 @@
 
 }
 .clientsTitle{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: tomato;
     font-weight: 500;
 }
+/* clients style end  */
+
+
+
+/* reviewRelaxed field start  */
+
+.relaxedClients{
+    background-color:  rgba(255, 99, 71, 0.842);
+    width: 200px;
+    height: 150px;
+    margin: 3rem 0 20px 10px;
+    border-radius: 10px;
+ 
+ }
+ .clientRexNum{
+     /* padding: 40px 60px; */
+     color: #ffffff;
+     /* text-align: center; */
+     padding-left: 2.5rem;
+     padding-top: 30px;
+     font-weight: 700;
+     font-size: 40px;
+     font-family: sans-serif;
+     font-style: italic;
+ 
+ }
+ .upperRexNum{
+     /* padding: 0 0 10rem 0; */
+     bottom: .5rem;
+     right: .4rem;
+     position: relative;
+ }
+ 
+ .upperRexPlus{
+     bottom: .5rem;
+     position: relative;
+     font-weight: 200;
+     right: .2rem;
+ 
+ }
+ .threeNum{
+    right: .4rem;
+    position: relative;
+
+ }
+ .relaxedTitle{
+     font-size: 18px;
+     text-align: center;
+     color: #111;
+     font-weight: 600;
+ }
+
