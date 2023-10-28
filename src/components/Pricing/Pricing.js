@@ -1,6 +1,7 @@
 import React from 'react';
 import './Pricing.css';
 import { BsFlower1 } from "react-icons/bs";
+import RegularMember from './RegularMember/RegularMember';
 
 const Pricing = () => {
     return (
@@ -22,6 +23,7 @@ const Pricing = () => {
                     </div>
                     <div className="packageContents">
                         <div className="regularMember">
+                            <RegularMember></RegularMember>
 
                         </div>
                         <div className="vipMember">
