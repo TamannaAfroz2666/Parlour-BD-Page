@@ -11,6 +11,7 @@ const Pricing = () => {
             <div className="pricingHead">
                 <div className="pricingBody">
                     <p className='pricingTitle'>Our Pricing Packages</p>
+                    {/* icon add  */}
                     <div className="pricingLine">
                         <div className="lineContentHead">
                             <hr color='tomato' className='pricingLineTitle' />
@@ -23,6 +24,7 @@ const Pricing = () => {
                             <hr color='tomato' className='pricingLineTitle' />
                         </div>
                     </div>
+                     {/* icon add  end */}
                     <div className="packageContents">
                         <div className="regularMember">
                             <RegularMember></RegularMember>

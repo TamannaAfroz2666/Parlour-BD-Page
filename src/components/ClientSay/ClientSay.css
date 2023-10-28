@@ -31,3 +31,16 @@
 .ClientTitle:hover{
     color: #111;
 }
+
+   /* icon add style */
+.clientLine{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.clientLineTitle{
+    width: 50px;
+    margin-top: .5rem;
+}
+
+ /* icon add style end*/
