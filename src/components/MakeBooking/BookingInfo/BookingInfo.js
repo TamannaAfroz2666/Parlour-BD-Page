@@ -7,7 +7,7 @@ const BookingInfo = () => {
         <div className='bookingINfo'>
             <h2 className='infoTitleBook'>Book Your Appointment <br /> For Relaxation </h2>
             {/* icon Flower start */}
-            <div className='IconSortBooking'>
+            <div className='IconInfoBooking'>
                 <div className="iconOfFlower">
                     <BsFlower1 size={20} color='tomato' />
 
