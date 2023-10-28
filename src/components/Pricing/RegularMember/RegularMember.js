@@ -11,7 +11,7 @@ const RegularMember = () => {
                 <p className='regularPrice'>Regular Price</p>
                 <hr className='regularHr' color='tomato' />
                 <ul className='listRegular'>
-                    <li className='titleRegular'>spend quality time your skin massaged </li>
+                    <li className='titleRegular'>quality time your skin massaged </li>
                     <li className='sortRegular'>hair styled </li>
                     <li className='titleRegular'> best care for your skin and body </li>
                     <li className='sortRegular2'>You get custom information </li>
