@@ -26,15 +26,22 @@ const MakeBooking = () => {
                                 <div className="namePart">
                                     <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
                                     
-                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='firstName'  placeholder='Last Name' autoComplete='off' />
                                 </div>
                                 <div className="emailPart">
-                                    <input type="text" name='name' value='' className='emailField'  placeholder='First Name' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='emailField'  placeholder='Email' autoComplete='off' />
 
-                                    <input type="text" name='name' value='' className='numberField'  placeholder='First Name' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='emailField'  placeholder='Phone No.' autoComplete='off' />
                                 </div>
                                 <div className="dateTime">
-                                    <input type="date" />
+                                    <select name="dateTime" id="dateTime">
+                                        <option className='optionName'  value="date">date time
+                                        <input type="date" />
+
+                                        </option>
+
+                                    </select>
+                                   
                                 </div>
                                 <div className="message">
                                     <input type="text" name='message' value='' className='messageField'  placeholder='Message' autoComplete='off'  />
