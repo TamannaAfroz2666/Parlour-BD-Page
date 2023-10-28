@@ -28,10 +28,10 @@ const MakeBooking = () => {
                                     
                                     <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
                                 </div>
-                                <div className="namePart">
-                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                <div className="emailPart">
+                                    <input type="text" name='name' value='' className='emailField'  placeholder='First Name' autoComplete='off' />
 
-                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='numberField'  placeholder='First Name' autoComplete='off' />
                                 </div>
                                 <div className="dateTime">
                                     <input type="date" />
