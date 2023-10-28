@@ -43,3 +43,14 @@
 .sortRegular2{
     padding: 0 2rem;
 }
+.pricingRegular{
+    margin-left: 5rem;
+    font-size: 45px;
+    color: tomato;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.smallPrice{
+    color: tomato;
+    font-size: 20px;
+}

@@ -9,7 +9,7 @@ const RegularMember = () => {
             <div className="regularHead">
                 <img src={regular} alt="" />
                 <p className='regularPrice'>Regular Price</p>
-                <hr className='regularHr' color='tomato'/>
+                <hr className='regularHr' color='tomato' />
                 <ul className='listRegular'>
                     <li className='titleRegular'>spend quality time your skin massaged </li>
                     <li className='sortRegular'>hair styled </li>
@@ -25,19 +25,19 @@ const RegularMember = () => {
                     <button>Singup Now</button>
                 </div> */}
                 <div className="btnSubscription">
-                                <div className="btnIcon1">
-                                    <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
-                                    </span>
+                    <div className="btnIcon1">
+                        <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
+                        </span>
 
-                                </div>
-                                {/* <div className=""> */}
-                                <button className='btnSubInfo' type='button'>Subscription</button>
-                                {/* </div> */}
+                    </div>
+                    {/* <div className=""> */}
+                    <button className='btnSubInfo' type='button'>Subscription</button>
+                    {/* </div> */}
 
-                            </div>
+                </div>
 
             </div>
-            
+
         </div>
     );
 };
