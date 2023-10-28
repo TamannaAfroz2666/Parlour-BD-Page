@@ -57,5 +57,22 @@
 /* clients part start */
 .reviewContent{
     display: flex;
-    gap: 20p;
+    gap: 60px;
+}
+/* clients  */
+.happyClients{
+   background-color: aquamarine;
+   width: 200px;
+   height: 150px;
+   margin: 10px 0 20px 10px;
+   background-image: url('../../assets/image/Background/bg7.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px;
+
+}
+.clientsNum{
+    /* padding: 40px 60px; */
+    color: #fff;
 }

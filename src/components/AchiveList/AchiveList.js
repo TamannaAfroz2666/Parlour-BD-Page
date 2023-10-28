@@ -37,7 +37,6 @@ const AchiveList = () => {
                                 <div className="relaxedClients">
                                 <p className='clientRexNum' >4 <span className='upperRexNum'>8</span>71 <span className='upperRexPlus'>+</span></p>
                                     <p className='relaxedTitle'>Happy Clients</p>
-
                                 </div>
                             </div>
 
