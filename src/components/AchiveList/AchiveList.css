@@ -44,3 +44,18 @@
     width: 50px;  
 }
 /* icon part end  */
+
+.desAchieve{
+    font-size: 16px;
+    color: #11111177;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: justify;
+
+}
+
+/* clients part start */
+.reviewContent{
+    display: flex;
+    gap: 20p;
+}
