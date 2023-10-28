@@ -8,7 +8,7 @@ const RegularMember = () => {
         <div className='regularMember'>
             <div className="regularHead">
                 <img src={regular} alt="" />
-                <p className='regularPrice'>Regular Price</p>
+                <p className='regularPrice'>Regular Member</p>
                 <hr className='regularHr' color='tomato' />
                 <ul className='listRegular'>
                     <li className='titleRegular'>quality time your skin massaged </li>
@@ -18,12 +18,7 @@ const RegularMember = () => {
                     <li className='titleRegular'> salons have professional beauticians </li>
                 </ul>
                 <h1 className='pricingRegular'> <small className='smallPrice'>$</small>49 <small className='smallPrice'>/month</small></h1>
-                {/* <div className="btnRegular">
-                    <div className="iconAdd">
-
-                    </div>
-                    <button>Singup Now</button>
-                </div> */}
+               
                 <div className="btnSubRegular">
                     <div className="regularIcon1">
                         <span className='btnIconReg'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
@@ -31,7 +26,7 @@ const RegularMember = () => {
 
                     </div>
                     <div className="peiceRegBtn">
-                    <button className='btnSubInfoReg' type='button'>Subscription</button>
+                    <button className='btnSubInfoReg' type='button'>Singup Now</button>
                     </div>
 
                 </div>

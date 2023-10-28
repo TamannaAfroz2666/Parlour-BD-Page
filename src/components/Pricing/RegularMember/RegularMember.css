@@ -8,6 +8,7 @@
     /* border: 1px solid red; */
     height: 570px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
 }
 .regularHead img{
     width: 100px;
@@ -57,6 +58,7 @@
     color: tomato;
     font-weight: 600;
     text-transform: capitalize;
+   
 }
 .smallPrice{
     color: tomato;
@@ -64,7 +66,8 @@
 }
 /* ---------------   button work-----------  */
 .btnSubRegular{
-    margin: 0 0 3rem 4rem;
+    margin: 0 0 3rem 4.5rem;
+    border-radius: 25px;
 
 }
 .regularIcon1{
@@ -90,11 +93,9 @@
     background-color: tomato;
     border: 0;
     border-radius: 10px;
-    /* margin-left: 4rem; */
     margin: 0 0 3rem 0;
    
 }
-
 
 .btnSubInfoReg:hover{
     background-color: #FFA500;

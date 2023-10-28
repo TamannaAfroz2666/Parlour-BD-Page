@@ -2,6 +2,8 @@ import React from 'react';
 import './Pricing.css';
 import { BsFlower1 } from "react-icons/bs";
 import RegularMember from './RegularMember/RegularMember';
+import VipMember from './VipMember/VipMember';
+import PremiumMember from './PremiumMember/PremiumMember';
 
 const Pricing = () => {
     return (
@@ -27,9 +29,11 @@ const Pricing = () => {
 
                         </div>
                         <div className="vipMember">
+                            <VipMember></VipMember>
 
                         </div>
                         <div className="premiumMember">
+                            <PremiumMember></PremiumMember>
                             
                         </div>
                     </div>

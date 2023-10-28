@@ -41,6 +41,7 @@
 }
 /* contents  */
 .packageContents{
+    margin-top: 3rem;
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
