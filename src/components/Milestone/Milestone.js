@@ -14,37 +14,37 @@ const Milestone = () => {
                     <div className="milestoneContent">
                         <motion.div className="imageContent"
 
-                        initial={{
-                            opacity: 0,
-                            scale: 0,
-                            x: -50
-                        }}
-                        whileInView={{
-                            opacity: 1,
-                            scale: 1,
-                            x:0
-                        }}
-                        transition={{
-                            duration: 1
-                        }}
-                        
+                            initial={{
+                                opacity: 0,
+                                scale: 0,
+                                x: -50
+                            }}
+                            whileInView={{
+                                opacity: 1,
+                                scale: 1,
+                                x: 0
+                            }}
+                            transition={{
+                                duration: 1
+                            }}
+
                         >
                             <div className="imageOn">
-                            <img src={image} alt="loading....." />
+                                <img src={image} alt="loading....." />
 
                             </div>
-                          
+
 
                         </motion.div>
                         <div className="information">
                             <h1 className='informationTitle'>The Essence Of Health And <br /> Vitality In One Place</h1>
                             <div className='IconSort'>
                                 <div className="iconOfFlower">
-                                    <BsFlower1  size={20} color='tomato'/>
+                                    <BsFlower1 size={20} color='tomato' />
 
                                 </div>
                                 <div className="line">
-                                    <hr color='tomato' className='lineHr'/>
+                                    <hr color='tomato' className='lineHr' />
                                 </div>
 
                             </div>
@@ -56,19 +56,19 @@ const Milestone = () => {
                             <div className="itemsContent">
                                 <div className="cleaning">
                                     <p className='cleaningContent'>
-                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <PiRectangleFill size={20} color='tomato' />
                                         <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
                                     <p className='cleaningContent'>
-                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <PiRectangleFill size={20} color='tomato' />
                                         <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
                                     <p className='cleaningContent'>
-                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <PiRectangleFill size={20} color='tomato' />
                                         <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
                                     <p className='cleaningContent'>
-                                        <PiRectangleFill  size={20} color='tomato'/>
+                                        <PiRectangleFill size={20} color='tomato' />
                                         <span className='CleaningTitle'>Energy Cleaning Services</span>
                                     </p>
 
@@ -77,17 +77,17 @@ const Milestone = () => {
 
                             <div className="btnSubscription">
                                 <div className="btnIcon1">
-                                <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30}/>
-                            </span>
-                                    
+                                    <span className='btnIcon'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
+                                    </span>
+
                                 </div>
-                          {/* <div className=""> */}
-                          <button className='btnSubInfo' type='button'>Subscription</button>
-                          {/* </div> */}
-                              
+                                {/* <div className=""> */}
+                                <button className='btnSubInfo' type='button'>Subscription</button>
+                                {/* </div> */}
+
                             </div>
-                        
-                            
+
+
 
                         </div>
 
@@ -95,7 +95,7 @@ const Milestone = () => {
                 </div>
             </div>
 
-            
+
         </div>
     );
 };
