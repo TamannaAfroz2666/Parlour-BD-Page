@@ -8,21 +8,21 @@ const MakeBooking = () => {
             <div className="makeBookingHead">
                 <div className="bookingBody">
                     <div className="bookingContents">
-                        <div className="appoinment">
+                        <div className="appointment">
                             <p className='appointmentTitle'>Make Appointment</p>
-                            <div className='IconSort'>
+                            <div className='IconSortBooking'>
                                 <div className="iconOfFlower">
                                     <BsFlower1 size={20} color='tomato' />
 
                                 </div>
                                 <div className="line">
-                                    <hr color='tomato' className='lineHr' />
+                                    <hr color='tomato' className='lineHrBook' />
                                 </div>
 
                             </div>
 
                         </div>
-                        <div className="appoinmentInfo">
+                        <div className="appointmentInfo">
 
                         </div>
                     </div>

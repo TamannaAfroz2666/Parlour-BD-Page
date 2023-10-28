@@ -20,12 +20,29 @@
 .bookingContents{
     display: flex;
     gap: 40px;
-    /* margin-top: 3rem; */
-    height: 500px;
+}
+.appointment{
+    margin: 40px 0;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
 }
 .appointmentTitle{
     font-size: 30px;
     font-weight: 600;
-    padding: 30px 50px;
-    color: #111;
+    padding: 50px 0 5px 50px;
+    color: #111111ef;
 }
+/* icon part  */
+
+.IconSortBooking{
+    display: flex;
+    gap: 5px;
+    margin-left: 50px;
+}
+.lineHrBook{
+    margin: .5rem 0 0 0 ;
+    width: 50px;  
+}
+/* icon part end  */
