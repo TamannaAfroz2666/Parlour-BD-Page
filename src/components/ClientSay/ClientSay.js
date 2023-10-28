@@ -7,6 +7,7 @@ const ClientSay = () => {
             <div className="clientHead">
                 <div className="clientBody">
                     <h1 className='ClientTitle'>What Our Client Says</h1>
+                    
                 </div>
             </div>
             
