@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clientParent{
+    height: 100%;
+    width: 100%;
+}
+.clientHead{
+    width: 90%;
+    margin: auto;
+}
+.clientBody .ClientTitle{
+    
+}

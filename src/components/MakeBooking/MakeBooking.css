@@ -81,10 +81,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 13px;
 
 }
-.dateTime{
+.dateTimeHead{
     margin-top: 20px;
 }
-#dateTime{
+.dateTime{
     width: 380px;
     height: 40px;
     border: 0;

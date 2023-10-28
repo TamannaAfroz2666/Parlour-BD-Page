@@ -15,6 +15,7 @@
 .achieveContents{
     display: flex;
     gap: 3rem;
+    margin: 0 0 8rem 0;
 }
 .contentAcInfo{
     width: 550px;

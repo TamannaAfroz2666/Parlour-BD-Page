@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .custom-dropdown .calendar-input {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .custom-dropdown .calendar-widget {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+  }

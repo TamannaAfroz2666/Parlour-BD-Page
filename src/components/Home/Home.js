@@ -8,6 +8,7 @@ import ProvideList from 'components/ProvideList/ProvideList';
 import Pricing from 'components/Pricing/Pricing';
 import MakeBooking from 'components/MakeBooking/MakeBooking';
 import AchiveList from 'components/AchiveList/AchiveList';
+import ClientSay from 'components/ClientSay/ClientSay';
 // import playButton from '../../assets/image/arrowPlayButton.PNG'
 // import {  PiNavigationArrowBold } from "react-icons/pi";
 
@@ -20,6 +21,7 @@ const Home = () => {
                 <Pricing></Pricing>
                 <MakeBooking></MakeBooking>
                 <AchiveList></AchiveList>
+                <ClientSay></ClientSay>
 
                 {/* <Animation></Animation> */}
 

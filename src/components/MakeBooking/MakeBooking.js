@@ -5,6 +5,7 @@ import { HiOutlineChevronRight } from "react-icons/hi";
 import BookingInfo from './BookingInfo/BookingInfo';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import MakeCalander from './MakeCalander/MakeCalander';
 
 const MakeBooking = () => {
 
@@ -54,57 +55,14 @@ const MakeBooking = () => {
 
                                     <input type="text" name='name' value='' className='emailField' placeholder='Phone No.' autoComplete='off' />
                                 </div>
-                                <div className="dateTime">
-                                    {/* 
-                                    <input type="date" value={selectedDate} onChange={handleDateChange} />
-                                    <select value={selectedTime} onChange={handleTimeChange}>
-                                        <option value="morning">Morning</option>
-                                        <option value="afternoon">Afternoon</option>
-                                        <option value="evening">Evening</option>
-                                    </select> */}
-                                    <select name="dateTime" id="dateTime">
-                                    <input type="text" />
-                                   
-                                        <option className='optionName' value="selectedDate"  >Select the date
-                                  
-                                        <h1>
-
-                                      
-                                         <DatePicker
-                                            selected={selectedDate}
-                                            onChange={handleDateChange}
-                                            dateFormat="MM/dd/yyyy" // Customize the date format as needed
-                                        />
-                                          </h1>
-                                        </option>
-                                       
-
-                                    </select>
-
-                                    {/* <div> */}
-                                        {/* <select>
-                                            <option value="option1">Option 1</option>
-                                            <option value="option2">Option 2</option>
-                                            <option value="option3">Option 3</option>
-                                        </select> */}
-                                        {/* <input
-                                            type="text"
-                                            placeholder="Select a date"
-                                            value={selectedDate}
-                                            onChange={(e) => e.preventDefault()}
-                                        /> */}
-                                        {/* <DatePicker
-                                            selected={selectedDate}
-                                            onChange={handleDateChange}
-                                            dateFormat="MM/dd/yyyy" // Customize the date format as needed
-                                        /> */}
-                                    {/* </div> */}
-
-
-
-
-
+                                <div className="dateTimeHead">
+                                    <input
+                                        type="date"
+                                        placeholder="Select a date"
+                                        className='dateTime'
+                                    />
                                 </div>
+
                                 <div className="message">
                                     <input type="text" name='message' value='' className='messageField' placeholder='Message' autoComplete='off' />
                                 </div>
