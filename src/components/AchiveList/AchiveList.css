@@ -65,7 +65,7 @@
    width: 200px;
    height: 150px;
    margin: 10px 0 20px 10px;
-   background-image: url('../../assets/image/Background/bg7.jpg');
+   background-image: linear-gradient(to bottom, rgba(227, 228, 233, 0.52), #eee7e88e), url('../../assets/image/Background/bg7.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -74,5 +74,31 @@
 }
 .clientsNum{
     /* padding: 40px 60px; */
-    color: #fff;
+    color: #ffffff;
+    /* text-align: center; */
+    padding-left: 2.5rem;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+.upperNum{
+    /* padding: 0 0 10rem 0; */
+    bottom: .5rem;
+    right: .4rem;
+    position: relative;
+}
+.twoNum{
+    right: 1rem;
+    position: relative;
+
+}
+.upperPlus{
+    bottom: .5rem;
+    position: relative;
+    font-weight: 200;
+    right: 2rem;
+
 }

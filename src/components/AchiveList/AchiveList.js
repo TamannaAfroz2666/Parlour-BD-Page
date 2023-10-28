@@ -31,7 +31,7 @@ const AchiveList = () => {
                             {/* clients part start */}
                             <div className="reviewContent">
                                 <div className="happyClients">
-                                    <p className='clientsNum' >4 <span className='upperNum'>8</span>71 <span className='upperPlus'>+</span></p>
+                                    <p className='clientsNum' >4 <span className='upperNum'>8</span> <span className='twoNum'>71</span> <span className='upperPlus'>+</span></p>
                                     <p className='clientsTitle'>Happy Clients</p>
                                 </div>
                                 <div className="relaxedClients">
