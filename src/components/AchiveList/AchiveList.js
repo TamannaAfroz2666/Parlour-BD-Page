@@ -1,6 +1,7 @@
 import React from 'react';
 import './AchiveList.css';
 import { BsFlower1 } from "react-icons/bs";
+import image from '../../assets/image/add/spaStone.jpg'
 
 const AchiveList = () => {
     return (
@@ -49,6 +50,8 @@ const AchiveList = () => {
 
                         </div>
                         <div className="imageAc">
+                            <img src={image} alt="loading ..." />
+
 
                         </div>
 

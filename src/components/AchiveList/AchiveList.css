@@ -14,10 +14,11 @@
 }
 .achieveContents{
     display: flex;
-    gap: 20px;
+    gap: 3rem;
 }
 .contentAcInfo{
     width: 550px;
+    margin-left: 4rem;
 }
 
 .titleAc{
@@ -158,5 +159,17 @@
      text-align: center;
      color: #111;
      font-weight: 600;
+ }
+
+ /* image section  */
+
+ .imageAc{
+    margin-top: 3rem;
+ }
+ .imageAc img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
  }
 
