@@ -65,7 +65,7 @@
    width: 200px;
    height: 150px;
    margin: 10px 0 20px 10px;
-   background-image: linear-gradient(to bottom, rgba(227, 228, 233, 0.52), #eee7e88e), url('../../assets/image/Background/bg7.jpg');
+   background-image: linear-gradient(to bottom, rgba(227, 228, 233, 0.52), #221f208e), url('../../assets/image/Background/bg7.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -101,4 +101,10 @@
     font-weight: 200;
     right: 2rem;
 
+}
+.clientsTitle{
+    font-size: 20px;
+    text-align: center;
+    color: tomato;
+    font-weight: 500;
 }
