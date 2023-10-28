@@ -30,9 +30,9 @@ const RegularMember = () => {
                         </span>
 
                     </div>
-                    {/* <div className=""> */}
+                    <div className="peiceRegBtn">
                     <button className='btnSubInfoReg' type='button'>Subscription</button>
-                    {/* </div> */}
+                    </div>
 
                 </div>
 

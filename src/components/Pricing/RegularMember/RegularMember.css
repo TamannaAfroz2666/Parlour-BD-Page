@@ -5,8 +5,9 @@
 }
 .regularHead{
     width: 350px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 570px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .regularHead img{
     width: 100px;
@@ -90,7 +91,11 @@
     border: 0;
     border-radius: 10px;
     /* margin-left: 4rem; */
+    margin: 0 0 3rem 0;
+   
 }
-/* .btnSubInfoReg:hover {
-    background-color: rgb(150, 92, 17);
-} */
+
+
+.btnSubInfoReg:hover{
+    background-color: #FFA500;
+}
