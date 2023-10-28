@@ -1,6 +1,7 @@
 import React from 'react';
 import './ClientSay.css';
 import { BsFlower1 } from "react-icons/bs";
+import { FaCottonBureau } from "react-icons/fa";
 
 const ClientSay = () => {
     return (
@@ -21,11 +22,19 @@ const ClientSay = () => {
                             <hr color='tomato' className='clientLineTitle' />
                         </div>
                     </div>
-                     {/* icon add  end */}
+                    {/* icon add  end */}
+
+                    <div className="flowerIcon">
+                        <p className='flowerTitle'> <FaCottonBureau size={90} /> </p>
+                    </div>
+                    <div className="clientDesBody">
+                        
+
+                    </div>
 
                 </div>
             </div>
-            
+
         </div>
     );
 };
