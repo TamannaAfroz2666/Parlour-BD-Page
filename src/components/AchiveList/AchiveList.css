@@ -16,3 +16,16 @@
     display: flex;
     gap: 20px;
 }
+
+/* icon part  */
+
+.IconInfoAchive{
+    display: flex;
+    gap: 5px;
+   
+}
+.lineHrAchive{
+    margin: .5rem 0 0 0 ;
+    width: 50px;  
+}
+/* icon part end  */

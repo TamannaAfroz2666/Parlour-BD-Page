@@ -12,13 +12,13 @@ const AchiveList = () => {
                             <h1 className='titleAc'>What We Have Achieve In <br />This Past Year </h1>
 
                             {/* icon Flower start */}
-                            <div className='IconInfoBooking'>
+                            <div className='IconInfoAchive'>
                                 <div className="iconOfFlower">
                                     <BsFlower1 size={20} color='tomato' />
 
                                 </div>
                                 <div className="line">
-                                    <hr color='tomato' className='lineHrBook' />
+                                    <hr color='tomato' className='lineHrAchive' />
                                 </div>
 
                             </div>
