@@ -24,7 +24,7 @@
 .appointment{
     margin: 40px 0;
     width: 450px;
-    height: 480px;
+    height: 550px;
     background-color: white;
     border-radius: 10px;
 }
@@ -111,3 +111,43 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 13px;
 
 }
+/* input end design  */
+
+
+/* button working  */
+.btnBooking{
+    margin: 0 0 3rem 0px;
+    border-radius: 25px;
+
+}
+.btnBookIcon{
+    translate: -.6px  40px -60px;
+    margin-left: 5px;
+
+}
+.btnIconBook{
+    padding: 10px 5px 5px 5px;
+    background-color:rgba(211, 165, 79, 0.342);
+    border-radius: 10px;
+}
+
+.lineIconBok{
+    padding-top: 10px;
+}
+.peiceRegBtn button{
+    width: 200px;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: tomato;
+    border: 0;
+    border-radius: 10px;
+    /* margin: 0 0 8rem 0; */
+   
+}
+.peiceRegBtn:hover .btnSubInfoReg{
+    background-color: purple;
+}
+
+/* button working end */

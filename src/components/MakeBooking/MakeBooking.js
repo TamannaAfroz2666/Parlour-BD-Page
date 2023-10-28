@@ -1,6 +1,7 @@
 import React from 'react';
 import './MakeBooking.css';
 import { BsFlower1 } from "react-icons/bs";
+import { HiOutlineChevronRight } from "react-icons/hi";
 
 const MakeBooking = () => {
     return (
@@ -24,27 +25,39 @@ const MakeBooking = () => {
                             {/* icon Flower start */}
                             <div className="userContents">
                                 <div className="namePart">
-                                    <input type="text" name='name' value='' className='firstName'  placeholder='First Name' autoComplete='off' />
-                                    
-                                    <input type="text" name='name' value='' className='firstName'  placeholder='Last Name' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='firstName' placeholder='First Name' autoComplete='off' />
+
+                                    <input type="text" name='name' value='' className='firstName' placeholder='Last Name' autoComplete='off' />
                                 </div>
                                 <div className="emailPart">
-                                    <input type="text" name='name' value='' className='emailField'  placeholder='Email' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='emailField' placeholder='Email' autoComplete='off' />
 
-                                    <input type="text" name='name' value='' className='emailField'  placeholder='Phone No.' autoComplete='off' />
+                                    <input type="text" name='name' value='' className='emailField' placeholder='Phone No.' autoComplete='off' />
                                 </div>
                                 <div className="dateTime">
                                     <select name="dateTime" id="dateTime">
-                                        <option className='optionName'  value="date">date time
-                                        <input type="date" />
+                                        <option className='optionName' value="date">date time
+                                            <input type="date" />
 
                                         </option>
 
                                     </select>
-                                   
+
                                 </div>
                                 <div className="message">
-                                    <input type="text" name='message' value='' className='messageField'  placeholder='Message' autoComplete='off'  />
+                                    <input type="text" name='message' value='' className='messageField' placeholder='Message' autoComplete='off' />
+                                </div>
+
+                                <div className="btnBooking">
+                                    <div className="btnBookIcon">
+                                        <span className='btnIconBook'> <HiOutlineChevronRight className='lineIconBok' color='white' size={30} />
+                                        </span>
+
+                                    </div>
+                                    <div className="peiceRegBtn">
+                                        <button className='btnSubInfoReg' type='button'>Submit Now</button>
+                                    </div>
+
                                 </div>
 
                             </div>
