@@ -20,6 +20,18 @@
     width: 550px;
 }
 
+.titleAc{
+    font-size: 40px;
+   
+    font-weight: 700;
+    color: #111111e1;
+    text-transform: capitalize;
+    line-height: 50px;
+    padding: 0 0 5px 0;
+}
+.titleAc:hover{
+    color: tomato;
+}
 /* icon part  */
 
 .IconInfoAchive{
