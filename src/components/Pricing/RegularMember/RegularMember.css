@@ -12,3 +12,6 @@
 .regularHr{
     width: 200px;
 }
+.listRegular li{
+    list-style: none;
+}

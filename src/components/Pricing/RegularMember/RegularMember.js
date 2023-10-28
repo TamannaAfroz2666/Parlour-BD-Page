@@ -16,6 +16,7 @@ const RegularMember = () => {
                     <li className='sortRegular'>You get custom information </li>
                     <li className='titleRegular'> salons have professional beauticians </li>
                 </ul>
+                <h1 className='pricingRegular'> <small className='smallPrice'>$</small>49 <small className='smallPrice'>/month</small></h1>
 
             </div>
             
