@@ -41,3 +41,9 @@
 }
 
  /* icon add style end*/
+
+ .blogContents{
+    margin-top: 4rem;
+    display: flex;
+    gap: 40px;
+ }

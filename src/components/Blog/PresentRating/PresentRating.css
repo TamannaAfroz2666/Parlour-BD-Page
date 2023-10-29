@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imageInfo img{
+    width: 400px;
+    height: 250px;
+}
+.timeAndDate{
+    display: flex;
+    gap: 20px;
+}
+.dateRating{
+    display: inline-flex;
+    gap: 10px;
+}
