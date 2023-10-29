@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundHead{
+    height: 100%;
+    width: 100%;
+}
+
+.backgroundBody{
+    width: 90%;
+    margin: auto;
+}
