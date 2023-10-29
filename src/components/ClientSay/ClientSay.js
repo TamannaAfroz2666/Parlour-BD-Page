@@ -5,7 +5,7 @@ import { FaCottonBureau } from "react-icons/fa";
 import { PiQuotesBold } from "react-icons/pi";
 import { AiFillStar } from "react-icons/ai";
 import image from '../../assets/image/Background/2.jpg'
-import CardSlider from './CardSlider/CardSlider';
+// import CardSlider from './CardSlider/CardSlider';
 // import Carousel from 'react-bootstrap/Carousel';
 
 const ClientSay = () => {
