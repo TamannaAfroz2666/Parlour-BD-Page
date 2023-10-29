@@ -28,6 +28,17 @@
     display: flex;
     gap: 40px;
 }
+.lineBreak1{
+    width: 50px;
+    padding: 1px;
+   
+  
+   /* margin: 0 30px; */
+}
+.bg_titlesContent{
+    bottom: 1rem ;
+    position: relative;
+}
 .bgTitle{
     font-size: 12px;
     font-weight: 600;
@@ -35,6 +46,7 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     font-family: serif;
+    padding: 10px 0 0 0;
        
 }
 .bgSubTitle{
@@ -44,5 +56,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     font-family: serif;
+    bottom: 1rem;
+    position: relative;
 
 }
