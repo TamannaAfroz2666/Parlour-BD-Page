@@ -152,7 +152,24 @@
 }
 
 /* carsel item end  */
+/* #btnId{
+    right: 5rem;
+    position: relative;
 
-.hh{
-    margin-top: 10rem;
+} */
+#id{
+    right: 5rem;
+    position: relative;
+}
+#id2{
+    left: 5rem;
+    position: relative;
+}
+#btnId{
+    /* margin-right: 5rem; */
+    visibility: hidden;
+
+}
+#two{
+    visibility: hidden;
 }
