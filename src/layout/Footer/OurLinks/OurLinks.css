@@ -8,7 +8,7 @@
 .IconSortLinks{
     display: flex;
     gap: 5px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .lineHrFooter{
     margin: .6rem 0 0 0 ;
@@ -16,8 +16,20 @@
     padding: 1px; 
 }
 /* icon part end  */
+.linksOf{
+    margin: 20px 0rem 0 0;
+    right: 1.6rem;
+    position: relative;
+}
+.linksOfHead .subLinksOfHead{
+    list-style: none;
+    padding: 5px 0;
+}
+.subLinksOfHead a{
+    text-decoration: none;
+    font-size: 18px;
+  
+    color: #111111c7;
+    font-weight: 700;
 
-.linksOf .linksOfHead{
-    /* display: flex;
-    flex-direction: row; */
 }
