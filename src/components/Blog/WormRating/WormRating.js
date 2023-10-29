@@ -1,6 +1,6 @@
 import React from 'react';
 import './WormRating.css'
-import image from '../../../assets/image/Pictures/Blogs/23.jpg';
+import image from '../../../assets/image/Pictures/Blogs/HotSone.jpg';
 import { VscCalendar } from "react-icons/vsc";
 import { AiOutlineUser, AiOutlineRight } from "react-icons/ai";
 
@@ -17,14 +17,14 @@ const WormRating = () => {
                             <div className="presentDate">
                                 <div className="dateRating">
                                     <VscCalendar color='tomato' size={25} />
-                                    <p className='dateTitle'>7 March, 2020</p>
+                                    <p className='dateTitle'>5 March, 2023</p>
 
                                 </div>
                             </div>
                             <div className="userName">
                                 <div className="userRating">
                                     <AiOutlineUser color='tomato' size={25} />
-                                    <p className='userTitle'>By Jony Doe</p>
+                                    <p className='userTitle'>By Dev Niloy</p>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const WormRating = () => {
                             <hr color='red' className='lineBreak' />
                         </div>
                         <div className="ratingDesContent">
-                            <h1 className='desTitle'>Best Relaxation Body Massage </h1>
+                            <h1 className='desTitle'>Hot Stone Massage Therapy </h1>
                             <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
                         </div>
                         <div className="readMoreRating">
