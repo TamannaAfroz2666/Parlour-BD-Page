@@ -11,11 +11,9 @@
     height: 250px;
 }
 .timeAndDate{
-    /* width: 350px; */
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
-    /* justify-content: space-between; */
-    gap: 40px;
+    gap: 20px;
 }
 .dateRating{
     display: inline-flex;
@@ -29,10 +27,19 @@
 }
 
 
-
+/* user rating  */
 .userRating{
     display: inline-flex;
-    gap: 10px;
+    gap: 5px;
+}
+.userRating .userTitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111be;
 
-
+}
+/* ---------------------line breaker -------- */
+.lineBreak{
+    padding: 1px;
+   border-style: dotted;
 }
