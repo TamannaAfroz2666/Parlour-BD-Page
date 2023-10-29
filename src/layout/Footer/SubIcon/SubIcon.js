@@ -23,7 +23,7 @@ const SubIcon = () => {
                 </div>
                 
                 <div className="desFooter">
-                    <p>Our beauty spa not only offers skin care treatment. But also, many reliable spas offer massage therapies to soothe your body and release tension. Also, these therapies relieve muscle pain and improve blood flow. So you can get both mental and physical benefits from a reliable spa such as Nail Concept</p>
+                    <p className='footerDes'>Our beauty spa not only offers skin care treatment. But also, many reliable spas offer massage therapies to soothe your body and release tension. Also, these therapies relieve muscle pain and improve blood flow. So you can get both mental and physical benefits from a reliable spa such as Nail Concept</p>
                 </div>
                 <div className="socialLinks">
                     <div className="facebook">

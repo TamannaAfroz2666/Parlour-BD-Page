@@ -34,3 +34,10 @@
     position: relative;
     
 }
+.footerDes{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #111111ef;
+    text-align: justify;
+}
