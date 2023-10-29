@@ -28,16 +28,20 @@ const SubIcon = () => {
                 <div className="socialLinks">
                     <div className="facebook">
                         <a href="/facebook">
-                        <RiFacebookFill  color='white' size={25} className='fbIcon'/>
+                        <RiFacebookFill  color='white' size={30} className='fbIcon'/>
                         </a>
 
                     </div>
                     <div className="instagram">
+                        <a href="/instagram">
                     <FaInstagram  color='white' size={30} className='intIcon'/>
+                    </a>
 
                     </div>
                     <div className="twitter">
+                        <a href="/twitter">
                     <AiOutlineTwitter  color='white' size={30} className='intIcon'/>
+                    </a>
 
                     </div>
                 </div>

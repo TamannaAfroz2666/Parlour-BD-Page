@@ -13,8 +13,6 @@ const Footer = () => {
                         <div className="footerContents">
                             <div className="alisa">
                                 <SubIcon></SubIcon>
-                                
-
                             </div>
                             <div className="ourLinks">
 
