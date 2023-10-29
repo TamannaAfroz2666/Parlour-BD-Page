@@ -4,6 +4,7 @@ import './Footer.css';
 import SubIcon from './SubIcon/SubIcon';
 import OurLinks from './OurLinks/OurLinks';
 import OtherLinks from './OtherLinks/OtherLinks';
+import Location from './Location/Location';
 
 
 const Footer = () => {
@@ -26,6 +27,7 @@ const Footer = () => {
 
                             </div>
                             <div className="otherContacts">
+                                <Location></Location>
 
                             </div>
 
