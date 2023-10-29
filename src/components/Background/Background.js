@@ -9,7 +9,7 @@ const Background = () => {
                 <div className="backgroundContent">
                     <div className="contentsOfBg">
                         <div className="mushroomPart">
-                            <span> <GiMushrooms color='white' size={70} /> </span>
+                            <span className='mashIcon'> <GiMushrooms color='white' size={70} /> </span>
                             <div className="lineBreaker">
                                 <hr color='white' className='lineBreak1' />
                             </div>
