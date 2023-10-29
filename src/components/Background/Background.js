@@ -21,10 +21,11 @@ const Background = () => {
                         </div>
                         <div className="flowerPart">
                             <span> <GiFlowerPot color='white' size={70} /> </span>
-                            <p className='floral'>Flowral natural</p>
                             <div className="lineBreaker">
                                 <hr color='white' className='lineBreak1' />
                             </div>
+                            <p className='floral'>Flowral natural</p>
+                            
                             <p className='botanicalTitle'>botanical</p>
 
 

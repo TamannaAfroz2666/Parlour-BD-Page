@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    margin: 0rem 0 4rem 0;
+    /* margin: 0rem 0 4rem 0; */
    
 }
 .backgroundContent{
@@ -72,7 +72,9 @@
 
 }
 /* flower section  */
-
+.flowerPart{
+    margin-top: 2rem;
+}
 .floral{
     font-size: 12px;
     font-weight: 600;
@@ -80,7 +82,9 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     font-family: serif;
-    padding: 10px 0 0 0;
+    right: 2.5rem;
+    position: relative;
+   
 }
 .botanicalTitle{
     font-size: 10px;
@@ -94,6 +98,10 @@
 
 }
 /* HARBAL  */
+.leafPart{
+    margin-top: 2rem;
+    
+}
 .herbal{
     font-size: 12px;
     font-weight: 600;
@@ -102,10 +110,15 @@
     letter-spacing: 6px;
     font-family: serif;
     padding: 10px 0 0 0;
+    right: 1rem;
+    position: relative;
 
 
 }
 /* forest  */
+.graphsPart{
+    margin-top: 2rem;
+}
 .forestia{
     font-size: 12px;
     font-weight: 600;
@@ -114,5 +127,7 @@
     letter-spacing: 6px;
     font-family: serif;
     padding: 10px 0 0 0;
+    right: 1rem;
+    position: relative;
 
 }
