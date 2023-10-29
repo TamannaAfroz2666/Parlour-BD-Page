@@ -7,9 +7,42 @@
 .backgroundHead{
     height: 100%;
     width: 100%;
+   
 }
 
 .backgroundBody{
+    background-image: linear-gradient(to bottom right, rgba(71, 62, 62, 0.185), rgba(245, 245, 240, 0.349)), url('../../assets/image/Pictures/Blogs/light.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin: 0rem 0 4rem 0;
+   
+}
+.backgroundContent{
     width: 90%;
     margin: auto;
+
+}
+.contentsOfBg{
+    display: flex;
+    gap: 40px;
+}
+.bgTitle{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: serif;
+       
+}
+.bgSubTitle{
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: serif;
+
 }
