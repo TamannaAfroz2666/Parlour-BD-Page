@@ -7,6 +7,10 @@
     height: 100%;
     width: 100%;
 }
+.footerHead{
+    background-color: aquamarine;
+
+}
 .footerMain{
     width: 90%;
     margin: auto;
