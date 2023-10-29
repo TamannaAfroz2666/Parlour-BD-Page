@@ -11,7 +11,11 @@ const SubIcon = () => {
         <div className='subIcon'>
             <div className="alisaIcon">
                 <div className="iconContentsSub">
-                <span className='footerIcon'> <GiInterleavedClaws color='tomato' size={50} /> </span>
+                    <a href="/home">
+                    <span className='footerIcon'> <GiInterleavedClaws color='tomato' size={50} /> </span>
+
+                    </a>
+               
                 <div className="titleSubFooter">
                     <h1 className='companyTitle'>Alisa</h1>
                     <p className='companySubTitle'>Beauty and Spa</p>
