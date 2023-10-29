@@ -36,6 +36,7 @@ const Background = () => {
                         </div>
                         <div className="graphsPart">
                             <span> <GiGrapes color='white' size={70} /> </span>
+                            <p className='forestia'>forestia</p>
 
                         </div>
                     </div>
