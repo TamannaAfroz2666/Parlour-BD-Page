@@ -32,7 +32,7 @@ const PresentRating = () => {
                     </div>
                     <div className="ratingDesContent">
                        <h1 className='desTitle'>Best Relaxation Body Massage Therapy</h1>
-                       <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress. A full body massage will typically include the back, legs, arms, head, shoulders, and feet.</p>
+                       <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
                     </div>
                    
 

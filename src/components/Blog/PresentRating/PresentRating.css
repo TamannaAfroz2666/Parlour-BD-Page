@@ -43,3 +43,21 @@
     padding: 1px;
    border-style: dotted;
 }
+
+.ratingDesContent{
+    margin-top: 10px;
+}
+.desTitle{
+    font-size: 25px;
+    padding: 0 5px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 40px;
+    color: #111111ea;
+}
+.desContent{
+    font-size: 16px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
