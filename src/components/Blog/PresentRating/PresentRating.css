@@ -61,3 +61,12 @@
     line-height: 30px;
     text-align: justify;
 }
+.readMoreRating a{
+    text-decoration: none;
+    font-size: 16px;
+    color: tomato;
+    padding: 2px;
+}
+.moreLink{
+    padding:  0 0 0 5px;
+}
