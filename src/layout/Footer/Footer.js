@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Footer.css';
+import SubIcon from './SubIcon/SubIcon';
 
 
 const Footer = () => {
@@ -11,6 +12,7 @@ const Footer = () => {
                     <div className="footerBody">
                         <div className="footerContents">
                             <div className="alisa">
+                                <SubIcon></SubIcon>
                                 
 
                             </div>
