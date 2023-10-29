@@ -3,17 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+.presentRtHead{
+    width: 400px;
+}
 .imageInfo img{
     width: 400px;
     height: 250px;
 }
 .timeAndDate{
+    /* width: 350px; */
+    margin-top: 20px;
     display: flex;
-    gap: 20px;
+    /* justify-content: space-between; */
+    gap: 40px;
 }
 .dateRating{
     display: inline-flex;
-    gap: 10px;
+    gap: 5px;
+    margin: 0 20px;
+}
+.dateTitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111be;
 }
 
 
