@@ -2,6 +2,7 @@ import React from 'react';
 import './Blog.css';
 import { BsFlower1 } from "react-icons/bs";
 import PresentRating from './PresentRating/PresentRating';
+import WormRating from './WormRating/WormRating';
 
 const Blog = () => {
     return (
@@ -30,6 +31,7 @@ const Blog = () => {
 
                             </div>
                             <div className="wormRating">
+                                <WormRating></WormRating>
 
                             </div>
                             <div className="mindRating">

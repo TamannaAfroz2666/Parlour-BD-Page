@@ -5,6 +5,7 @@
 }
 .presentRtHead{
     width: 400px;
+    box-shadow: rgba(187, 40, 40, 0.35) 0px 5px 15px;
 }
 .imageInfo img{
     width: 400px;
