@@ -41,3 +41,22 @@
     color: #111111ef;
     text-align: justify;
 }
+.socialLinks{
+    display: flex;
+    gap: 1rem;
+    margin: 1px 0 2rem 0;
+}
+.facebook{
+    padding: 6px;
+    background-color: rgba(255, 99, 71, 0.877);
+    border-radius: 100px;
+
+}
+.facebook a{
+    text-decoration: none;
+}
+.facebook:hover{
+    background-color: #111111b6;
+}
+
+
