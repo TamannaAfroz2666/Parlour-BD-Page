@@ -16,10 +16,11 @@ const Footer = () => {
                                 <SubIcon></SubIcon>
                             </div>
                             <div className="ourLinks">
+                            <OurLinks></OurLinks>
 
                             </div>
                             <div className="otherLinks">
-                                <OurLinks></OurLinks>
+                             
 
                             </div>
                             <div className="otherContacts">

@@ -9,16 +9,7 @@ import MakeCalander from './MakeCalander/MakeCalander';
 
 const MakeBooking = () => {
 
-    // const [selectedDate, setSelectedDate] = useState('');
-    // const [selectedTime, setSelectedTime] = useState('');
-
-    // const handleDateChange = (e) => {
-    //   setSelectedDate(e.target.value);
-    // };
-
-    // const handleTimeChange = (e) => {
-    //   setSelectedTime(e.target.value);
-    // };
+   
 
     const [selectedDate, setSelectedDate] = useState(null);
 
