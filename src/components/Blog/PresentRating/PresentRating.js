@@ -2,6 +2,7 @@ import React from 'react';
 import './PresentRating.css';
 import image from '../../../assets/image/Pictures/Blogs/23.jpg';
 import { VscCalendar } from "react-icons/vsc";
+import { AiOutlineUser } from "react-icons/ai";
 
 const PresentRating = () => {
     return (
@@ -18,13 +19,13 @@ const PresentRating = () => {
                             <p className='dateTitle'>7 March, 2020</p>
 
                             </div>
-                            
-                           
-
-                        
-
                         </div>
                         <div className="userName">
+                            <div className="userRating">
+                                <AiOutlineUser color='tomato' size={25}/>
+                                <p>By Jony Doe</p>
+                            </div>
+
 
                         </div>
                     </div>
