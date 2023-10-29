@@ -17,14 +17,14 @@ const ClientSay = () => {
                     {/* icon add  */}
                     <div className="clientLine">
                         <div className="lineContentHead">
-                            <hr color='tomato' className='clientLineTitle' />
+                            <hr color='tomato' className='clientLineTitle1' />
                         </div>
 
                         <div className="iconOfFlower">
                             <BsFlower1 size={20} color='tomato' />
                         </div>
                         <div className="lineContentHead">
-                            <hr color='tomato' className='clientLineTitle' />
+                            <hr color='tomato' className='clientLineTitle1' />
                         </div>
                     </div>
                     {/* icon add  end */}

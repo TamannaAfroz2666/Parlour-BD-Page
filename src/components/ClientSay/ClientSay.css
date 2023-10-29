@@ -14,9 +14,11 @@
 .clientHead{
     width: 90%;
     margin: auto;
+        /* margin: 0 0 8rem 0; */
 }
 .clientBody{
-    height: 800px;
+    height: 900px;
+    /* margin: 0 0 8rem 0; */
 }
 .clientBody .ClientTitle{
     font-size: 45px;
@@ -38,9 +40,11 @@
     gap: 5px;
     justify-content: center;
 }
-.clientLineTitle{
+.clientLineTitle1{
     width: 50px;
-    margin-top: .5rem;
+    margin-top: .8rem;
+
+   
 }
 
  /* icon add style end*/
