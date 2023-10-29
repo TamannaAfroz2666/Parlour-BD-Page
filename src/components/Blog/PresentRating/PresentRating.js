@@ -32,7 +32,7 @@ const PresentRating = () => {
                         <hr color='red' className='lineBreak' />
                     </div>
                     <div className="ratingDesContent">
-                        <h1 className='desTitle'>Best Relaxation Body Massage Therapy</h1>
+                        <h1 className='desTitle'>Best Relaxation Body Massage </h1>
                         <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
                     </div>
                     <div className="readMoreRating">
@@ -42,7 +42,7 @@ const PresentRating = () => {
 
                         </Link> */}
                         <a href="/more">
-                        <AiOutlineRight  color='tomato' size={15} />
+                        <AiOutlineRight   size={15} className='iconRate' />
                         <span className='moreLink'>  Read More</span>
                           
 

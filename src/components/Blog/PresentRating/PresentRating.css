@@ -3,23 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+.presentRating{
+    height: 100%;
+    width: 100%;
+    margin: 0 0 4rem 0;
+}
 .presentRtHead{
-    width: 400px;
+    width: 380px;
     box-shadow: rgba(187, 40, 40, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    height: 750px;
+}
+.presentRtBody{
+    margin: 10px 0 4rem 0;
+}
+.imageInfo{
+    margin: 0rem 0 0 2rem;
 }
 .imageInfo img{
-    width: 400px;
+    margin: 2rem 0 1rem 0;
+    width: 320px;
     height: 250px;
+    border-radius: 10px;
 }
 .timeAndDate{
-    margin: 20px 0;
+    margin: 20px 20px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .dateRating{
     display: inline-flex;
     gap: 5px;
-    margin: 0 20px;
+    
 }
 .dateTitle{
     font-size: 18px;
@@ -32,6 +47,7 @@
 .userRating{
     display: inline-flex;
     gap: 5px;
+
 }
 .userRating .userTitle{
     font-size: 18px;
@@ -43,15 +59,16 @@
 .lineBreak{
     padding: 1px;
    border-style: dotted;
+   margin: 0 30px;
 }
 
 .ratingDesContent{
-    margin-top: 10px;
+    margin: 10px 20px 0 20px;
 }
 .desTitle{
-    font-size: 25px;
+    font-size: 30px;
     padding: 0 5px;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     line-height: 40px;
     color: #111111ea;
@@ -62,12 +79,23 @@
     line-height: 30px;
     text-align: justify;
 }
+.readMoreRating{
+    margin: 20px 20px;
+}
 .readMoreRating a{
     text-decoration: none;
     font-size: 16px;
     color: tomato;
-    padding: 2px;
+    font-weight: 500;
+    
+    /* padding: 3rem 0; */
 }
-.moreLink{
-    padding:  0 0 0 5px;
+.iconRate{
+    color: tomato;
+}
+.readMoreRating:hover .moreLink,
+.readMoreRating:hover .iconRate
+{
+    color: #111;
+    
 }
