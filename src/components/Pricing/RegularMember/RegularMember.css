@@ -6,7 +6,7 @@
 .regularHead{
     width: 350px;
     /* border: 1px solid red; */
-    height: 570px;
+    height: 590px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
 }
@@ -66,8 +66,10 @@
 }
 /* ---------------   button work-----------  */
 .btnSubRegular{
-    margin: 0 0 3rem 4.5rem;
+    margin: 0 0 0rem 4.5rem;
     border-radius: 25px;
+    bottom: 1rem;
+    position: relative;
 
 }
 .regularIcon1{
@@ -83,6 +85,8 @@
 
 .outlineIcon{
     padding-top: 10px;
+    bottom: .5rem;
+    position: relative;
 }
 .btnSubRegular button{
     width: 200px;
@@ -93,7 +97,7 @@
     background-color: tomato;
     border: 0;
     border-radius: 10px;
-    margin: 0 0 8rem 0;
+ 
    
 }
 
