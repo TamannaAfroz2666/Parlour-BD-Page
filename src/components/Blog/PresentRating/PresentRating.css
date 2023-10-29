@@ -73,6 +73,9 @@
     line-height: 40px;
     color: #111111ea;
 }
+.desTitle:hover{
+    color: tomato;
+}
 .desContent{
     font-size: 16px;
     padding: 10px;
