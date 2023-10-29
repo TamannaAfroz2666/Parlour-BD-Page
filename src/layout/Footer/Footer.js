@@ -3,6 +3,7 @@ import React from 'react';
 import './Footer.css';
 import SubIcon from './SubIcon/SubIcon';
 import OurLinks from './OurLinks/OurLinks';
+import OtherLinks from './OtherLinks/OtherLinks';
 
 
 const Footer = () => {
@@ -20,6 +21,7 @@ const Footer = () => {
 
                             </div>
                             <div className="otherLinks">
+                                <OtherLinks></OtherLinks>
                              
 
                             </div>
