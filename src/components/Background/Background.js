@@ -10,7 +10,6 @@ const Background = () => {
                     <div className="contentsOfBg">
                         <div className="mushroomPart">
                             <span> <GiMushrooms color='white' size={70} /> </span>
-                            {/* <span className='bgHrHead'> <hr className='bgHr'/> </span> */}
                             <div className="lineBreaker">
                                 <hr color='white' className='lineBreak1' />
                             </div>
@@ -19,11 +18,15 @@ const Background = () => {
                                 <p className='bgSubTitle'>Products</p>
 
                             </div>
-
-
                         </div>
                         <div className="flowerPart">
                             <span> <GiFlowerPot color='white' size={70} /> </span>
+                            <p className='floral'>Flowral natural</p>
+                            <div className="lineBreaker">
+                                <hr color='white' className='lineBreak1' />
+                            </div>
+                            <p className='botanicalTitle'>botanical</p>
+
 
                         </div>
                         <div className="leafPart">
