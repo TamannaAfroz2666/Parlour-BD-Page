@@ -19,6 +19,25 @@ const OurLinks = () => {
 
                 </div>
                 {/* icon Flower start */}
+                <div className="linksOf">
+                    <ul className='linksOfHead'>
+                        <li className='subLinksOfHead'>
+                            <a href="/home"> Home</a>
+                        </li>
+                        <li className='subLinksOfHead'>
+                            <a href="/about"> About Us</a>
+                        </li>
+                        <li className='subLinksOfHead'>
+                            <a href="/services"> Services</a>
+                        </li >
+                        <li className='subLinksOfHead'>
+                            <a href="/appoiment"> Appoiment</a>
+                        </li>
+                        <li className='subLinksOfHead'>
+                            <a href="/blog"> Blog</a>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
 
