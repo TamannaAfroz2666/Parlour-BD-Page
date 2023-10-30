@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* mobile info start */
 .pi{
     padding: 6px;
     background-color: tomato;
@@ -19,6 +20,32 @@
     
 }
 .number_of{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    bottom: 1rem;
+    position: relative;
+
+}
+/* mobile info end */
+.emailInfo{
+    display: flex;
+    gap: 5px;
+    bottom: 1rem;
+    position: relative;
+}
+.piEmail{
+    padding: 6px;
+    background-color: tomato;
+    border-radius: 100px;
+}
+.emailOf_Title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    
+}
+.email_of{
     font-size: 16px;
     font-weight: 600;
     color: #111111af;
