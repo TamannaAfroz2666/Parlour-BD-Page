@@ -11,9 +11,9 @@ const MakeBooking = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
-    const [number, setNumber] = useState ()
+    const [number, setNumber] = useState()
     const [selectedDate, setSelectedDate] = useState();
-    const [message, setMessage] = useState ('');
+    const [message, setMessage] = useState('');
 
     return (
         <div className='makeBooking'>
@@ -34,28 +34,50 @@ const MakeBooking = () => {
 
                             </div>
                             {/* icon Flower start */}
-                            <form action="">
+                            <form action="" >
                                 <div className="userContents">
                                     <div className="namePart">
-                                        <input type="text" name='name' value='' className='firstName' placeholder='First Name' autoComplete='off'  />
+                                        <input type="text" name='name' value={firstName} className='firstName' placeholder='First Name' autoComplete='off' onChange={(e) => setFirstName(e.target.value)} />
 
-                                        <input type="text" name='name' value='' className='firstName' placeholder='Last Name' autoComplete='off' />
+                                        <input type="text" name='name' value={lastName} className='firstName' placeholder='Last Name' autoComplete='off' onChange={(e) => setLastName(e.target.value)} />
                                     </div>
                                     <div className="emailPart">
-                                        <input type="text" name='name' value='' className='emailField' placeholder='Email' autoComplete='off' />
+                                        <input
+                                            type="text"
+                                            name='name'
+                                            value={email}
+                                            className='emailField' placeholder='Email'
+                                            autoComplete='off'
+                                            onChange={(e) => setEmail(e.target.value)}
+                                        />
 
-                                        <input type="text" name='name' value='' className='emailField' placeholder='Phone No.' autoComplete='off' />
+                                        <input
+                                            type="text"
+                                            name='name'
+                                            value={number}
+                                            className='emailField' placeholder='Phone No.' autoComplete='off'
+                                            onChange={(e) => setNumber(e.target.value)}
+                                        />
                                     </div>
                                     <div className="dateTimeHead">
                                         <input
                                             type="date"
                                             placeholder="Select a date"
                                             className='dateTime'
+                                            value={selectedDate}
+                                            onChange={(e) => setSelectedDate(e.target.value)}
                                         />
                                     </div>
 
                                     <div className="message">
-                                        <input type="text" name='message' value='' className='messageField' placeholder='Message' autoComplete='off' />
+                                        <input
+                                            type="text"
+                                            name='message'
+                                            value={message}
+                                            className='messageField' placeholder='Message'
+                                            autoComplete='off'
+                                            onChange={(e) => setMessage(e.target.value)}
+                                        />
                                     </div>
 
                                     <div className="btnBooking">
