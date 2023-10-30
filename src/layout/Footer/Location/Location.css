@@ -8,3 +8,21 @@
     background-color: tomato;
     border-radius: 100px;
 }
+.mobileInfo{
+    display: flex;
+    gap: 5px;
+}
+.numberOf_Title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    
+}
+.number_of{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    bottom: 1rem;
+    position: relative;
+
+}
