@@ -8,14 +8,13 @@ import 'react-datepicker/dist/react-datepicker.css';
 import MakeCalander from './MakeCalander/MakeCalander';
 
 const MakeBooking = () => {
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [number, setNumber] = useState ()
+    const [selectedDate, setSelectedDate] = useState();
+    const [message, setMessage] = useState ('');
 
-   
-
-    const [selectedDate, setSelectedDate] = useState(null);
-
-    const handleDateChange = (date) => {
-        setSelectedDate(date);
-    };
     return (
         <div className='makeBooking'>
             <div className="makeBookingHead">
@@ -35,42 +34,44 @@ const MakeBooking = () => {
 
                             </div>
                             {/* icon Flower start */}
-                            <div className="userContents">
-                                <div className="namePart">
-                                    <input type="text" name='name' value='' className='firstName' placeholder='First Name' autoComplete='off' />
+                            <form action="">
+                                <div className="userContents">
+                                    <div className="namePart">
+                                        <input type="text" name='name' value='' className='firstName' placeholder='First Name' autoComplete='off'  />
 
-                                    <input type="text" name='name' value='' className='firstName' placeholder='Last Name' autoComplete='off' />
-                                </div>
-                                <div className="emailPart">
-                                    <input type="text" name='name' value='' className='emailField' placeholder='Email' autoComplete='off' />
-
-                                    <input type="text" name='name' value='' className='emailField' placeholder='Phone No.' autoComplete='off' />
-                                </div>
-                                <div className="dateTimeHead">
-                                    <input
-                                        type="date"
-                                        placeholder="Select a date"
-                                        className='dateTime'
-                                    />
-                                </div>
-
-                                <div className="message">
-                                    <input type="text" name='message' value='' className='messageField' placeholder='Message' autoComplete='off' />
-                                </div>
-
-                                <div className="btnBooking">
-                                    <div className="btnBookIcon">
-                                        <span className='btnIconBook'> <HiOutlineChevronRight className='lineIconBok' color='white' size={30} />
-                                        </span>
-
+                                        <input type="text" name='name' value='' className='firstName' placeholder='Last Name' autoComplete='off' />
                                     </div>
-                                    <div className="peiceRegBtn">
-                                        <button className='btnSubInfoReg' type='button'>Submit Now</button>
+                                    <div className="emailPart">
+                                        <input type="text" name='name' value='' className='emailField' placeholder='Email' autoComplete='off' />
+
+                                        <input type="text" name='name' value='' className='emailField' placeholder='Phone No.' autoComplete='off' />
+                                    </div>
+                                    <div className="dateTimeHead">
+                                        <input
+                                            type="date"
+                                            placeholder="Select a date"
+                                            className='dateTime'
+                                        />
                                     </div>
 
-                                </div>
+                                    <div className="message">
+                                        <input type="text" name='message' value='' className='messageField' placeholder='Message' autoComplete='off' />
+                                    </div>
 
-                            </div>
+                                    <div className="btnBooking">
+                                        <div className="btnBookIcon">
+                                            <span className='btnIconBook'> <HiOutlineChevronRight className='lineIconBok' color='white' size={30} />
+                                            </span>
+
+                                        </div>
+                                        <div className="peiceRegBtn">
+                                            <button className='btnSubInfoReg' type='button'>Submit Now</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </form>
 
 
 
