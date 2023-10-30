@@ -15,6 +15,17 @@ const MakeBooking = () => {
     const [selectedDate, setSelectedDate] = useState();
     const [message, setMessage] = useState('');
 
+    const dataSubmit = (e) =>{
+        e.preventDefault();
+        console.log('data is here');
+        console.log('first name is', firstName);
+        console.log('last name is', lastName);
+        console.log('email id is', email);
+        console.log('phone number is', number);
+        console.log('date :', selectedDate);
+        console.log('message: ', message);
+    }
+
     return (
         <div className='makeBooking'>
             <div className="makeBookingHead">
@@ -34,7 +45,7 @@ const MakeBooking = () => {
 
                             </div>
                             {/* icon Flower start */}
-                            <form action="" >
+                            <form  >
                                 <div className="userContents">
                                     <div className="namePart">
                                         <input type="text" name='name' value={firstName} className='firstName' placeholder='First Name' autoComplete='off' onChange={(e) => setFirstName(e.target.value)} />
@@ -47,7 +58,7 @@ const MakeBooking = () => {
                                             name='name'
                                             value={email}
                                             className='emailField' placeholder='Email'
-                                            autoComplete='off'
+                                            // autoComplete='off'
                                             onChange={(e) => setEmail(e.target.value)}
                                         />
 
@@ -82,12 +93,14 @@ const MakeBooking = () => {
 
                                     <div className="btnBooking">
                                         <div className="btnBookIcon">
-                                            <span className='btnIconBook'> <HiOutlineChevronRight className='lineIconBok' color='white' size={30} />
-                                            </span>
+                                            {/* <span className='btnIconBook'> <HiOutlineChevronRight className='lineIconBok' color='white' size={30} />
+                                            </span> */}
 
                                         </div>
                                         <div className="peiceRegBtn">
-                                            <button className='btnSubInfoReg' type='button'>Submit Now</button>
+                                            <button className='btnSubInfoReg' 
+                                            onClick={dataSubmit}
+                                            type='submit'>Submit Now</button>
                                         </div>
 
                                     </div>

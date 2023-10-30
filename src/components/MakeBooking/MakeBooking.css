@@ -134,6 +134,11 @@
 
 .lineIconBok{
     padding-top: 10px;
+    bottom: .5rem;
+    position: relative;
+}
+.peiceRegBtn{
+    margin-top: 20px;
 }
 .peiceRegBtn button{
     width: 200px;
