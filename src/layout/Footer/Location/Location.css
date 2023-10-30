@@ -3,17 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.locationContents{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
 
-/* mobile info start */
-.pi{
-    padding: 6px;
-    background-color: tomato;
-    border-radius: 100px;
 }
+/* mobile info start */
 .mobileInfo{
+    margin: 2rem 1rem 0 2rem;
     display: flex;
     gap: 5px;
 }
+.numberIcon{
+    margin-top: 2rem;
+}
+.numberInfo{
+    margin-top: 2rem;
+
+}
+.pi{
+    padding: 6px;
+    background-color: rgba(255, 99, 71, 0.808);
+    border-radius: 100px;
+}
+
 .numberOf_Title{
     font-size: 16px;
     font-weight: 600;
@@ -35,10 +49,12 @@
     gap: 5px;
     bottom: 1rem;
     position: relative;
+    margin: 0rem 1rem 0 2rem;
 }
+
 .piEmail{
     padding: 6px;
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.808);
     border-radius: 100px;
 }
 .emailOf_Title{
@@ -63,10 +79,11 @@
     gap: 5px;
     bottom: 2rem;
     position: relative;
+    margin: 0rem 1rem 0 2rem;
 }
 .piAddress{
     padding: 6px;
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.808);
     border-radius: 100px;
 }
 .addressOf_Title{

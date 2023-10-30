@@ -5,6 +5,8 @@ import SubIcon from './SubIcon/SubIcon';
 import OurLinks from './OurLinks/OurLinks';
 import OtherLinks from './OtherLinks/OtherLinks';
 import Location from './Location/Location';
+import { AiOutlineCopyrightCircle } from "react-icons/ai";
+
 
 
 const Footer = () => {
@@ -32,6 +34,7 @@ const Footer = () => {
                             </div>
 
                         </div>
+                        <p className='footer_title'>Copyright <span> <AiOutlineCopyrightCircle size={14} color='black'/> 2023 <span className='lesName'>Alisa</span> </span>.All rights reserved </p>
                     </div>
                 </div>
             </div>
