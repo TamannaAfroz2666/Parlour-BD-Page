@@ -26,13 +26,13 @@ const Location = () => {
                     </div>
 
                 </div>
-                <div className="mobileInfo">
+                <div className="addressInfo">
                     <div className="numberIcon">
-                       <span className='pi'> <PiPhoneCallFill size={20} color='white'/>  </span>
+                       <span className='piAddress'> <PiPhoneCallFill size={20} color='white'/>  </span>
                     </div>
                     <div className="numberInfo">
-                        <p className='numberOf_Title'>1800-880-3214</p>
-                        <p className='number_of'>+131 667 8645</p>
+                        <p className='addressOf_Title'>170/7, rup para,15 phase</p>
+                        <p className='address_of'>Mohammadpur,Dhaka,Bangladesh</p>
                     </div>
 
                 </div>

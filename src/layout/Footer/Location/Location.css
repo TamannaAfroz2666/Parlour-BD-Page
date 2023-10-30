@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* mobile info start */
 .pi{
     padding: 6px;
@@ -28,6 +29,7 @@
 
 }
 /* mobile info end */
+/* email part start  */
 .emailInfo{
     display: flex;
     gap: 5px;
@@ -46,6 +48,34 @@
     
 }
 .email_of{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    bottom: 1rem;
+    position: relative;
+
+}
+/* email part end  */
+
+/* address part start  */
+.addressInfo{
+    display: flex;
+    gap: 5px;
+    bottom: 2rem;
+    position: relative;
+}
+.piAddress{
+    padding: 6px;
+    background-color: tomato;
+    border-radius: 100px;
+}
+.addressOf_Title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111af;
+    
+}
+.address_of{
     font-size: 16px;
     font-weight: 600;
     color: #111111af;
