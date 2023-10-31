@@ -25,6 +25,10 @@
     padding: 20px 0;
     text-align: center;
 }
+.regularPrice:hover{
+    color: tomato;
+
+}
 .regularHr{
     width: 320px;
     background-image: linear-gradient(to right, rgba(245, 245, 245, 0.226) , rgba(245, 245, 245, 0.055));
