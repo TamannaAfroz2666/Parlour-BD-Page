@@ -6,8 +6,10 @@ import {result} from '../../../Utilies/data';
 import { useState } from 'react';
 
 const RegularMember = () => {
+
     const [applyData, setApplyData] = useState(result);
-    console.log('data is ', result)
+    console.log('data is ', result);
+
     return (
         <div className='regularMember'>
             <div className="regularHead">
@@ -16,12 +18,12 @@ const RegularMember = () => {
                 <hr className='regularHr' color='tomato' />
                 <ul className='listRegular'>
                     <li className='titleRegular'>{applyData.regularMember.title1}</li>
-                    <li className='sortRegular'>hair styled </li>
-                    <li className='titleRegular'> best care for your skin and body </li>
-                    <li className='sortRegular2'>You get custom information </li>
-                    <li className='titleRegular'> salons have professional beauticians </li>
+                    <li className='sortRegular'>{applyData.regularMember.title2} </li>
+                    <li className='titleRegular'> {applyData.regularMember.title3}</li>
+                    <li className='sortRegular2'>{applyData.regularMember.title4} </li>
+                    <li className='titleRegular'> {applyData.regularMember.title5} </li>
                 </ul>
-                <h1 className='pricingRegular'> <small className='smallPrice'>$</small>49 <small className='smallPrice'>/month</small></h1>
+                <h1 className='pricingRegular'> <small className='smallPrice'>$</small>{applyData.regularMember.price} <small className='smallPrice'>/month</small></h1>
 
                 <div className="btnSubRegular">
                     {/* <div className="regularIcon1">
