@@ -7,8 +7,15 @@ import { AiFillStar } from "react-icons/ai";
 import image from '../../assets/image/Background/2.jpg'
 // import CardSlider from './CardSlider/CardSlider';
 // import Carousel from 'react-bootstrap/Carousel';
+import data from '../../Utilies/ClientSay.json'
 
 const ClientSay = () => {
+    // console.log('');
+
+
+
+
+
     return (
         <div className='clientParent'>
             <div className="clientHead">
@@ -48,9 +55,54 @@ const ClientSay = () => {
 
                                 </div> */}
                                 <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <div className="card-wrapper ">
-                                            <div className="card " >
+
+                                    {
+                                        data.map((dataInfo, index) => {
+                                            return(
+
+                                            <div className="carousel-item active">
+                                                <div className="card-wrapper ">
+
+                                                    {/* using map  */}
+
+                                                    <div className="card " >
+                                                        <span className='StartIconTest'>
+                                                            <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                            <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                            <AiFillStar color='yellow' size={25} className='starIcon' />
+                                                            <AiFillStar color='yellow' size={25} className='starIcon' />
+
+                                                        </span>
+                                                        <p className='clientDes'>{dataInfo.description}</p>
+
+                                                        <div className="card-body">
+                                                            <div className="imageCardSec">
+                                                                <div className="imageCardTest">
+                                                                    <div className="img">
+                                                                        <img src={dataInfo.image} alt="..." />
+                                                                    </div>
+                                                                    <div className="infoImgTest">
+                                                                        <p className='clientName'> {dataInfo.name}</p>
+                                                                        <span className='ClientDo'>{dataInfo.occapation}</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="iconRight">
+                                                                    <span className='iconRiQuo'>
+                                                                        <PiQuotesBold size={35} className='piQuote' />
+
+                                                                    </span>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+
+                                                    <div className="card " >
                                                 <span className='StartIconTest'>
                                                     <AiFillStar color='yellow' size={25} className='starIcon' />
                                                     <AiFillStar color='yellow' size={25} className='starIcon' />
@@ -58,16 +110,16 @@ const ClientSay = () => {
                                                     <AiFillStar color='yellow' size={25} className='starIcon' />
 
                                                 </span>
-                                                <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
+                                                <p className='clientDes'>{dataInfo.description}</p>
                                                 <div className="card-body">
                                                     <div className="imageCardSec">
                                                         <div className="imageCardTest">
                                                             <div className="img">
-                                                                <img src={image} alt="..." />
+                                                                <img src={dataInfo.image} alt="..." />
                                                             </div>
                                                             <div className="infoImgTest">
-                                                                <p className='clientName'> Nicolas Marko</p>
-                                                                <span className='ClientDo'>Web developer</span>
+                                                                <p className='clientName'> {dataInfo.name}</p>
+                                                                <span className='ClientDo'>{dataInfo.occapation}</span>
                                                             </div>
                                                         </div>
                                                         <div className="iconRight">
@@ -80,40 +132,17 @@ const ClientSay = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="card " >
-                                                <span className='StartIconTest'>
-                                                    <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                    <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                    <AiFillStar color='yellow' size={25} className='starIcon' />
-                                                    <AiFillStar color='yellow' size={25} className='starIcon' />
 
-                                                </span>
-                                                <p className='clientDes'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis eius, asperiores earum quo fuga doloremque totam nostrum voluptatum autem.</p>
-                                                <div className="card-body">
-                                                    <div className="imageCardSec">
-                                                        <div className="imageCardTest">
-                                                            <div className="img">
-                                                                <img src={image} alt="..." />
-                                                            </div>
-                                                            <div className="infoImgTest">
-                                                                <p className='clientName'> Mohin khan</p>
-                                                                <span className='ClientDo'>Web developer</span>
-                                                            </div>
-                                                        </div>
-                                                        <div className="iconRight">
-                                                            <span className='iconRiQuo'>
-                                                                <PiQuotesBold size={35} className='piQuote' />
-
-                                                            </span>
-
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
+                                            )
 
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item">
+                                        })
+                                    }
+
+
+
+                                    {/* <div className="carousel-item">
                                         <div className="card-wrapper ">
 
                                             <div className="card " >
@@ -177,9 +206,9 @@ const ClientSay = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
 
-                                    <div className="carousel-item">
+                                    {/* <div className="carousel-item">
                                         <div className="card-wrapper">
 
                                             <div className="card " >
@@ -244,16 +273,18 @@ const ClientSay = () => {
                                             </div>
                                         </div>
                                         
-                                    </div>
+                                    </div> */}
+
+
 
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true" id='id'></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true" id='id2'></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
+                                        <span class="carousel-control-prev-icon" aria-hidden="true" id='id'></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true" id='id2'></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
 
                                     {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" id='btnId'>
                                     <span  class="carousel-control-prev-icon" aria-hidden="true" id='id'></span>
@@ -268,7 +299,7 @@ const ClientSay = () => {
 
 
                                 </div>
-                               
+
 
 
                             </div>

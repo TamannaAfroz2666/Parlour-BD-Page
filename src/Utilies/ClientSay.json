@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Dhoe Robart",
+        "occapation" : "Web Developer",
+        "description" : "You put the apostrophe after the word in plural (i.e. clients) to indicate possession: To show plural possession, simply put an apostrophe after the",
+        "image" : "/public/Images/23.jpg"
+    },
+    {
+        "name" : "Tom",
+        "occapation" : "Software Engineer",
+        "description" : "You put the apostrophe after the word in plural (i.e. clients) to indicate possession: To show plural possession, simply put an apostrophe after the",
+        "image" : "/Images/facial.jpg"
+    },
+    {
+        "name" : "Ketty",
+        "occapation" : "Software Developer",
+        "description" : "You put the apostrophe after the word in plural (i.e. clients) to indicate possession: To show plural possession, simply put an apostrophe after the",
+        "image" : "/Images/HotSone.jpg"
+    }
+]

@@ -3,11 +3,13 @@ import './RegularMember.css';
 import regular from '../../../assets/image/add/Pricing/normal.jpg';
 import { HiOutlineChevronRight } from "react-icons/hi";
 import {result} from '../../../Utilies/data';
+import data from '../../../Utilies/pricing.json'
 import { useState } from 'react';
 
 const RegularMember = () => {
 
-    const [applyData, setApplyData] = useState(result);
+    // const [applyData, setApplyData] = useState(result);
+    const [applyData, setApplyData] = useState(data);
     console.log('data is ', result);
 
     return (
