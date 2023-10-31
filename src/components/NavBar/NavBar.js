@@ -3,6 +3,7 @@ import './NavBar.css';
 import logo from '../../assets/image/Logo/logoIn.jpg'
 import close from '../../assets/image/Background/22.jpg'
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const NavBar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false)
     return (
@@ -11,9 +12,11 @@ const NavBar = () => {
                 <div className="navHead">
                     <div className="navbar">
                         <div className='brand_container'>
-                            <a href="#" className='brand'>
-                                <img src={logo} alt="not found" />
-                            </a>
+                            <Link to='/home' className='brand'>
+                            <img src={logo} alt="not found" />
+
+                            </Link>
+                           
                             <div className="toggle">
 
                             </div>
@@ -21,22 +24,28 @@ const NavBar = () => {
                         <div className="links">
                             <ul>
                                 <li className='active'>
-                                    <a href="/home"> Home</a>
+                                    {/* <a href="/home"> Home</a> */}
+                                    <Link to ='./home'>Home</Link>
                                 </li>
                                 <li>
-                                    <a href="/services"> Services</a>
+                                    {/* <a href="/services"> Services</a> */}
+                                    <Link to ='/service'>Service</Link>
                                 </li>
                                 <li>
-                                    <a href="/portfolio"> Portfolio</a>
+                                    {/* <a href="/portfolio"> Portfolio</a> */}
+                                    <Link to ='/portfolio'>Portfolio</Link>
                                 </li>
                                 <li>
-                                    <a href="/blog"> Blog</a>
+                                    {/* <a href="/blog"> Blog</a> */}
+                                    <Link to ='/blog'>Blog</Link>
                                 </li>
                                 <li>
-                                    <a href="/skills"> Skills</a>
+                                    {/* <a href="/skills"> Skills</a> */}
+                                    <Link to ='/skills'>Skills</Link>
                                 </li>
                                 <li>
-                                    <a href="/contact"> Contact</a>
+                                    {/* <a href="/contact"> Contact</a> */}
+                                    <Link to ='/contact'>Contact</Link>
                                 </li>
                             </ul>
 
