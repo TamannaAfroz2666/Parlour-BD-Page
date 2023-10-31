@@ -11,6 +11,7 @@ import AchiveList from 'components/AchiveList/AchiveList';
 import ClientSay from 'components/ClientSay/ClientSay';
 import Blog from 'components/Blog/Blog';
 import Background from 'components/Background/Background';
+import Footer from 'layout/Footer/Footer';
 // import playButton from '../../assets/image/arrowPlayButton.PNG'
 // import {  PiNavigationArrowBold } from "react-icons/pi";
 
@@ -26,6 +27,7 @@ const Home = () => {
                 <ClientSay></ClientSay>
                 <Blog></Blog>
                 <Background></Background>
+                <Footer></Footer>
 
                 {/* <Animation></Animation> */}
 

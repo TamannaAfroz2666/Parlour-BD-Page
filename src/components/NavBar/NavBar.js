@@ -14,12 +14,8 @@ const NavBar = () => {
                         <div className='brand_container'>
                             <Link to='/home' className='brand'>
                             <img src={logo} alt="not found" />
-
                             </Link>
-                           
-                            <div className="toggle">
-
-                            </div>
+                            
                         </div>
                         <div className="links">
                             <ul>
