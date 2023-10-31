@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-/* .serviceMainPage{
-    width: 90%;
-    margin: auto;
-} */
+.serviceMainPage{
+    /* width: 90%;
+    margin: auto; */
+    background-color: whitesmoke;
+}
