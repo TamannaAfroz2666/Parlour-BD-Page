@@ -18,15 +18,15 @@ const RegularMember = () => {
                     <li className='titleRegular'> salons have professional beauticians </li>
                 </ul>
                 <h1 className='pricingRegular'> <small className='smallPrice'>$</small>49 <small className='smallPrice'>/month</small></h1>
-               
+
                 <div className="btnSubRegular">
-                    <div className="regularIcon1">
+                    {/* <div className="regularIcon1">
                         <span className='btnIconReg'> <HiOutlineChevronRight className='outlineIcon' color='white' size={30} />
                         </span>
 
-                    </div>
+                    </div> */}
                     <div className="peiceRegBtn">
-                    <button className='btnSubInfoReg' type='button'>Singup Now</button>
+                        <button className='btnSubInfoReg' type='button'>Singup Now</button>
                     </div>
 
                 </div>
