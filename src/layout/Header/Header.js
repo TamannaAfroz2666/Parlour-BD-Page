@@ -20,7 +20,7 @@ const Header = () => {
                                     <NavLink to='/'>Home</NavLink>
                                     <hr className='underline' size={10} />
 
-                                    <ul class="drop_menu">
+                                    {/* <ul class="drop_menu">
                                         <li className='menu'>
                                             <NavLink to="/">Home Page 01</NavLink>
 
@@ -28,16 +28,16 @@ const Header = () => {
                                         <li className='menu1'>
                                             <NavLink to="./page2">Home Page 02 </NavLink>
                                         </li>
-                                    </ul>
+                                    </ul> */}
 
                                 </li>
-                                <li><NavLink smooth duration={500} to="about">About Me</NavLink>
+                                <li><NavLink smooth duration={500} to="/service">Service</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
 
                                 </li>
 
-                                <li>
-                                    <NavLink to="/services">Services</NavLink>
+                                {/* <li>
+                                    <NavLink to="/portfolio">Portfolio</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
                                     <ul class="drop_menu">
                                         <li className='menu'>
@@ -47,30 +47,33 @@ const Header = () => {
                                             <NavLink to="./servicesDetails">Services Details </NavLink>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li>
                                     <NavLink to="/portfolio">Portfolio</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
-                                    <ul class="drop_menu">
+                                    {/* <ul class="drop_menu">
                                         <li className='menu'>
                                             <NavLink to="/portfolio">Portfolio</NavLink>
                                         </li>
                                         <li className='menu1'>
                                             <NavLink to="./portfolioDetails">Portfolio Details </NavLink>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li>
-                                    <NavLink to="/blogs">Blogs</NavLink>
+                                    <NavLink to="/blogs">Blog</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
-                                    <ul class="drop_menu">
+                                    {/* <ul class="drop_menu">
                                         <li className='menu'>
                                             <NavLink to="/blogs">Blogs</NavLink>
                                         </li>
                                         <li className='menu1'>
                                             <NavLink to="./blogsDetails">Blogs Details </NavLink>
                                         </li>
-                                    </ul>
+                                    </ul> */}
+                                </li>
+                                <li><NavLink to="/skill">Skills</NavLink>
+                                    <hr className='underline1' color='yellow' size={5} />
                                 </li>
                                 <li><NavLink to="/contact">Contact</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />

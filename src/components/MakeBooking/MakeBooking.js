@@ -24,6 +24,16 @@ const MakeBooking = () => {
         console.log('phone number is', number);
         console.log('date :', selectedDate);
         console.log('message: ', message);
+
+        // store data on local Storage 
+        localStorage.setItem('firstName', JSON.stringify(firstName));
+        localStorage.setItem('last name', JSON.stringify(lastName));
+        localStorage.setItem('email', JSON.stringify(email));
+        localStorage.setItem('number', JSON.stringify(number));
+        localStorage.setItem('date', JSON.stringify(selectedDate));
+        localStorage.setItem('message', JSON.stringify(message));
+
+       
     }
 
     return (

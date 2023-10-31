@@ -12,7 +12,7 @@ const NavBar = () => {
                 <div className="navHead">
                     <div className="navbar">
                         <div className='brand_container'>
-                            <Link to='/home' className='brand'>
+                            <Link to='/' className='brand'>
                             <img src={logo} alt="not found" />
                             </Link>
                             
@@ -21,7 +21,7 @@ const NavBar = () => {
                             <ul>
                                 <li className='active'>
                                     {/* <a href="/home"> Home</a> */}
-                                    <Link to ='./home'>Home</Link>
+                                    <Link to ='/'>Home</Link>
                                 </li>
                                 <li>
                                     {/* <a href="/services"> Services</a> */}
