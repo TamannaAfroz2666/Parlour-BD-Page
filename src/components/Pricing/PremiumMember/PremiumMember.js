@@ -2,8 +2,14 @@ import React from 'react';
 import './PremiumMember.css';
 import regular from '../../../assets/image/add/Pricing/premiyn.jpg';
 import { HiOutlineChevronRight } from "react-icons/hi";
+import { useState } from 'react';
+import { result } from 'Utilies/data';
+
 
 const PremiumMember = () => {
+    const [data, setData] = useState(result);
+
+
     return (
         <div className='premiumMember'>
               <div className='regularMember'>
@@ -12,13 +18,13 @@ const PremiumMember = () => {
                     <p className='regularPrice'>Premium Member</p>
                     <hr className='regularHr' color='tomato' />
                     <ul className='listRegular'>
-                        <li className='titleRegular'>quality time your skin massaged </li>
-                        <li className='sortRegular'>hair styled </li>
-                        <li className='titleRegular'> best care for your skin and body </li>
-                        <li className='sortRegular2'>You get custom information </li>
-                        <li className='titleRegular'> salons have professional beauticians </li>
+                        <li className='titleRegular'>{data.premiumMember.title2} </li>
+                        <li className='sortRegular'>{data.premiumMember.title1}</li>
+                        <li className='titleRegular'> {data.premiumMember.title4} </li>
+                        <li className='sortRegular2'>{data.premiumMember.title3}</li>
+                        <li className='titleRegular'> {data.premiumMember.title6} </li>
                     </ul>
-                    <h1 className='pricingRegular'> <small className='smallPrice'>$</small>149 <small className='smallPrice'>/month</small></h1>
+                    <h1 className='pricingRegular'> <small className='smallPrice'>$</small>{data.premiumMember.price} <small className='smallPrice'>/month</small></h1>
 
                     <div className="btnSubRegular">
                         {/* <div className="regularIcon1">

@@ -2,8 +2,14 @@ import React from 'react';
 import './VipMember.css';
 import regular from '../../../assets/image/add/Pricing/vip.jpg';
 import { HiOutlineChevronRight } from "react-icons/hi";
+import { useState } from 'react';
+import { result } from 'Utilies/data';
 
 const VipMember = () => {
+
+    const [data , setData] = useState(result);
+    console.log('result is:', result);
+
     return (
         <div className='vipMember'>
             <div className='regularMember'>
@@ -12,13 +18,13 @@ const VipMember = () => {
                     <p className='regularPrice'>VIP Member</p>
                     <hr className='regularHr' color='tomato' />
                     <ul className='listRegular'>
-                        <li className='titleRegular'>quality time your skin massaged </li>
-                        <li className='sortRegular'>hair styled </li>
-                        <li className='titleRegular'> best care for your skin and body </li>
-                        <li className='sortRegular2'>You get custom information </li>
-                        <li className='titleRegular'> salons have professional beauticians </li>
+                        <li className='titleRegular'>{data.vipMember.title3} </li>
+                        <li className='sortRegular'>{data.vipMember.title2} </li>
+                        <li className='titleRegular'> {data.vipMember.title1} </li>
+                        <li className='sortRegular2'>{data.vipMember.title4} </li>
+                        <li className='titleRegular'> {data.vipMember.title5} </li>
                     </ul>
-                    <h1 className='pricingRegular'> <small className='smallPrice'>$</small>99 <small className='smallPrice'>/month</small></h1>
+                    <h1 className='pricingRegular'> <small className='smallPrice'>$</small>{data.vipMember.price} <small className='smallPrice'>/month</small></h1>
 
                     <div className="btnSubRegular">
                         {/* <div className="regularIcon1">
