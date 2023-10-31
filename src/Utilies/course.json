@@ -1,0 +1,58 @@
+{
+    "basic_information": {
+      "cover_image": "",
+      "title": "",
+      "subtitle": "",
+      "description": "",
+      "category": ""
+    },
+    "syllabus_information": [
+      {
+        "week": "",
+        "class_to_attend": "",
+        "syllabus_title": "",
+        "no_of_lectures": "",
+        "no_of_quiz": "",
+        "no_of_assignment": "",
+        "description": ""
+      },
+      {
+        "week": "",
+        "class_to_attend": "",
+        "syllabus_title": "",
+        "no_of_lectures": "",
+        "no_of_quiz": "",
+        "no_of_assignment": "",
+        "description": ""
+      }
+    ],
+    "survey_information": [
+      {
+        "survey_category": "",
+        "survey_question": ""
+      },
+      {
+        "survey_category": "",
+        "survey_question": ""
+      },
+      {
+        "survey_category": "",
+        "survey_question": ""
+      }
+    ],
+    "class_routine_information": [
+      {
+          "day": "",
+          "date": "",
+          "start_time": "",
+          "end_time": ""
+      },
+      {
+          "day": "",
+          "date": "",
+          "start_time": "",
+          "end_time": ""
+      }
+    ]
+  }
+  
