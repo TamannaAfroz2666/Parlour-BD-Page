@@ -40,6 +40,10 @@
     display: flex;
     gap: 20px;
 }
+.infoOfHome{
+    margin-left: 10rem;
+
+}
 .iconHomeS{
     /* margin-left: 25rem; */
 }
@@ -96,8 +100,31 @@
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #111;
-    padding: 10px 0 4rem 0;
+    padding: 10px 0 6rem 0;
     text-transform: uppercase;
     line-height: 40px;
 
+}
+
+/* info styled end  */
+
+/* image form design start */
+.img1 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-left: 10rem;
+}
+.img2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 8rem;
+}
+.img3 img {
+    width: 220px;
+    height: 220px;
+    border-radius: 100px;
+    margin-left: 15rem;
+    margin-top: 2rem;
 }

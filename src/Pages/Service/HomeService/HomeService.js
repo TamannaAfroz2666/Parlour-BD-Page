@@ -2,6 +2,10 @@ import React from 'react';
 import './HomeService.css';
 import { GiDrippingStar, GiButterflyFlower } from "react-icons/gi";
 // import {  GoWorkflow} from "react-icons/go";
+import  img1 from '../../../assets/image/Service/image/m4.jpg';
+import img2 from '../../../assets/image/Service/image/m1.jpg';
+import img3 from '../../../assets/image/Service/image/m2.jpg'
+import { IconName } from "react-icons/ai";
 
 const HomeService = () => {
     return (
@@ -56,6 +60,20 @@ const HomeService = () => {
 
                             </div>
                             <div className="imgOfHome">
+                                <div className="img1">
+                                    <img src={img3} alt="" />
+                                </div>
+                                <div className="img2">
+                                    <img src={img2} alt="" />
+                                </div>
+                                <div className="img3">
+                                    <img src={img1} alt="" />
+                                </div>
+                                <div className="btnH">
+                                    <button>
+                                        Book Now <span></span>
+                                    </button>
+                                </div>
 
                             </div>
                         </div>
