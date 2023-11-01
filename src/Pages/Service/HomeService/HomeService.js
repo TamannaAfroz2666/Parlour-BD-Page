@@ -45,7 +45,7 @@ const HomeService = () => {
                                 </div>
                                 <div className="aboutUs">
                                     <h1 className='aboutUsTitleH'>About Us</h1>
-                                    <p>Relax yourself with our spa and massage service</p>
+                                    <p className='sortDesH'>Relax yourself with our spa and massage service</p>
                                 </div>
                                
 
