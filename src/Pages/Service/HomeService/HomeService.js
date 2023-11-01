@@ -46,6 +46,8 @@ const HomeService = () => {
                                 <div className="aboutUs">
                                     <h1 className='aboutUsTitleH'>About Us</h1>
                                     <p className='sortDesH'>Relax yourself with our spa and massage service</p>
+
+                                    <h3 className='priceH'>pick any of 6 service just  @ 1499/-</h3>
                                 </div>
                                
 

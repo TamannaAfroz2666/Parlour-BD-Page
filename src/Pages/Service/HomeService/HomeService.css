@@ -18,6 +18,8 @@
     width: 90%;
     margin: auto;
     /* height: 1000px; */
+    /* margin: 0 0 4rem 0; */
+   
    
 }
 .hSTitle{
@@ -86,5 +88,16 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #8b0000c2;
     padding: 10px 0;
+
+}
+.priceH{
+    width: 400px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #111;
+    padding: 10px 0 4rem 0;
+    text-transform: uppercase;
+    line-height: 40px;
 
 }
