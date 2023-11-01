@@ -17,9 +17,14 @@ const ShowAll = () => {
 
     const [showAllData, setShowAllData] = useState(allData);
 
+    // show more button work 
+    const [showMore, setShowMore] = useState(false);
+
     const imageHandle =() =>{
         console.log('see more pic');
+        setShowMore(true);
     }
+    // const items = showMore ? showAllData : showAllData.slice(0, 5);
 
 
     return (
@@ -28,7 +33,7 @@ const ShowAll = () => {
                 <div className="bodyAllPort">
 
                     {
-                        showAllData.slice(0, 9 ).map((dataInfo) =>{
+                       showAllData ?.slice(0, 9).map((dataInfo) =>{
                             return(
 
                                 <div className="imgAll">
@@ -44,6 +49,27 @@ const ShowAll = () => {
                             )
                         })
                     }
+
+                    {/* SHOW MORE image  */}
+                    {
+                         showMore && showAllData ?.slice(0, 2).map((dataInfo) =>{
+                            return(
+
+                                <div className="imgAll">
+                                <img src= {dataInfo.image} alt=""  className="image" />
+                                <div className="overlay">
+                                    <div className="text">
+                                        <h1 className='hell'>{dataInfo.name}</h1>
+                                        <h1 className='hell'>{dataInfo.description}</h1>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            )
+                        })
+                    }
+ 
+
 
                    <div className="areaBtn">
                     <button className='areaButton' onClick={imageHandle}>
