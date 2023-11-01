@@ -7,3 +7,10 @@
     height: 100%;
     width: 100%;
 }
+.mainPageH{
+    width: 90%;
+    margin: auto;
+}
+.tabList{
+    margin-left: 25%;
+}

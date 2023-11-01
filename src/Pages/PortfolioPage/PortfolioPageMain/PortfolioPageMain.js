@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
+import ShowAll from './ShowAll/ShowAll';
 
 const PortfolioPageMain = () => {
 
@@ -18,19 +19,24 @@ const PortfolioPageMain = () => {
         <div className='mainPageP'>
             <div className="mainPageH">
                 <div className="mainPageB">
-                    <Box >
+                    <Box className='tabHead' >
                         <TabContext value={value}>
                             <Box >
-                                <TabList onChange={handleChange} aria-label="lab API tabs example">
-                                    <Tab label="Item One" value="1" />
-                                    <Tab label="Item Two" value="2" />
-                                    <Tab label="Item Three" value="3" />
+                                <TabList onChange={handleChange} className='tabList' >
+                                    <Tab label="Show All" value="1" />
+                                    <Tab label="coloring" value="2" />
+                                    <Tab label="Hair products" value="3" />
+                                    <Tab label="Hair style" value="4" />
                                 </TabList>
                             </Box>
-                            <TabPanel value="1">Item One</TabPanel>
-                            <TabPanel value="2">Item Two</TabPanel>
-                            <TabPanel value="3">Item Three</TabPanel>
-                        </TabContext>
+                            <TabPanel value="1">
+                                <ShowAll></ShowAll>
+
+                            </TabPanel>
+                            <TabPanel value="2">coloring</TabPanel>
+                            <TabPanel value="3">Hair products</TabPanel>
+                            <TabPanel value="4">Hair style</TabPanel>
+                        </TabContext> 
                     </Box>
 
                 </div>
