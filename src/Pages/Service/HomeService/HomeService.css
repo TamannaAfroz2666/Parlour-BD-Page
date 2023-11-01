@@ -105,6 +105,9 @@
     line-height: 40px;
 
 }
+.tkH{
+    color: #8B0000;
+}
 
 /* info styled end  */
 
@@ -140,4 +143,7 @@
     background-color: rgba(128, 128, 128, 0.473);
     text-transform: uppercase;
     border: 1px solid rgba(12, 11, 11, 0.377);
+}
+.btnHome:hover{
+    background-color: #cd5c5c8f;
 }
