@@ -1,5 +1,6 @@
 import React from 'react';
 import './PortfolioPageHead.css';
+import { Link } from 'react-router-dom';
 
 const PortfolioPageHead = () => {
     return (
@@ -11,6 +12,10 @@ const PortfolioPageHead = () => {
 
                     </div>
                     <div className="nav_content">
+                        <ul>
+                            <li> <Link className='linkTitle' to='/'>Home</Link> </li>
+                            <li> <Link className='linkTitle' to='/portfolio'>Portfolio gallery</Link> </li>
+                        </ul>
 
                     </div>
 
