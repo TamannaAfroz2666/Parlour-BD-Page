@@ -25,10 +25,10 @@ const PortfolioPageMain = () => {
                         <TabContext value={value}>
                             <Box >
                                 <TabList onChange={handleChange} className='tabList' >
-                                    <Tab label="Show All" value="1" />
-                                    <Tab label="coloring" value="2" />
-                                    <Tab label="Hair products" value="3" />
-                                    <Tab label="Hair style" value="4" />
+                                    <Tab className='tabName' label="Show All" value="1" />
+                                    <Tab className='tabName' label="coloring" value="2" />
+                                    <Tab className='tabName' label="Hair products" value="3" />
+                                    <Tab className='tabName' label="Hair style" value="4" />
                                 </TabList>
                             </Box>
                             <TabPanel value="1">

@@ -14,3 +14,9 @@
 .tabList{
     margin-left: 25%;
 }
+.tabName{
+    font-size: 10px;
+    color: #111111f5;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
