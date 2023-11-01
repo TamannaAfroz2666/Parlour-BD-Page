@@ -6,6 +6,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import ShowAll from './ShowAll/ShowAll';
+import Coloring from './Coloring/Coloring';
 
 const PortfolioPageMain = () => {
 
@@ -33,7 +34,10 @@ const PortfolioPageMain = () => {
                                 <ShowAll></ShowAll>
 
                             </TabPanel>
-                            <TabPanel value="2">coloring</TabPanel>
+                            <TabPanel value="2">
+                                <Coloring></Coloring>
+
+                            </TabPanel>
                             <TabPanel value="3">Hair products</TabPanel>
                             <TabPanel value="4">Hair style</TabPanel>
                         </TabContext> 
