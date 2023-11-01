@@ -10,6 +10,9 @@ const PortolioPage = () => {
                    <div className="head">
                     <PortfolioPageHead></PortfolioPageHead>
                    </div>
+                   <div className="body">
+                    
+                   </div>
 
                 </div>
             </div>
