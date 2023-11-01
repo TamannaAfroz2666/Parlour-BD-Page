@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .portfolio_body{
-    background-color: rgba(128, 128, 128, 0.295);
+    background-color: rgba(201, 186, 186, 0.178);
     height: 300px;
 }
 .portfolio_Content{
@@ -13,6 +13,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
    
     
@@ -23,6 +24,9 @@
     text-transform: uppercase;
     color: #111;
     margin-top: 8rem;
+}
+.title:hover {
+    color: tomato;
 }
 .nav_content .headLink{
     display: inline-flex;
@@ -35,7 +39,9 @@
 }
 .headLink .linkTitle{
     text-decoration: none;
-    color: #111;
-    font-size: 20px;
+    color: #11111193;
+    font-size: 14px;
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
 }

@@ -14,7 +14,7 @@ const PortfolioPageHead = () => {
                     <div className="nav_content">
                         <ul className='headLink'>
                             <li> <Link className='linkTitle' to='/'>Home </Link> </li>
-                            <span>/</span>
+                            <span  className='linkTitle'>/</span>
                             <li> <Link className='linkTitle' to='/portfolio'>Portfolio gallery</Link> </li>
                         </ul>
 
