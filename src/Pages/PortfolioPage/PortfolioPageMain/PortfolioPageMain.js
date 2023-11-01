@@ -7,6 +7,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import ShowAll from './ShowAll/ShowAll';
 import Coloring from './Coloring/Coloring';
+import Products from './Products/Products';
 
 const PortfolioPageMain = () => {
 
@@ -38,8 +39,12 @@ const PortfolioPageMain = () => {
                                 <Coloring></Coloring>
 
                             </TabPanel>
-                            <TabPanel value="3">Hair products</TabPanel>
-                            <TabPanel value="4">Hair style</TabPanel>
+                            <TabPanel value="3">
+                                <Products></Products>
+                            </TabPanel>
+                            <TabPanel value="4">
+                            <Products></Products>
+                                </TabPanel>
                         </TabContext> 
                     </Box>
 

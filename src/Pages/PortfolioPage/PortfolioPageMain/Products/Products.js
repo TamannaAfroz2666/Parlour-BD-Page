@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import './Coloring.css';
+import './Products.css';
 import data from '../../../../Utilies/showAll.json';
 
-const Coloring = () => {
-    const [color, setColor] = useState(data.coloring);
-    console.log('color section is ready', color);
+const Products = () => {
+
+    const [products, setProducts] = useState(data.hairProducts);
+    console.log('color section is ready', products);
 
     // show more button work 
     const [showMore, setShowMore] = useState(false);
@@ -13,22 +14,21 @@ const Coloring = () => {
         console.log('see more pic');
         setShowMore(true);
     }
-
     return (
-        <div className='coloringHead'>
-            <div className="coloringBody">
+        <div className='productsHead'>
+            <div className="productsBody">
                 <div className="bodyAllPort">
 
                     {
-                        color?.slice(0, 9).map((dataInfo) => {
+                        products?.slice(0, 9).map((product) => {
                             return (
 
                                 <div className="imgAll">
-                                    <img src={dataInfo.image} alt="" className="image" />
+                                    <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='hell'>{product.name}</h1>
+                                            <h1 className='hell'>{product.description}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -39,15 +39,15 @@ const Coloring = () => {
 
                     {/* SHOW MORE image  */}
                     {
-                        showMore && color?.slice(0, 2).map((dataInfo) => {
+                        showMore && products?.slice(0, 2).map((product) => {
                             return (
 
                                 <div className="imgAll">
-                                    <img src={dataInfo.image} alt="" className="image" />
+                                    <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='hell'>{product.name}</h1>
+                                            <h1 className='hell'>{product.description}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -56,14 +56,13 @@ const Coloring = () => {
                         })
                     }
 
-                </div>
-                <div className="areaBtn1">
+                    <div className="areaBtn1">
                         <button className='areaButton' onClick={imageHandle}>
                             Load more
                         </button>
                     </div>
 
-
+                </div>
 
             </div>
 
@@ -71,4 +70,4 @@ const Coloring = () => {
     );
 };
 
-export default Coloring;
+export default Products;
