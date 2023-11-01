@@ -34,3 +34,25 @@
 .hSTitle:hover{
     color: tomato;
 }
+.contentsOfHome{
+    display: flex;
+    gap: 20px;
+}
+.iconHomeS{
+    /* margin-left: 25rem; */
+}
+.ourService{
+    font-size: 25px;
+    font-weight: 700;
+    color: 	#8B0000;
+    font-style: italic;
+
+}
+
+.ourHr11{
+    width: 150px;
+    color: tomato;
+    padding: 5px;
+    position: relative;
+  
+}

@@ -10,18 +10,31 @@ const HomeService = () => {
                 <div className="service_body">
                     <div className="service_content">
                         <h1 className='hSTitle'> <span className='sar_name'>Alisa </span> <br />Salon <span>
-                             <GiDrippingStar color='red'  size={30}/> </span></h1>
-                             <div className="iconHomeS">
-                                <GiButterflyFlower color='tomato' size={20} />
+                            <GiDrippingStar color='red' size={30} /> </span></h1>
+                        <div className="contentsOfHome">
+                            <div className="infoOfHome">
+                                <div className="iconHomeS">
+                                    <GiButterflyFlower color='tomato' size={50} />
+                                </div>
+                                <p className='ourService'>Our Service</p>
+                                <span className="hrHome">
+                                <hr className='ourHr11' />
 
-                             </div>
-                             <p>Our Service</p>
+                                </span>
+                           
+
+                            </div>
+                            <div className="imgOfHome">
+
+                            </div>
+                        </div>
+
 
 
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };
