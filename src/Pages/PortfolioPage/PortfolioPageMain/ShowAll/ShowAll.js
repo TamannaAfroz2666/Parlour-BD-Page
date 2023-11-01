@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ShowAll.css';
-import image1 from '../../../../assets/image/Pictures/Blogs/23.jpg'
-import image2 from '../../../../assets/image/Pictures/Blogs/HotSone.jpg';
+// import image1 from '../../../../assets/image/Pictures/Blogs/23.jpg'
+// import image2 from '../../../../assets/image/Pictures/Blogs/HotSone.jpg';
 import data from '../../../../Utilies/showAll.json';
 
 const ShowAll = () => {
@@ -20,7 +20,7 @@ const ShowAll = () => {
     // show more button work 
     const [showMore, setShowMore] = useState(false);
 
-    const imageHandle =() =>{
+    const imageHandle = () => {
         console.log('see more pic');
         setShowMore(true);
     }
@@ -33,50 +33,51 @@ const ShowAll = () => {
                 <div className="bodyAllPort">
 
                     {
-                       showAllData ?.slice(0, 9).map((dataInfo) =>{
-                            return(
+                        showAllData?.slice(0, 9).map((dataInfo) => {
+                            return (
 
                                 <div className="imgAll">
-                                <img src= {dataInfo.image} alt=""  className="image" />
-                                <div className="overlay">
-                                    <div className="text">
-                                        <h1 className='hell'>{dataInfo.name}</h1>
-                                        <h1 className='hell'>{dataInfo.description}</h1>
+                                    <img src={dataInfo.image} alt="" className="image" />
+                                    <div className="overlay">
+                                        <div className="text">
+                                            <h1 className='hell'>{dataInfo.name}</h1>
+                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                                
+
                             )
                         })
                     }
 
                     {/* SHOW MORE image  */}
                     {
-                         showMore && showAllData ?.slice(0, 2).map((dataInfo) =>{
-                            return(
+                        showMore && showAllData?.slice(0, 2).map((dataInfo) => {
+                            return (
 
                                 <div className="imgAll">
-                                <img src= {dataInfo.image} alt=""  className="image" />
-                                <div className="overlay">
-                                    <div className="text">
-                                        <h1 className='hell'>{dataInfo.name}</h1>
-                                        <h1 className='hell'>{dataInfo.description}</h1>
+                                    <img src={dataInfo.image} alt="" className="image" />
+                                    <div className="overlay">
+                                        <div className="text">
+                                            <h1 className='hell'>{dataInfo.name}</h1>
+                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                                
+
                             )
                         })
                     }
- 
 
 
-                   <div className="areaBtn">
+
+
+
+                </div>
+                <div className="areaBtn">
                     <button className='areaButton' onClick={imageHandle}>
                         Load more
                     </button>
-                    </div> 
-
                 </div>
             </div>
 
