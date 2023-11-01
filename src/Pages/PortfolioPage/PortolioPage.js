@@ -1,6 +1,7 @@
 import React from 'react';
 import './PortfolioPage.css';
 import PortfolioPageHead from './PortfolioPageHead/PortfolioPageHead';
+import PortfolioPageMain from './PortfolioPageMain/PortfolioPageMain';
 
 const PortolioPage = () => {
     return (
@@ -11,7 +12,8 @@ const PortolioPage = () => {
                     <PortfolioPageHead></PortfolioPageHead>
                    </div>
                    <div className="body">
-                    
+                    <PortfolioPageMain></PortfolioPageMain>
+
                    </div>
 
                 </div>
