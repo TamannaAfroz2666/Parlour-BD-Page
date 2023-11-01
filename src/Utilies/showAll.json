@@ -1,0 +1,94 @@
+{
+    "hairStyle":[
+        {
+        "image": "/Images/23.jpg",
+        "description": "hair style",
+        "name" : "color"
+        },
+        {
+        "image": "/Images/facial.jpg",
+        "description": "hair style",
+        "name" : "color"
+        },
+        {
+        "image": "/Images/facial.jpg",
+        "description": "hair style",
+        "name" : "color"
+        },
+        {
+        "image": "/Images/23.jpg",
+        "description": "hair style",
+        "name" : "color"
+        },
+        {
+        "image": "/Images/facial.jpg",
+        "description": "hair style",
+        "name" : "color"
+        }
+    ],
+    "hairProducts":[
+        {
+            "image": "/Images/Services/4142968.jpg",
+            "description":"hair growth",
+            "name": "Hair Product"
+        },
+        {
+            "image": "/Images/facial.jpg",
+            "description":"hair growth",
+            "name": "Hair Product"
+        },
+        {
+            "image": "/Images/HotSone.jpg",
+            "description":"hair growth",
+            "name":"Hair Product"
+        },
+        {
+            "image": "/Images/Services/4142968.jpg",
+            "description":"hair growth",
+            "name": "Hair Product"
+        },
+        {
+            "image": "/Images/facial.jpg",
+            "description":"hair growth",
+            "name": "Hair Product"
+        },
+        {
+            "image": "/Images/HotSone.jpg",
+            "description":"hair growth",
+            "name":"Hair Product"
+        }
+
+
+    ],
+
+    "coloring":[
+        {
+            "image":"/Images/23.jpg",
+            "description": "coloring",
+            "name": "Color"
+            
+        },
+        {
+            "image":"/Images/23.jpg",
+            "description": "coloring",
+            "name": "Color"
+            
+        },
+        {
+            "image":"/Images/23.jpg",
+            "description": "coloring",
+            "name": "Color"
+            
+        },
+        {
+            "image":"/Images/23.jpg",
+            "description": "coloring",
+            "name": "Color"
+            
+        }
+    ]
+
+
+    
+
+}
