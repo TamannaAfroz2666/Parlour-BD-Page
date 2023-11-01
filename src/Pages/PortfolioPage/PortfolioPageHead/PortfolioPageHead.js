@@ -12,8 +12,9 @@ const PortfolioPageHead = () => {
 
                     </div>
                     <div className="nav_content">
-                        <ul>
-                            <li> <Link className='linkTitle' to='/'>Home</Link> </li>
+                        <ul className='headLink'>
+                            <li> <Link className='linkTitle' to='/'>Home </Link> </li>
+                            <span>/</span>
                             <li> <Link className='linkTitle' to='/portfolio'>Portfolio gallery</Link> </li>
                         </ul>
 
