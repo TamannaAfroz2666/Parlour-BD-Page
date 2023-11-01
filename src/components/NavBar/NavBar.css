@@ -34,7 +34,7 @@
    width: 90px;
    height: 60px;
    border-radius: 100%;
-   /* margin-top: 2rem; */
+   margin-top: 2rem;
 }
 
 
@@ -47,6 +47,7 @@
 .links ul {
    display: flex;
    gap: 3rem;
+   margin-top: 2.5rem;
 }
 
 .active a {
@@ -62,10 +63,12 @@
 
 .links li a {
    text-decoration: none;
-   font-weight: 600;
+   font-weight: 700;
    color: #111;
    font-size: 0.9rem;
    text-transform: uppercase;
+   letter-spacing: 2px;
+   
 
 }
 
