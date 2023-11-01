@@ -17,6 +17,10 @@ const ShowAll = () => {
 
     const [showAllData, setShowAllData] = useState(allData);
 
+    const imageHandle =() =>{
+        console.log('see more pic');
+    }
+
 
     return (
         <div className='showAllPort'>
@@ -42,7 +46,7 @@ const ShowAll = () => {
                     }
 
                    <div className="areaBtn">
-                    <button>
+                    <button className='areaButton' onClick={imageHandle}>
                         Load more
                     </button>
                     </div> 
