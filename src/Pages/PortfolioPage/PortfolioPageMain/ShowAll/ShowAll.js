@@ -9,7 +9,12 @@ const ShowAll = () => {
             <div className="headAllPort">
                 <div className="bodyAllPort">
                     <div className="imgAll">
-                        <img src={image1} alt="" />
+                        <img src={image1} alt=""  className="image" />
+                        <div className="overlay">
+                            <div className="text">
+                                <h1>hello word</h1>
+                            </div>
+                        </div>
                     </div>
                     <div className="imgAll">
                         <img src={image2} alt="" />
@@ -47,7 +52,7 @@ const ShowAll = () => {
 
                 </div>
             </div>
-            
+
         </div>
     );
 };
