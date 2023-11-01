@@ -17,7 +17,7 @@
 .service_body{
     width: 90%;
     margin: auto;
-    height: 600px;
+    height: 800px;
    
 }
 .hSTitle{
@@ -48,6 +48,9 @@
     font-style: italic;
 
 }
+.hrHome hr{
+    padding: 5px !important;
+}
 
 .ourHr11{
     width: 150px;
@@ -55,4 +58,24 @@
     padding: 5px;
     position: relative;
   
+}
+.listOfSr{
+    display: inline-flex;
+}
+.listOfSr ul li {
+    font-size: 16px;
+    color: #8b0000a8;
+    font-weight: 700;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+.aboutUs{
+    margin-top: 2rem;
+}
+.aboutUs .aboutUsTitleH{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #8B0000;
+    font-style: italic;
 }
