@@ -5,7 +5,7 @@ import { GiDrippingStar, GiButterflyFlower } from "react-icons/gi";
 import  img1 from '../../../assets/image/Service/image/m4.jpg';
 import img2 from '../../../assets/image/Service/image/m1.jpg';
 import img3 from '../../../assets/image/Service/image/m2.jpg'
-import { IconName } from "react-icons/ai";
+import { HiOutlineArrowRightCircle } from "react-icons/hi2";
 
 const HomeService = () => {
     return (
@@ -70,8 +70,8 @@ const HomeService = () => {
                                     <img src={img1} alt="" />
                                 </div>
                                 <div className="btnH">
-                                    <button>
-                                        Book Now <span></span>
+                                    <button type='button'>
+                                        Book Now <span> <HiOutlineArrowRightCircle color='black' size={20} /></span>
                                     </button>
                                 </div>
 
