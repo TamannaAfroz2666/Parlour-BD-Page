@@ -6,7 +6,8 @@ const PortolioPage = () => {
         <div className='portfolioPage'>
             <div className="pHeadPage">
                 <div className="pBodyPage">
-                    
+                   
+
                 </div>
             </div>
             
