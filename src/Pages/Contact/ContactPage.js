@@ -12,15 +12,9 @@ const ContactPage = () => {
                     <HeadPage></HeadPage>
                     <div className="infoSection">
                         <InfoPage></InfoPage>
-
                     </div>
                     <Footer></Footer>
-
-
-
-
-                </div>
-                
+                </div> 
             </div>
             
         </div>

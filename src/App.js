@@ -10,6 +10,7 @@ import ProvideList from './components/ProvideList/ProvideList';
 import ServiceMainPage from 'Pages/Service/ServiceMainPage/ServiceMainPage';
 import PortolioPage from 'Pages/PortfolioPage/PortolioPage';
 import ContactPage from 'Pages/Contact/ContactPage';
+import Hair from 'Pages/Hair/Hair';
 // import Navbar from './components/NavBar/Navbar';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/service' element={<ServiceMainPage />} />
         <Route  path='/portfolio' element = { <PortolioPage /> }/>
         <Route  path='/contact' element ={ <ContactPage /> } />
+        <Route path='/hair' element ={<Hair/>} />
 
 
 
