@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Products.css';
 import data from '../../../../Utilies/showAll.json';
+import { motion } from 'framer-motion';
 
 const Products = () => {
 
@@ -17,23 +18,30 @@ const Products = () => {
     return (
         <div className='productsHead'>
             <div className="productsBody">
-                <div className="bodyAllPort">
+                <motion.div 
+                initial={{ opacity: 0, x: '200vh' }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
+                className="bodyAllPort"
+                >
 
                     {
                         products?.slice(0, 9).map((product) => {
                             return (
 
-                                <div className="imgAll">
+                                <motion.div
+                                    className="imgAll"
+                                >
                                     <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                        <p className=' textTitle'>{product.title}</p>
+                                            <p className=' textTitle'>{product.title}</p>
 
                                             <p className='textDes'>{product.name}</p>
-                                           
+
                                         </div>
                                     </div>
-                                </div>
+                                </motion.div>
 
                             )
                         })
@@ -48,9 +56,9 @@ const Products = () => {
                                     <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                        <p className=' textTitle'>{product.title}</p>
+                                            <p className=' textTitle'>{product.title}</p>
                                             <p className='textDes'>{product.name}</p>
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +73,7 @@ const Products = () => {
                         </button>
                     </div>
 
-                </div>
+                </motion.div>
 
             </div>
 

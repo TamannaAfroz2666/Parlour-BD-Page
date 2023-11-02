@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Coloring.css';
 import data from '../../../../Utilies/showAll.json';
+import { motion } from 'framer-motion';
 
 const Coloring = () => {
     const [color, setColor] = useState(data.coloring);
@@ -17,7 +18,12 @@ const Coloring = () => {
     return (
         <div className='coloringHead'>
             <div className="coloringBody">
-                <div className="bodyAllPort">
+                <motion.div
+                initial={{ opacity: 0, x: '200vh' }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
+                 className="bodyAllPort"
+                >
 
                     {
                         color?.slice(0, 9).map((dataInfo) => {
@@ -61,7 +67,7 @@ const Coloring = () => {
                         })
                     }
 
-                </div>
+                </motion.div>
                 <div className="areaBtn1">
                         <button className='areaButton' onClick={imageHandle}>
                             Load more

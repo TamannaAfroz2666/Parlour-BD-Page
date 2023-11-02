@@ -3,6 +3,7 @@ import './ShowAll.css';
 // import image1 from '../../../../assets/image/Pictures/Blogs/23.jpg'
 // import image2 from '../../../../assets/image/Pictures/Blogs/HotSone.jpg';
 import data from '../../../../Utilies/showAll.json';
+import { motion } from 'framer-motion';
 
 const ShowAll = () => {
     const [hairStyle, setHairStyle] = useState(data.hairStyle);
@@ -30,7 +31,12 @@ const ShowAll = () => {
     return (
         <div className='showAllPort'>
             <div className="headAllPort">
-                <div className="bodyAllPort">
+                <motion.div className="bodyAllPort"
+                initial={{ opacity: 0, x: '100vh' }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1 }}
+                
+                >
 
                     {
                         showAllData?.slice(0, 9).map((dataInfo) => {
@@ -75,7 +81,7 @@ const ShowAll = () => {
 
 
 
-                </div>
+                </motion.div>
                 <div className="areaBtn">
                     <button className='areaButton' onClick={imageHandle}>
                         Load more
