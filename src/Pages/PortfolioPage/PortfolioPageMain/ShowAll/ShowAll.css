@@ -9,6 +9,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+.headAllPort{
+    margin-top: 3rem;
+}
 
 .imgAll {
     position: relative;
@@ -17,7 +20,7 @@
 
 .imgAll img {
     width: 360px;
-    height: 300px;
+    height: 350px;
     display: block;
     backface-visibility: hidden;
     border-radius: 10px;
@@ -46,12 +49,10 @@
     border: 2px solid #ff8000cb;  
     width: 300px;
     height: 260px;
-    margin-left: 18px;
-    
-  
+    margin-left: 18px; 
 }
 .textTitle{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 700;
     color: #ffffffd0;
     margin: 60px 10px 0 10px;
