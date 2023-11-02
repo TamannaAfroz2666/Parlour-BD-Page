@@ -11,25 +11,18 @@ const HeadPage = () => {
                 <HeaderService></HeaderService>
                 <div className="portfolio_Content">
                     <motion.div
-                        className="title_content"
-                        initial={{ opacity: 0, x: '-100vh' }}
-                        animate={{ opacity: 1, x: 0 }}
+                        className="title_contentH"
+                        initial={{ opacity: 0, y: '-10vh' }}
+                        animate={{ opacity: 1, y: 0 }}
                         transition={{
                             duration: 1,
                             delay: 1
                         }}
 
                     >
-                        <h2 className='title'>Contact us</h2>
+                        <p className='title'>Contact us</p>
                     </motion.div>
-                    <div className="nav_content">
-                        <ul className='headLink'>
-                            <li> <Link className='linkTitle' to='/'>Home </Link> </li>
-                            <span className='linkTitle'>/</span>
-                            <li> <Link className='linkTitle' to='/portfolio'>Portfolio gallery</Link> </li>
-                        </ul>
-
-                    </div>
+                    
 
 
                 </div>

@@ -16,7 +16,7 @@ const Header = () => {
                             <ul className='nav_links'>
 
                                 <li>
-                                    {/* <a href="#" className='active'>Home</a> */}
+                                    
                                     <NavLink to='/'>Home</NavLink>
                                     <hr className='underline' size={10} />
 
@@ -61,8 +61,9 @@ const Header = () => {
                                     </ul> */}
                                 </li>
                                 <li>
-                                    <NavLink to="/blogs">Blog</NavLink>
+                                    <NavLink to="/nails">Nails</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
+                                   
                                     {/* <ul class="drop_menu">
                                         <li className='menu'>
                                             <NavLink to="/blogs">Blogs</NavLink>
@@ -72,7 +73,11 @@ const Header = () => {
                                         </li>
                                     </ul> */}
                                 </li>
-                                <li><NavLink to="/skill">Skills</NavLink>
+                                <li>
+                                <NavLink to="/hair">hair</NavLink>
+                                    <hr className='underline1' color='yellow' size={5} />
+                                </li>
+                                <li><NavLink to="/spa">spa</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
                                 </li>
                                 <li><NavLink to="/contact">Contact</NavLink>
