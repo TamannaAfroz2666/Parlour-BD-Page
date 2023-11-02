@@ -4,7 +4,7 @@ import './HeaderService.css';
 
 const HeaderService = () => {
     return (
-        <div>
+        <div className='headerS'>
             <Header></Header>
             
         </div>

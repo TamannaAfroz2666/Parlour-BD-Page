@@ -7,7 +7,7 @@
 
 .header {
     width: 100%;
-    background-color: rgba(240, 178, 190, 0.699);
+    /* background-color: rgba(240, 178, 190, 0.699); */
     position: sticky;
     top: 0;
     transition: 0.6s;
@@ -52,20 +52,21 @@
 .nav_links li a {
     text-decoration: none;
     font-size: 14px;
-    color: #111;
+    color: #fff;
     font-family: sans-serif;
     font-weight: 700;
     padding: 0 10px;
     transition: all 0.6s ease;
     text-transform: uppercase;
+    
 }
 
 .nav_links li .active {
-    color: rgb(240, 6, 240);
+    color: #ffffffcb;
 }
 
 .underline {
-    width: 20px;
+    width: 50px;
     margin: 5px 0px 0px 10px;
     color: yellow;
     font-weight: bold;
