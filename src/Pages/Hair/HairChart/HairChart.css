@@ -6,6 +6,8 @@
 .hairChart{
     height: 100%;
     width: 100%;
+    margin: 0 0 6rem 0;
+    
 }
 .hairChartBody{
     width: 90%;
@@ -13,9 +15,9 @@
 }
 .chartContent{
     display: flex;
-    gap: 30px;
+    gap: 60px;
     margin-top: 8rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 .colorContents{
     display: flex;
@@ -100,4 +102,26 @@
 }
 .textureHr2{
     width: 240px;
+}
+.conHr1{
+    width: 410px;
+}
+.conHr2{
+    width: 390px;
+}
+.conHr3{
+    width: 340px;
+}
+.conHr4{
+    width: 300px;
+}
+
+.men{
+    margin-top: 30px;
+}
+.cutHr1{
+    width: 330px;
+}
+.cutHr2{
+    width: 370px;
 }

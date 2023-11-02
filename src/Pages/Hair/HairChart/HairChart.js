@@ -114,6 +114,44 @@ const HairChart = () => {
                                 <p className='colorPTitle'>Inquire</p>
                             </div>
                         </div>
+                        <div className="men">
+                            <h1 className='colorTitle'>men</h1>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>CUT & STYLE</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='cutHr1' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 6000</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>BEARD TRIM</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='cutHr1' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 2000</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>RESHADE</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='cutHr2' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 4000</p>
+                                </div>
+                            </div>
+                           
+
+                        </div>
 
 
 
@@ -176,6 +214,55 @@ const HairChart = () => {
                                 </div>
                                 <div className="colorPrice">
                                     <p className='colorPTitle'>tk 30000</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="reText">
+                            <h1 className='colorTitle'>KERASILK CONDITIONING</h1>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>COLOR</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='conHr1' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 6000</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>CONTROL</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='conHr2' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 5500</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>RECONSTRUCT</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='conHr3' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 5900</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>REPOWER VOLUME
+                                    </h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='conHr4' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 5500</p>
                                 </div>
                             </div>
 
