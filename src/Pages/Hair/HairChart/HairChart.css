@@ -11,3 +11,15 @@
     width: 90%;
     margin: auto;
 }
+.chartContent{
+    display: flex;
+    gap: 30px;
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
+.colorContents{
+    display: flex;
+}
+.chartHr1{
+    width: 300px;
+}
