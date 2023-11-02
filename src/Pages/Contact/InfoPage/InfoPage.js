@@ -8,13 +8,27 @@ const InfoPage = () => {
                 <div className="infoBodyContact">
                     <div className="contactInput">
                         <div className="nameField">
-                            <input type="text" value='' name='name' placeholder='Name' className='inputField' />
+                            <input
+                                type="text"
+                                name='name'
+                                placeholder='Name'
+                                className='inputField'
+                            />
                         </div>
                         <div className="emailField">
-                            <input type="email" value='' name='email' placeholder='Email' className='inputField' />
+                            <input
+                                type="email"
+                                name='email'
+                                placeholder='Email'
+                                className='inputField'
+                            />
                         </div>
                         <div className="massageField">
-                            <textarea type="text" value='' name='name' placeholder='Name' className='inputField' />
+                            <textarea
+                                type="text"
+                                name='message'
+                                placeholder='Write a message' className='textAreaField'
+                            />
                         </div>
 
                     </div>
@@ -27,7 +41,7 @@ const InfoPage = () => {
 
             </div>
 
-            
+
         </div>
     );
 };

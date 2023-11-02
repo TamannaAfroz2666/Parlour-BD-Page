@@ -64,8 +64,8 @@ const MakeBooking = () => {
                                     </div>
                                     <div className="emailPart">
                                         <input
-                                            type="text"
-                                            name='name'
+                                            type="email"
+                                            name='email'
                                             value={email}
                                             className='emailField' placeholder='Email'
                                             // autoComplete='off'
@@ -91,7 +91,7 @@ const MakeBooking = () => {
                                     </div>
 
                                     <div className="message">
-                                        <input
+                                        <textarea
                                             type="text"
                                             name='message'
                                             value={message}
