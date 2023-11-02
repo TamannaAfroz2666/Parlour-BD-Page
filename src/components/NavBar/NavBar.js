@@ -20,27 +20,31 @@ const NavBar = () => {
                         <div className="links">
                             <ul>
                                 <li className='active'>
-                                    {/* <a href="/home"> Home</a> */}
+                                
                                     <Link to ='/'>Home</Link>
                                 </li>
                                 <li>
-                                    {/* <a href="/services"> Services</a> */}
+                             
                                     <Link to ='/service'>Service</Link>
                                 </li>
                                 <li>
-                                    {/* <a href="/portfolio"> Portfolio</a> */}
+                              
                                     <Link to ='/portfolio'>Portfolio</Link>
                                 </li>
                                 <li>
-                                    {/* <a href="/blog"> Blog</a> */}
-                                    <Link to ='/blog'>Blog</Link>
+                                 
+                                    <Link to ='/nails'>Nails</Link>
                                 </li>
                                 <li>
-                                    {/* <a href="/skills"> Skills</a> */}
-                                    <Link to ='/skills'>Skills</Link>
+                                 
+                                    <Link to ='/hair'>hair</Link>
                                 </li>
                                 <li>
-                                    {/* <a href="/contact"> Contact</a> */}
+                                  
+                                    <Link to ='/spa'>Spa</Link>
+                                </li>
+                                <li>
+                             
                                     <Link to ='/contact'>Contact</Link>
                                 </li>
                             </ul>

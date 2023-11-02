@@ -24,7 +24,6 @@ const Products = () => {
                 transition={{ duration: 1 }}
                 className="bodyAllPort"
                 >
-
                     {
                         products?.slice(0, 9).map((product) => {
                             return (
@@ -42,7 +41,6 @@ const Products = () => {
                                         </div>
                                     </div>
                                 </motion.div>
-
                             )
                         })
                     }
