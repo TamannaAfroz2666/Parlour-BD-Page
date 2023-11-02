@@ -85,5 +85,14 @@
     color: #111;
     letter-spacing: 1px;
 
+}
 
+.infoContents .titleDes{
+    width: 600px;
+    font-size: 18px;
+    color: #111111a8;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+    padding: 20px 0;
 }
