@@ -18,7 +18,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.hairTitleContent , .pricingListContent{
+
+.hairTitleContent {
     width: 90%;
     margin: auto;
 }
