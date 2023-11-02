@@ -1,6 +1,7 @@
 import React from 'react';
 import './ContactPage.css';
 import HeadPage from './HeadPage/HeadPage';
+import InfoPage from './InfoPage/InfoPage';
 
 const ContactPage = () => {
     return (
@@ -8,6 +9,10 @@ const ContactPage = () => {
             <div className="contactBodyPage">
                 <div className="contactPage">
                     <HeadPage></HeadPage>
+                    <div className="infoSection">
+                        <InfoPage></InfoPage>
+
+                    </div>
 
 
 

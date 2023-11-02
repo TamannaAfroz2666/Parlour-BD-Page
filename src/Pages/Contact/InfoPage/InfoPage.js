@@ -4,7 +4,29 @@ import './InfoPage.css';
 const InfoPage = () => {
     return (
         <div className='infoPage'>
-            
+            <div className="infoP_head">
+                <div className="infoBodyContact">
+                    <div className="contactInput">
+                        <div className="nameField">
+                            <input type="text" value='' name='name' placeholder='Name' className='inputField' />
+                        </div>
+                        <div className="emailField">
+                            <input type="email" value='' name='email' placeholder='Email' className='inputField' />
+                        </div>
+                        <div className="massageField">
+                            <textarea type="text" value='' name='name' placeholder='Name' className='inputField' />
+                        </div>
+
+                    </div>
+                    <div className="infoContents">
+                        <h1 className='titleInFo'>contact info</h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+
             
         </div>
     );
