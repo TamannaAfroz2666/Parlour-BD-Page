@@ -154,6 +154,34 @@ const HairChart = () => {
                             </div>
                         </div>
 
+                        <div className="reText">
+                            <h1 className='colorTitle'>RE-TEXTURIZING</h1>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>PERMANENT WAVE</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='textureHr1' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 16000</p>
+                                </div>
+                            </div>
+                            <div className="colorContents">
+                                <div className="nameColor">
+                                    <h3 className='nameCTitle'>KERASILK SMOOTHING</h3>
+                                </div>
+                                <div className="chartHr">
+                                    <hr className='textureHr2' />
+                                </div>
+                                <div className="colorPrice">
+                                    <p className='colorPTitle'>tk 30000</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
                     </div>
 
 
