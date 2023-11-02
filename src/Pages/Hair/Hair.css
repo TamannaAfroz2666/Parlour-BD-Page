@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,4 +17,30 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.hairTitleContent{
+    width: 90%;
+    margin: auto;
+}
+.hairTitleContent .lovelyTitle{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family:  Pacifico;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 6rem;
+}
+.hairTitleContent .hairTitle{
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    bottom: 2rem;
+    position: relative;
+
+
 }

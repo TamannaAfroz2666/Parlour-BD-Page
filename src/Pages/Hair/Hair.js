@@ -10,7 +10,11 @@ const Hair = () => {
             <div className="hairHead">
                 <div className="hairBody">
                     <Header></Header>
-                    <h1>hh</h1>
+                    <div className="hairTitleContent">
+                        <p className='lovelyTitle'>Lovely</p>
+                        <p className='hairTitle'>hair</p>
+                    </div>
+                  
                 </div>
 
             </div>
