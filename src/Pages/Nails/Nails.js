@@ -16,6 +16,12 @@ const Nails = () => {
                 </div>
 
             </div>
+            <div className="pricingListContent">
+                {/* <PricingList></PricingList>
+                <HairChart></HairChart>
+               <Footer></Footer> */}
+
+            </div>
             
         </div>
     );
