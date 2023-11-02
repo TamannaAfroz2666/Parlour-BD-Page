@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .pricingListPage{
+    margin-left: 10rem;
     display: flex;
     gap: 30px;
 }
@@ -17,9 +18,26 @@
     padding-top: 2px 0;
 
 }
+.listInfoPrice{
+    margin-top: 8rem;
+}
+
 .hairCutContents{
     display: flex;
 }
+.nameCutting .cutTitle{
+    font-size: 20px;
+    color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 .cutLineHr{
     width: 300px;
+   
+}
+.cuttingPrice .price{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111a2;
 }

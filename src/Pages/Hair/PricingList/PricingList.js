@@ -16,9 +16,8 @@ const PricingList = () => {
                         <hr className='cutLineHr'/>
                     </div>
                     <div className="cuttingPrice">
-                        <p>tk 1200</p>
+                        <p className='price'>tk 1200</p>
                     </div>
-
                 </div>
 
             </div>
