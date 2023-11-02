@@ -11,6 +11,7 @@ import ServiceMainPage from 'Pages/Service/ServiceMainPage/ServiceMainPage';
 import PortolioPage from 'Pages/PortfolioPage/PortolioPage';
 import ContactPage from 'Pages/Contact/ContactPage';
 import Hair from 'Pages/Hair/Hair';
+import Nails from 'Pages/Nails/Nails';
 // import Navbar from './components/NavBar/Navbar';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route  path='/portfolio' element = { <PortolioPage /> }/>
         <Route  path='/contact' element ={ <ContactPage /> } />
         <Route path='/hair' element ={<Hair/>} />
+        <Route path='/nail' element={ <Nails /> }/>
 
 
 

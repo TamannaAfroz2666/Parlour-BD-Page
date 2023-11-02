@@ -33,7 +33,7 @@ const NavBar = () => {
                                 </li>
                                 <li>
                                  
-                                    <Link to ='/nails'>Nails</Link>
+                                    <Link to ='/nail'>Nails</Link>
                                 </li>
                                 <li>
                                  

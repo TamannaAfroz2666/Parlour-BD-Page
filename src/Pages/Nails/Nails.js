@@ -1,9 +1,21 @@
 import React from 'react';
 import './Nails.css'
+import Header from 'layout/Header/Header';
 
 const Nails = () => {
     return (
         <div className='nails'>
+             <div className="nailHead">
+                <div className="hairBody">
+                   <Header></Header>
+                    <div className="hairTitleContent">
+                        <p className='lovelyTitle'>Exquisite</p>
+                        <p className='hairTitle'>nails</p>
+                    </div>
+                  
+                </div>
+
+            </div>
             
         </div>
     );

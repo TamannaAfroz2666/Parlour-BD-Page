@@ -61,7 +61,7 @@ const Header = () => {
                                     </ul> */}
                                 </li>
                                 <li>
-                                    <NavLink to="/nails">Nails</NavLink>
+                                    <NavLink to="/nail">Nails</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
                                    
                                     {/* <ul class="drop_menu">
