@@ -27,8 +27,8 @@ const Coloring = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='textTitle'>{dataInfo.name}</h1>
+                                            <h1 className='textDes'>{dataInfo.description}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -46,8 +46,8 @@ const Coloring = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='textTitle'>{dataInfo.name}</h1>
+                                            <h1 className='textDes'>{dataInfo.description}</h1>
                                         </div>
                                     </div>
                                 </div>

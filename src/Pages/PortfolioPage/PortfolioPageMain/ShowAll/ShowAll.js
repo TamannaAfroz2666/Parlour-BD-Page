@@ -12,7 +12,7 @@ const ShowAll = () => {
     const [products, setProducts] = useState(data.hairProducts);
     console.log('hair products', products);
 
-    const allData = hairStyle.concat(color, products);
+    const allData = color.concat(hairStyle, products);
     console.log('all data showing', allData);
 
     const [showAllData, setShowAllData] = useState(allData);
@@ -40,8 +40,8 @@ const ShowAll = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='textTitle'>{dataInfo.name}</h1>
+                                            <h1 className='textDes'>{dataInfo.description}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +59,8 @@ const ShowAll = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{dataInfo.name}</h1>
-                                            <h1 className='hell'>{dataInfo.description}</h1>
+                                            <h1 className='textTitle'>{dataInfo.name}</h1>
+                                            <h1 className='textDes'>{dataInfo.description}</h1>
                                         </div>
                                     </div>
                                 </div>

@@ -27,8 +27,8 @@ const Products = () => {
                                     <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{product.name}</h1>
-                                            <h1 className='hell'>{product.description}</h1>
+                                            <h1 className='textTitle'>{product.name}</h1>
+                                            <h1 className='textDes'>{product.description}</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -46,8 +46,8 @@ const Products = () => {
                                     <img src={product.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='hell'>{product.name}</h1>
-                                            <h1 className='hell'>{product.description}</h1>
+                                            <h1 className='textTitle'>{product.name}</h1>
+                                            <h1 className='textDes'>{product.description}</h1>
                                         </div>
                                     </div>
                                 </div>

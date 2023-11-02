@@ -45,23 +45,26 @@
  
 } */
 .text {
-    background-color: #04aa6d2f;
-    /* color: white; */
-    /* font-size: 18px; */
-    padding: 5rem 7rem;
-    border: 2px solid yellow;
-    /* width: 250px; */
-    
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 4rem 5rem;
+    border: 2px solid yellow;   
 }
-.hell{
-    font-size: 24px;
+.textTitle{
+    font-size: 55px;
     font-weight: 700;
-    color: rebeccapurple;
+    color: #fff;
 }
+.textDes{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+/* button field  */
 .areaBtn{
-
     margin-top: 2rem;
-
 }
 .areaBtn button {
     font-size: 16px;
