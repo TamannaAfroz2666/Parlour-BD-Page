@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.infoPage{
+
+.infoPage {
     height: 100%;
     width: 100%;
 }
-.infoBodyContact{
+
+.infoBodyContact {
     display: flex;
     gap: 30px;
     margin: 20px 30px;
 }
- .inputField{
+
+.inputField {
     font-size: 15px;
     width: 400px;
     height: 50px;
@@ -23,10 +26,12 @@
     padding: 0 0 0 10px;
 
 }
-.emailField{
+
+.emailField {
     margin: 20px 0;
 }
-.textAreaField{
+
+.textAreaField {
     font-size: 15px;
     width: 400px;
     height: 100px;
@@ -38,9 +43,54 @@
 
 }
 
-.contactInput ::placeholder{
+.contactInput ::placeholder {
     font-size: 15px;
     font-weight: 600;
     color: #11111194;
     padding: 0 0 0 10px;
+}
+
+/* button start  */
+/* .btnBooking{
+    margin: 0 0 3rem 0px;
+    border-radius: 25px;
+
+} */
+/* .btnBookIcon{
+    translate: -.6px  40px -60px;
+    margin-left: 5px;
+
+} */
+/* .btnIconBook{
+    padding: 10px 5px 5px 5px;
+    background-color:rgba(211, 165, 79, 0.342);
+    border-radius: 10px;
+} */
+
+/* .lineIconBok{
+    padding-top: 10px;
+    bottom: .5rem;
+    position: relative;
+} */
+.priceRegBtn {
+    margin-top: 20px;
+}
+
+.priceRegBtn button {
+    width: 200px;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #111;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+}
+
+.peiceRegBtn:hover .btnSubInfoReg {
+    background-color: purple;
 }
