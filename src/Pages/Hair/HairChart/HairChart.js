@@ -119,38 +119,38 @@ const HairChart = () => {
 
                     </div>
                     <div className="highlight">
-                        <h1 className='colorTitle'>highlight</h1>
+                        <h1 className='colorTitle'>highlights</h1>
                         <div className="colorContents">
                             <div className="nameColor">
-                                <h3 className='nameCTitle'>single process</h3>
+                                <h3 className='nameCTitle'>FACE FRAME AND GLAZE</h3>
                             </div>
                             <div className="chartHr">
-                                <hr className='chartHr1' />
+                                <hr className='highHr1' />
                             </div>
                             <div className="colorPrice">
-                                <p className='colorPTitle'>tk 8000</p>
+                                <p className='colorPTitle'>tk 18000</p>
                             </div>
                         </div>
                         <div className="colorContents">
                             <div className="nameColor">
-                                <h3 className='nameCTitle'>single process</h3>
+                                <h3 className='nameCTitle'>PARTIAL HEAD AND GLAZE</h3>
                             </div>
                             <div className="chartHr">
-                                <hr className='chartHr1' />
+                                <hr className='highHr2' />
                             </div>
                             <div className="colorPrice">
-                                <p className='colorPTitle'>tk 8000</p>
+                                <p className='colorPTitle'>tk 20000</p>
                             </div>
                         </div>
                         <div className="colorContents">
                             <div className="nameColor">
-                                <h3 className='nameCTitle'>single process</h3>
+                                <h3 className='nameCTitle'>FULL HEAD AND GLAZE</h3>
                             </div>
                             <div className="chartHr">
-                                <hr className='chartHr1' />
+                                <hr className='highHr3' />
                             </div>
                             <div className="colorPrice">
-                                <p className='colorPTitle'>tk 8000</p>
+                                <p className='colorPTitle'>tk 22000</p>
                             </div>
                         </div>
 
