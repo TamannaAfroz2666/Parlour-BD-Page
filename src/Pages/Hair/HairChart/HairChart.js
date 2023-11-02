@@ -35,24 +35,83 @@ const HairChart = () => {
                         </div>
                         <div className="colorContents">
                             <div className="nameColor">
-                                <h3 className='nameCTitle'>NECTAYA</h3>
+                                <h3 className='nameCTitle'>COLOR REFRESH
+                                </h3>
                             </div>
                             <div className="chartHr">
-                                <hr className='chartHr2' />
+                                <hr className='chartHr3' />
                             </div>
                             <div className="colorPrice">
-                                <p className='colorPTitle'>tk 7000</p>
+                                <p className='colorPTitle'>tk 4000</p>
                             </div>
                         </div>
                         <div className="colorContents">
                             <div className="nameColor">
-                                <h3 className='nameCTitle'>NECTAYA</h3>
+                                <h3 className='nameCTitle'>T-PARTING TOUCH UP</h3>
                             </div>
                             <div className="chartHr">
-                                <hr className='chartHr2' />
+                                <hr className='chartHr4' />
                             </div>
                             <div className="colorPrice">
-                                <p className='colorPTitle'>tk 7000</p>
+                                <p className='colorPTitle'>tk 4000</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>TONER</h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr5' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>tk 9000</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>GLAZE
+                                </h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr5' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>tk 12000</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>ELUMEN GLAZE</h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr6' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>tk 6000</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>COLOR LIFTING
+                                </h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr7' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>Inquire</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>CORRECTIVE COLOR
+                                </h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr8' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>Inquire</p>
                             </div>
                         </div>
 
@@ -61,6 +120,28 @@ const HairChart = () => {
                     </div>
                     <div className="highlight">
                         <h1 className='colorTitle'>highlight</h1>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>single process</h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr1' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>tk 8000</p>
+                            </div>
+                        </div>
+                        <div className="colorContents">
+                            <div className="nameColor">
+                                <h3 className='nameCTitle'>single process</h3>
+                            </div>
+                            <div className="chartHr">
+                                <hr className='chartHr1' />
+                            </div>
+                            <div className="colorPrice">
+                                <p className='colorPTitle'>tk 8000</p>
+                            </div>
+                        </div>
                         <div className="colorContents">
                             <div className="nameColor">
                                 <h3 className='nameCTitle'>single process</h3>

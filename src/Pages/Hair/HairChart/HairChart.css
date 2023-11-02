@@ -26,13 +26,32 @@
 .chartHr2{
     width: 380px;
 }
+.chartHr3{
+    width: 300px;
+}
+.chartHr4{
+    width: 240px;
+}
+.chartHr5{
+    width: 400px;
+}
+.chartHr6{
+    width: 310px;
+}
+.chartHr7{
+    width: 320px;
+}
+.chartHr8{
+    width: 270px;
+}
+
 .colorTitle {
     font-size: 35px;
     color: #111;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 0 0 20px 0;
+    padding: 0 0 30px 0;
 }
 .nameCTitle{
     font-size: 20px;
