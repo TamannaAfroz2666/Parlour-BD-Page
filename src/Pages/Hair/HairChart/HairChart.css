@@ -23,6 +23,9 @@
 .chartHr1{
     width: 300px;
 }
+.chartHr2{
+    width: 380px;
+}
 .colorTitle {
     font-size: 35px;
     color: #111;
@@ -30,4 +33,32 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 0 0 20px 0;
+}
+.nameCTitle{
+    font-size: 20px;
+    color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.colorPTitle{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111a2;
+}
+.natural{
+   /* width: 400px; */
+   
+
+}
+.naturalTitle{
+    color: #fff;
+    background-color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin-left: 24rem;
+    
+    
 }
