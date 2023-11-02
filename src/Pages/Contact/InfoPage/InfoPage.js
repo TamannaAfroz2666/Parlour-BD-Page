@@ -85,6 +85,12 @@ const InfoPage = () => {
                             </div>
 
                         </div>
+                        <div className="ourHours">
+                            <h1 className='ourHoursTitle'>Our Hours</h1>
+                            <div className="ourHoursContent">
+
+                            </div>
+                        </div>
 
 
                     </div>

@@ -81,10 +81,12 @@
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    /* padding: 10px 0; */
     color: #111;
     letter-spacing: 1px;
 
+}
+.titleInFo:hover{
+    color: tomato;
 }
 
 .infoContents .titleDes{
@@ -108,4 +110,14 @@
     font-weight: 500;
     line-height: 30px;
     margin: 0 0 20px 0;
+}
+.ourHoursTitle{
+    font-size: 25px;
+    font-weight: 700;
+    color: #111;
+    margin-top: 10px;
+   
+}
+.ourHoursTitle:hover{
+    color: tomato;
 }
