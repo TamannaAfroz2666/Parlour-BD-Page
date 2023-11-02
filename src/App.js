@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 import ProvideList from './components/ProvideList/ProvideList';
 import ServiceMainPage from 'Pages/Service/ServiceMainPage/ServiceMainPage';
 import PortolioPage from 'Pages/PortfolioPage/PortolioPage';
+import ContactPage from 'Pages/Contact/ContactPage';
 // import Navbar from './components/NavBar/Navbar';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         {/* <Route path='/home' element={ <Home />} /> */}
         <Route path='/service' element={<ServiceMainPage />} />
         <Route  path='/portfolio' element = { <PortolioPage /> }/>
+        <Route  path='/contact' element ={ <ContactPage /> } />
 
 
 
