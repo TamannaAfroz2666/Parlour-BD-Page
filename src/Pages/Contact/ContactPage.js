@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactPage.css';
 import HeadPage from './HeadPage/HeadPage';
 import InfoPage from './InfoPage/InfoPage';
+import Footer from 'layout/Footer/Footer';
 
 const ContactPage = () => {
     return (
@@ -13,6 +14,8 @@ const ContactPage = () => {
                         <InfoPage></InfoPage>
 
                     </div>
+                    <Footer></Footer>
+
 
 
 

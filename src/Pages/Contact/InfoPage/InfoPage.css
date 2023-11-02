@@ -12,7 +12,7 @@
 .infoBodyContact {
     display: flex;
     gap: 60px;
-    margin: 20px 30px;
+    margin: 20px 30px 6rem 30px;
 }
 
 .inputField {
