@@ -40,8 +40,9 @@ const ShowAll = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='textTitle'>{dataInfo.name}</h1>
-                                            <h1 className='textDes'>{dataInfo.description}</h1>
+                                        <p className='textTitle'>{dataInfo.title}</p>
+                                            <p className='textDes'>{dataInfo.name}</p>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +60,9 @@ const ShowAll = () => {
                                     <img src={dataInfo.image} alt="" className="image" />
                                     <div className="overlay">
                                         <div className="text">
-                                            <h1 className='textTitle'>{dataInfo.name}</h1>
-                                            <h1 className='textDes'>{dataInfo.description}</h1>
+                                        <p className=' textTitle'>{dataInfo.title}</p>
+                                            <p className='textDes'>{dataInfo.name}</p>
+                                            
                                         </div>
                                     </div>
                                 </div>

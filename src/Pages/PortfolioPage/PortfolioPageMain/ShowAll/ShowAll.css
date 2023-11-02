@@ -16,10 +16,11 @@
 }
 
 .imgAll img {
-    width: 340px;
+    width: 360px;
     height: 300px;
     display: block;
     backface-visibility: hidden;
+    border-radius: 10px;
 }
 
 .overlay {
@@ -39,25 +40,32 @@
 .imgAll:hover .overlay {
     opacity: 1;
   }
-/* .text{
-    width: 340px;
-    height: 300px;
- 
-} */
+
 .text {
-    background-color: rgba(0, 0, 0, 0.123);
-    padding: 4rem 5rem;
-    border: 2px solid yellow;   
+    background-color: rgba(0, 0, 0, 0.007);
+    border: 2px solid #ff8000cb;  
+    width: 300px;
+    height: 260px;
+    margin-left: 18px;
+    
+  
 }
 .textTitle{
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: #ffffffd0;
+    margin: 60px 10px 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 .textDes{
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
 
 }
 

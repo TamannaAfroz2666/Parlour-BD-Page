@@ -1,61 +1,58 @@
 {
     "hairStyle":[
         {
-        "image": "/Images/23.jpg",
-        "description": "hair style",
-        "name" : "color"
+        "image": "/Images/portfolio/hairS1.jpg",
+        "title": "brides",
+        "name" : "hairstyle"
         },
         {
-        "image": "/Images/facial.jpg",
-        "description": "hair style",
-        "name" : "color"
+        "image": "/Images/portfolio/hairs2.jpg",
+        "title": "shades",
+        "name" : "hairstyle"
         },
         {
-        "image": "/Images/facial.jpg",
-        "description": "hair style",
-        "name" : "color"
+        "image": "/Images/portfolio/hairs3.jpg",
+        "title": "curls",
+        "name" : "hairstyle"
         },
         {
-        "image": "/Images/23.jpg",
-        "description": "hair style",
-        "name" : "color"
+        "image": "/Images/portfolio/hairs4.jpg",
+        "title": "keratin",
+        "name" : "hairstyle"
         },
         {
-        "image": "/Images/facial.jpg",
-        "description": "hair style",
-        "name" : "color"
+        "image": "/Images/portfolio/hairs5.jpg",
+        "title": "normal",
+        "name" : "hairstyle"
         }
+       
     ],
     "hairProducts":[
+       
         {
-            "image": "/Images/Services/4142968.jpg",
-            "description":"hair growth",
-            "name": "Hair Product"
+            "image": "/Images/portfolio/p1.jpg",
+            "title":"sombre",
+            "name":"Hair Products"
         },
         {
-            "image": "/Images/facial.jpg",
-            "description":"hair growth",
-            "name": "Hair Product"
+            "image": "/Images/portfolio/p2.jpg",
+            "title":"tail",
+            "name": "Hair Products"
         },
         {
-            "image": "/Images/HotSone.jpg",
-            "description":"hair growth",
-            "name":"Hair Product"
+            "image": "/Images/portfolio/p3.jpg",
+            "title":"waves",
+            "name": "Hair Products"
         },
         {
-            "image": "/Images/Services/4142968.jpg",
-            "description":"hair growth",
-            "name": "Hair Product"
+            "image": "/Images/portfolio/p4.jpg",
+            "title":"pixel",
+            "name":"Hair Products"
         },
         {
-            "image": "/Images/facial.jpg",
-            "description":"hair growth",
-            "name": "Hair Product"
-        },
-        {
-            "image": "/Images/HotSone.jpg",
-            "description":"hair growth",
-            "name":"Hair Product"
+            "image": "/Images/portfolio/p5.jpg",
+            "title":"bob",
+            "name":"Hair Products"
         }
 
 
@@ -63,29 +60,37 @@
 
     "coloring":[
         {
-            "image":"/Images/23.jpg",
-            "description": "coloring",
-            "name": "Color"
+            "image":"/Images/portfolio/c2.jpg",
+            "title": "layers",
+            "name": "Coloring"
             
         },
         {
-            "image":"/Images/23.jpg",
-            "description": "coloring",
-            "name": "Color"
+            "image":"/Images/portfolio/c3.jpg",
+            "title": "volume",
+            "name": "Coloring"
             
         },
         {
-            "image":"/Images/23.jpg",
-            "description": "coloring",
-            "name": "Color"
+            "image":"/Images/portfolio/c4.jpg",
+            "title": "bangs",
+            "name": "Coloring"
             
         },
         {
-            "image":"/Images/23.jpg",
-            "description": "coloring",
-            "name": "Color"
+            "image":"/Images/portfolio/c5.jpg",
+            "title": "ombre",
+            "name": "Coloring"
+            
+        },
+        {
+            "image":"/Images/portfolio/c1.jpg",
+            "title": "hairdo",
+            "name": "Coloring"
             
         }
+        
+        
     ]
 
 
