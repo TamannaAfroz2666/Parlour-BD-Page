@@ -9,3 +9,10 @@
     width: 100%;
 
 }
+.hairHead{
+    height: 500px;
+    background-image:linear-gradient(to bottom right, rgba(192, 171, 171, 0.267) , rgba(0, 0, 255, 0.233)),  url('../.../../../../public/Images//portfolio/c3.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
