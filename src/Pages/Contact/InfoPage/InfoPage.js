@@ -1,6 +1,6 @@
 import React from 'react';
 import './InfoPage.css';
-import { MdLocationPin, MdEmail } from "react-icons/md";
+import { MdLocationPin, MdEmail , MdCall } from "react-icons/md";
 
 const InfoPage = () => {
     return (
@@ -61,21 +61,31 @@ const InfoPage = () => {
                                 </div>
                             </div>
                             <div className="emailInfo1">
-                            <div className="location">
-                                <div className="icon">
-                                    <MdEmail color='black' size={25}/>
+                                <div className="location">
+                                    <div className="icon">
+                                        <MdEmail color='black' size={25} />
 
+                                    </div>
+                                    <div className="info">
+                                        <p className='infoTitle'>alisa@mail.com</p>
+
+                                    </div>
                                 </div>
-                                <div className="info">
-                                    <p className='infoTitle'>alisa@mail.com</p>
+                            </div>
+                            <div className="mobileInfo1">
+                                <div className="location">
+                                    <div className="icon">
+                                        <MdCall color='black' size={25} />
 
+                                    </div>
+                                    <div className="info">
+                                        <p className='infoTitle'>013-1889-791</p>
+                                    </div>
                                 </div>
                             </div>
 
-                            </div>
-                          
                         </div>
-                        
+
 
                     </div>
 
