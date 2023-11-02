@@ -115,9 +115,36 @@
     font-size: 25px;
     font-weight: 700;
     color: #111;
-    margin-top: 10px;
+    margin: 10px 0;
+    padding: 0 0 20px 0;
    
 }
 .ourHoursTitle:hover{
     color: tomato;
+}
+.ourHoursContent{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+.hourDayContent .hourOfDay{
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+
+}
+.ourTimeContent .hourOfTime{
+    font-size: 18px;
+    color: #111111a8;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.hoursLine{
+    width: 300px;
+    padding: 1px 0;
 }

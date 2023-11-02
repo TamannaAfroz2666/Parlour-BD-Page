@@ -1,6 +1,6 @@
 import React from 'react';
 import './InfoPage.css';
-import { MdLocationPin, MdEmail , MdCall } from "react-icons/md";
+import { MdLocationPin, MdEmail, MdCall } from "react-icons/md";
 
 const InfoPage = () => {
     return (
@@ -88,8 +88,75 @@ const InfoPage = () => {
                         <div className="ourHours">
                             <h1 className='ourHoursTitle'>Our Hours</h1>
                             <div className="ourHoursContent">
-
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>SATURDAY</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>Closed</p>
+                                </div>
+                            
                             </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>sunday</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>10AM - 7PM</p>
+                                </div>
+                            
+                            </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>monday</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>10AM - 7PM</p>
+                                </div>
+                            
+                            </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>TUESDAY</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>10AM - 7PM</p>
+                                </div>
+                            
+                            </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>WEDNESDAY</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>10AM - 7PM</p>
+                                </div>
+                            
+                            </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>THURSDAY</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>10AM - 7PM</p>
+                                </div>
+                            
+                            </div>
+                            <hr className='hoursLine'/>
+                            <div className="ourHoursContent">
+                                <div className="hourDayContent">
+                                    <h4 className='hourOfDay'>FRIDAY</h4>
+                                </div>
+                                <div className="ourTimeContent">
+                                    <p className='hourOfTime'>Closed</p>
+                                </div>
+                            
+                            </div>
+                           
                         </div>
 
 
