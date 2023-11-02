@@ -159,8 +159,6 @@ const InfoPage = () => {
                             </div>
                            
                         </div>
-
-
                     </div>
 
 
