@@ -47,6 +47,7 @@ const InfoPage = () => {
                     </div>
                     <div className="infoContents">
                         <h1 className='titleInFo'>contact info</h1>
+                        <p className='titleDes'>If you have any inquiries, comments, or would like to request an appointment, please call us or fill out this form and we will get back to you as soon as possible.</p>
 
                     </div>
 

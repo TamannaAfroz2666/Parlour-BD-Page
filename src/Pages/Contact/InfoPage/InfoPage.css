@@ -11,7 +11,7 @@
 
 .infoBodyContact {
     display: flex;
-    gap: 30px;
+    gap: 60px;
     margin: 20px 30px;
 }
 
@@ -51,27 +51,7 @@
 }
 
 /* button start  */
-/* .btnBooking{
-    margin: 0 0 3rem 0px;
-    border-radius: 25px;
 
-} */
-/* .btnBookIcon{
-    translate: -.6px  40px -60px;
-    margin-left: 5px;
-
-} */
-/* .btnIconBook{
-    padding: 10px 5px 5px 5px;
-    background-color:rgba(211, 165, 79, 0.342);
-    border-radius: 10px;
-} */
-
-/* .lineIconBok{
-    padding-top: 10px;
-    bottom: .5rem;
-    position: relative;
-} */
 .priceRegBtn {
     margin-top: 20px;
 }
@@ -91,6 +71,19 @@
 
 }
 
-.peiceRegBtn:hover .btnSubInfoReg {
+.priceRegBtn:hover .btnSubInfoReg {
     background-color: purple;
+}
+
+/* info part style start */
+
+.infoContents .titleInFo{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* padding: 10px 0; */
+    color: #111;
+    letter-spacing: 1px;
+
+
 }
