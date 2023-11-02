@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './InfoPage.css';
 import { MdLocationPin, MdEmail, MdCall } from "react-icons/md";
+import data from '../../../Utilies/contactUs.json';
 
 const InfoPage = () => {
+    const [dataInfo, setDataInfo] = useState(data.contuct_us);;
     return (
         <div className='infoPage'>
             <div className="infoP_head">
@@ -48,7 +50,7 @@ const InfoPage = () => {
                     </div>
                     <div className="infoContents">
                         <h1 className='titleInFo'>contact info</h1>
-                        <p className='titleDes'>If you have any inquiries, comments, or would like to request an appointment, please call us or fill out this form and we will get back to you as soon as possible.</p>
+                        <p className='titleDes'>{dataInfo.description}</p>
 
                         <div className="locationArea">
                             <div className="location">
@@ -56,8 +58,7 @@ const InfoPage = () => {
                                     <MdLocationPin color='black' size={25} />
                                 </div>
                                 <div className="info">
-                                    <p className='infoTitle'>451 Chestnut Ridge Rd, Woodcliff Lake, NJ 07677</p>
-
+                                    <p className='infoTitle'>{dataInfo.houseNo.slice(3, 50)}</p>
                                 </div>
                             </div>
                             <div className="emailInfo1">
@@ -67,7 +68,7 @@ const InfoPage = () => {
 
                                     </div>
                                     <div className="info">
-                                        <p className='infoTitle'>alisa@mail.com</p>
+                                        <p className='infoTitle'>{dataInfo.mail}</p>
 
                                     </div>
                                 </div>
@@ -79,7 +80,7 @@ const InfoPage = () => {
 
                                     </div>
                                     <div className="info">
-                                        <p className='infoTitle'>013-1889-791</p>
+                                        <p className='infoTitle'>{dataInfo.number}</p>
                                     </div>
                                 </div>
                             </div>
