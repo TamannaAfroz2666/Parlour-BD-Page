@@ -39,10 +39,10 @@ const NavBar = () => {
                                  
                                     <Link to ='/hair'>hair</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                   
                                     <Link to ='/spa'>Spa</Link>
-                                </li>
+                                </li> */}
                                 <li>
                              
                                     <Link to ='/contact'>Contact</Link>

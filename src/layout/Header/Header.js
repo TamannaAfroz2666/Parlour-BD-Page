@@ -77,9 +77,9 @@ const Header = () => {
                                 <NavLink to="/hair">hair</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
                                 </li>
-                                <li><NavLink to="/spa">spa</NavLink>
+                                {/* <li><NavLink to="/spa">spa</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
-                                </li>
+                                </li> */}
                                 <li><NavLink to="/contact">Contact</NavLink>
                                     <hr className='underline1' color='yellow' size={5} />
                                 </li>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Nails.css'
 import Header from 'layout/Header/Header';
 import NailPrice from './NailPrice/NailPrice';
+import Footer from 'layout/Footer/Footer';
 
 const Nails = () => {
     return (
@@ -19,9 +20,8 @@ const Nails = () => {
             </div>
             <div className="pricingListContent">
                 <NailPrice></NailPrice>
-                {/* <PricingList></PricingList>
-                <HairChart></HairChart>
-               <Footer></Footer> */}
+                <Footer></Footer>
+               
 
             </div>
             
