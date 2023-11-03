@@ -1,30 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './PresentRating.css';
-import image from '../../../assets/image/Pictures/Blogs/23.jpg';
+// import image from '../../../assets/image/Pictures/Blogs/23.jpg';
 import { VscCalendar } from "react-icons/vsc";
 import { AiOutlineUser, AiOutlineRight } from "react-icons/ai";
 import { Link } from 'react-router-dom';
+import data from '../../../Utilies/blogNews.json';
 
 const PresentRating = () => {
+    const [dataInfo, setDataInfo] = useState(data.body_massage);
     return (
         <div className='presentRating'>
             <div className="presentRtHead">
                 <div className="presentRtBody">
                     <div className="imageInfo">
-                        <img src={image} alt="" />
+                        <img src={dataInfo.image} alt="" />
                     </div>
                     <div className="timeAndDate">
                         <div className="presentDate">
                             <div className="dateRating">
                                 <VscCalendar color='tomato' size={25} />
-                                <p className='dateTitle'>7 March, 2020</p>
+                                <p className='dateTitle'>{dataInfo.date}</p>
 
                             </div>
                         </div>
                         <div className="userName">
                             <div className="userRating">
                                 <AiOutlineUser color='tomato' size={25} />
-                                <p className='userTitle'>By Jony Doe</p>
+                                <p className='userTitle'>{dataInfo.name}</p>
                             </div>
                         </div>
                     </div>
@@ -32,8 +34,8 @@ const PresentRating = () => {
                         <hr color='red' className='lineBreak' />
                     </div>
                     <div className="ratingDesContent">
-                        <h1 className='desTitle'>Best Relaxation Body Massage </h1>
-                        <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
+                        <h1 className='desTitle'>{dataInfo.title}</h1>
+                        <p className='desContent'>{dataInfo.description}</p>
                     </div>
                     <div className="readMoreRating">
                         {/* <Link to='' >

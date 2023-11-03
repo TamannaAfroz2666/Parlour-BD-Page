@@ -1,0 +1,26 @@
+{
+    "body_massage":{
+        "image" : "/Images/Services/m2.jpg",
+        "date": "7 March, 2020",
+        "name" : "By Jony Doe",
+        "title" : "Best Relaxation Body Massage",
+        "description" : "A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress."
+    },
+    "hot_stone":{
+        "image": "/Images/light.jpg",
+        "date": "5 March, 2023",
+        "name" : "By Dev Niloy",
+        "title" : "Hot Stone Massage Therapy",
+        "description" : "A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress."
+
+    },
+    "relaxation":{
+        "image" :"/Images/Services/PART.jpg",
+        "date": "7 March, 2023",
+        "name" : "By Sadia",
+        "title" : "Best Relaxation Facial Massage",
+        "description" : "A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress."
+
+    }
+
+}

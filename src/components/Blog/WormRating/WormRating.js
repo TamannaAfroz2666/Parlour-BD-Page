@@ -1,30 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './WormRating.css'
 import image from '../../../assets/image/Pictures/Blogs/HotSone.jpg';
 import { VscCalendar } from "react-icons/vsc";
 import { AiOutlineUser, AiOutlineRight } from "react-icons/ai";
+import data from '../../../Utilies/blogNews.json'
 
 const WormRating = () => {
+    const [dataInfo, setDataInfo] = useState(data.hot_stone);
     return (
         <div>
             <div className='presentRating'>
                 <div className="presentRtHead">
                     <div className="presentRtBody">
                         <div className="imageInfo">
-                            <img src={image} alt="" />
+                            <img src={dataInfo.image} alt="" />
                         </div>
                         <div className="timeAndDate">
                             <div className="presentDate">
                                 <div className="dateRating">
                                     <VscCalendar color='tomato' size={25} />
-                                    <p className='dateTitle'>5 March, 2023</p>
+                                    <p className='dateTitle'>{dataInfo.date}</p>
 
                                 </div>
                             </div>
                             <div className="userName">
                                 <div className="userRating">
                                     <AiOutlineUser color='tomato' size={25} />
-                                    <p className='userTitle'>By Dev Niloy</p>
+                                    <p className='userTitle'>{dataInfo.name}</p>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +34,8 @@ const WormRating = () => {
                             <hr color='red' className='lineBreak' />
                         </div>
                         <div className="ratingDesContent">
-                            <h1 className='desTitle'>Hot Stone Massage Therapy </h1>
-                            <p className='desContent'>A full body massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
+                            <h1 className='desTitle'>{dataInfo.title} </h1>
+                            <p className='desContent'>{dataInfo.description}</p>
                         </div>
                         <div className="readMoreRating">
                             {/* <Link to='' >

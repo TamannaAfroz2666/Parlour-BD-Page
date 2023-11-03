@@ -3,27 +3,29 @@ import './MindRating.css'
 import image from '../../../assets/image/Pictures/Blogs/facial.jpg';
 import { VscCalendar } from "react-icons/vsc";
 import { AiOutlineUser, AiOutlineRight } from "react-icons/ai";
+import data from '../../../Utilies/blogNews.json';
 const MindRating = () => {
+
     return (
         <div>
             <div className='presentRating'>
                 <div className="presentRtHead">
                     <div className="presentRtBody">
                         <div className="imageInfo">
-                            <img src={image} alt="" />
+                            <img src={data.relaxation.image} alt="" />
                         </div>
                         <div className="timeAndDate">
                             <div className="presentDate">
                                 <div className="dateRating">
                                     <VscCalendar color='tomato' size={25} />
-                                    <p className='dateTitle'>7 March, 2023</p>
+                                    <p className='dateTitle'>{data.relaxation.data}</p>
 
                                 </div>
                             </div>
                             <div className="userName">
                                 <div className="userRating">
                                     <AiOutlineUser color='tomato' size={25} />
-                                    <p className='userTitle'>By Sadia</p>
+                                    <p className='userTitle'>{data.relaxation.name}</p>
                                 </div>
                             </div>
                         </div>
@@ -31,8 +33,8 @@ const MindRating = () => {
                             <hr color='red' className='lineBreak' />
                         </div>
                         <div className="ratingDesContent">
-                            <h1 className='desTitle'>Best Relaxation Facial Massage </h1>
-                            <p className='desContent'>A full face massage is a form of massage therapy that involves massaging (almost!) the entire body, using professional techniques that can help to relieve muscle soreness, promote relaxation, and reduce stress.</p>
+                            <h1 className='desTitle'>{data.relaxation.title} </h1>
+                            <p className='desContent'>{data.relaxation.description}</p>
                         </div>
                         <div className="readMoreRating">
                             {/* <Link to='' >
