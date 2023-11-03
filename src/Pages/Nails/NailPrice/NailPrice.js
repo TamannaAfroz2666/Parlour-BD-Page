@@ -43,7 +43,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>GEL MANICURE</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineSmall' />
+                            <hr className='nailLineHr3' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 1000</p>
@@ -54,7 +54,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>PEDICURE</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineBlow' />
+                            <hr className='nailLineHr4' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 5000</p>
@@ -66,7 +66,7 @@ const NailPrice = () => {
 </h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineHr' />
+                            <hr className='nailLineHr5' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 2500</p>
@@ -78,7 +78,7 @@ const NailPrice = () => {
 </h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineup' />
+                            <hr className='nailLineHr5' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 12000</p>
@@ -89,7 +89,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>SPECIAL SPA PEDICURE</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLinedry' />
+                            <hr className='nailLineHr7' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 12000</p>
@@ -101,7 +101,7 @@ const NailPrice = () => {
 </h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLinecut1' />
+                            <hr className='nailLineHr1' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 23000</p>
@@ -113,7 +113,7 @@ const NailPrice = () => {
 </h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr3' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -124,7 +124,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>LCN SEAL</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr10' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -135,7 +135,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>ACRYLIC FULL SET</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr3' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -146,7 +146,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>ACRYLIC FILL</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr1' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -157,7 +157,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>LCN FULL FILL</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr4' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -169,7 +169,7 @@ const NailPrice = () => {
 </h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr14' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
@@ -180,7 +180,7 @@ const NailPrice = () => {
                             <h3 className='cutTitle'>POLISH CHANGE TOES</h3>
                         </div>
                         <div className="cutLine">
-                            <hr className='cutLineRake' />
+                            <hr className='nailLineHr15' />
                         </div>
                         <div className="cuttingPrice">
                             <p className='price'>tk 9000</p>
